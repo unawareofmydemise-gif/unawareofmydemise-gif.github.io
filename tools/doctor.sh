@@ -17,7 +17,7 @@ proj="$OUT/godot"; cp -r "$UOMD_ROOT/tools/smoke/godot" "$proj"; cp "$OUT/smoke.
 godot --headless --import --path "$proj" >"$OUT/godot_import.log" 2>&1 || true
 [ -f "$proj/.godot/imported/smoke.glb-"*.scn ] 2>/dev/null && echo "✅ Godot glTF içe aktarma" || { ls "$proj/.godot/imported" 2>/dev/null | grep -q smoke.glb && echo "✅ Godot glTF içe aktarma" || fail "Godot içe aktarma (bkz. $OUT/godot_import.log)"; }
 SMOKE_OUT="$OUT" "$UOMD_ROOT/tools/godot.sh" --path "$proj" --resolution 960x540 >"$OUT/godot_run.log" 2>&1 || true
-grep -q SMOKE_GODOT_RENDER_OK "$OUT/godot_run.log" && echo "✅ Godot render ($(grep -o 'llvmpipe[^)]*)' "$OUT/godot_run.log" | head -1))" || fail "Godot render (bkz. $OUT/godot_run.log)"
+grep -q "SMOKE_GODOT_RENDER_OK.*method=mobile" "$OUT/godot_run.log" && echo "✅ Godot render, Mobile yöntemi ($(grep -o 'llvmpipe[^)]*)' "$OUT/godot_run.log" | head -1))" || fail "Godot render ya da Mobile yöntemi (bkz. $OUT/godot_run.log)"
 live="$OUT/godot_live"; cp -r "$UOMD_ROOT/tools/smoke/godot_live" "$live"; godot --headless --import --path "$live" >/dev/null 2>&1 || true
 /opt/uomd-tools/venv/bin/python "$UOMD_ROOT/tools/smoke/mcp_smoke.py" "$live" "$OUT" >"$OUT/mcp.log" 2>&1 || true
 n_ok=$(grep -c SMOKE_MCP_OK "$OUT/mcp.log" || true); n_fail=$(grep -c SMOKE_MCP_FAIL "$OUT/mcp.log" || true)

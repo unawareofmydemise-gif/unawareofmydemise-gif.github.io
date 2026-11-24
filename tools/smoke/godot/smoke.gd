@@ -22,5 +22,12 @@ func _ready() -> void:
 		await get_tree().process_frame
 	var img := get_viewport().get_texture().get_image()
 	img.save_png(out_dir.path_join("godot_render.png"))
-	print("SMOKE_GODOT_RENDER_OK ", img.get_size(), " ", RenderingServer.get_video_adapter_name())
+	print(
+		"SMOKE_GODOT_RENDER_OK ",
+		img.get_size(),
+		" method=",
+		RenderingServer.get_current_rendering_method(),
+		" ",
+		RenderingServer.get_video_adapter_name()
+	)
 	get_tree().quit()

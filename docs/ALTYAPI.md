@@ -73,7 +73,7 @@ Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve
 | Blender Cycles (CPU) | ✅ | Gerektiğinde; toon için EEVEE kullanılır |
 | Blender → glTF (.glb) | ✅ | |
 | Godot ekransız içe aktarma | ✅ | `godot --headless --import` |
-| Godot render + ekran görüntüsü | ✅ | Xvfb + Vulkan (llvmpipe), Mobile renderer |
+| Godot render + ekran görüntüsü | ✅ | Xvfb + Vulkan (llvmpipe), **Mobile** yöntemi. `tools/godot.sh` `--rendering-method mobile` verir: yalnız `--rendering-driver vulkan` verilirse Godot proje ayarını yok sayıp **Forward+'a düşer** (2026-11-24'te görüldü; eski doctor bunu fark etmiyordu, artık `method=mobile` şart). MCP'nin kullandığı `godot-display.sh` zaten Mobile'a düşüyor |
 | Standart açı render'ları + karşılaştırma sayfası | ✅ | `art_src/lib/uomd_render.py`, `tools/qa/sheet.py` |
 | Godot dışa aktarma (Windows/Linux/Web/Android) | ⏳ | Export template'leri ve Android SDK henüz kurulmadı (bkz. §7) |
 | Blender toon malzemesinin Godot'a taşınması | ❌ (beklenen) | Toon görünüm Godot shader'ında yapılacak |
