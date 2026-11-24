@@ -13,6 +13,26 @@
 | Kurulum | `tools/bootstrap.sh` (ortamın kurulum betiği bunu çalıştırır) |
 | Gerekli ağ adresleri | `download.blender.org`, `downloads.godotengine.org`, `github.com`, `release-assets.githubusercontent.com` (Godot indirmesi buraya yönlenir), `generativelanguage.googleapis.com` (Gemini) + paket depoları |
 
+### 1.1 Ortam ayarları (Settings → Environments → "Unaware of My Demise")
+
+**İzinli adresler** (mevcut `generativelanguage.googleapis.com`'a ek olarak):
+
+```
+download.blender.org
+downloads.godotengine.org
+github.com
+release-assets.githubusercontent.com
+```
+
+**Kurulum betiği** (her yeni oturum başında çalışır; repo yoksa hiçbir şey yapmaz):
+
+```bash
+if [ -d unawareofmydemise-gif.github.io ]; then bash unawareofmydemise-gif.github.io/tools/bootstrap.sh; fi
+```
+
+Bu ayarlar henüz uygulanmadıysa, ortamda açılan ilk oturum Claude'dan bunları `update_environment` ile önermesini ister.
+Gemini anahtarı da o ortamda ilk ihtiyaçta istenir (`request_credential`, host: `generativelanguage.googleapis.com`).
+
 ## 2. Araçlar (sabitlenmiş sürümler)
 
 | Araç | Sürüm | Doğrulama |
