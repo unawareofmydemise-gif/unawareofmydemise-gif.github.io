@@ -1,0 +1,12 @@
+# Godot
+.godot/
+# Blender yedekleri ve geçici dosyalar
+*.blend1
+*.blend@
+__pycache__/
+# Yerel çıktı klasörleri (render, QA, export)
+/out/
+/build/
+# Gizli bilgiler
+.env
+secrets/
