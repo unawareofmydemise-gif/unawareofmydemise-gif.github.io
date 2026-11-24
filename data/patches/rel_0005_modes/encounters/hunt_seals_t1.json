@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "encounter_id": "hunt_seals_t1",
+  "stage_id": "H-HUNT1",
+  "title_en": "Seal Hunt I",
+  "location_id": "forest_whispering_ash",
+  "seed": 952568519,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "ash_wolf",
+      "level": 3,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "ash_wolf",
+      "level": 3,
+      "slot": 1,
+      "row": "rear"
+    },
+    {
+      "unit_id": "ash_wolf",
+      "level": 3,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "bellbound_dead",
+      "level": 3,
+      "slot": 3,
+      "row": "front"
+    }
+  ],
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (line-up of stage_1_4)"
+  }
+}

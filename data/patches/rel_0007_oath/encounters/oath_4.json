@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "encounter_id": "oath_4",
+  "stage_id": "OH-4",
+  "title_en": "Oath Hunt: The Red Vial Matron",
+  "location_id": "undercity_subterranean",
+  "seed": 3008629914,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "boss_red_vial_matron",
+      "level": 15,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "red_vial_alchemist",
+      "level": 15,
+      "slot": 1,
+      "row": "rear"
+    },
+    {
+      "unit_id": "red_vial_alchemist",
+      "level": 15,
+      "slot": 2,
+      "row": "rear"
+    }
+  ],
+  "enemy_stat_multiplier": {
+    "value": 1.3,
+    "applies_to": [
+      "hp"
+    ]
+  },
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (Oath Hunt over stage_4_5)"
+  }
+}

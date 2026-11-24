@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "encounter_id": "pilgrim_9",
+  "stage_id": "PT-9",
+  "title_en": "Pilgrim's Trial 9: Last Rite",
+  "location_id": "estate_ashen_lord",
+  "seed": 2895334358,
+  "music_cue": "bgm_boss_human",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "boss_ashen_lord_wraith",
+      "level": 20,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "inkbound_dead",
+      "level": 20,
+      "slot": 1,
+      "row": "rear"
+    },
+    {
+      "unit_id": "inkbound_dead",
+      "level": 20,
+      "slot": 2,
+      "row": "rear"
+    }
+  ],
+  "waves": [
+    [
+      {
+        "unit_id": "royal_hollow",
+        "level": 20,
+        "slot": 0,
+        "row": "front"
+      },
+      {
+        "unit_id": "royal_hollow",
+        "level": 20,
+        "slot": 1,
+        "row": "front"
+      },
+      {
+        "unit_id": "eclipse_sentinel",
+        "level": 20,
+        "slot": 2,
+        "row": "rear"
+      },
+      {
+        "unit_id": "eclipse_sentinel",
+        "level": 20,
+        "slot": 3,
+        "row": "rear"
+      }
+    ]
+  ],
+  "enemy_stat_multiplier": {
+    "value": 1.15,
+    "applies_to": [
+      "hp",
+      "atk",
+      "def",
+      "spd"
+    ]
+  },
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (Pilgrim's Trial; line-ups of stage_6_5, stage_7_3)"
+  }
+}

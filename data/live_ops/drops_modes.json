@@ -1,0 +1,1026 @@
+{
+  "tables": {
+    "hunt_pages_t1": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "torn_chronicle_page",
+          "min": 3,
+          "max": 5,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "bound_chronicle",
+          "min": 1,
+          "max": 1,
+          "chance": 0.25
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 20,
+          "max": 20,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_pages_t2": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "torn_chronicle_page",
+          "min": 5,
+          "max": 7,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "bound_chronicle",
+          "min": 1,
+          "max": 2,
+          "chance": 0.4
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 30,
+          "max": 30,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_pages_t3": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "torn_chronicle_page",
+          "min": 7,
+          "max": 9,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "bound_chronicle",
+          "min": 1,
+          "max": 3,
+          "chance": 0.55
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 40,
+          "max": 40,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_pages_t4": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "torn_chronicle_page",
+          "min": 9,
+          "max": 11,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "bound_chronicle",
+          "min": 1,
+          "max": 4,
+          "chance": 0.7
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 50,
+          "max": 50,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_pages_t5": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "torn_chronicle_page",
+          "min": 11,
+          "max": 13,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "bound_chronicle",
+          "min": 1,
+          "max": 5,
+          "chance": 0.85
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_seals_t1": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "iron_oath_seal",
+            "alchemy_core",
+            "bellglass_shard"
+          ],
+          "min": 1,
+          "max": 2,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 20,
+          "max": 20,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_seals_t2": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "iron_oath_seal",
+            "alchemy_core",
+            "bellglass_shard"
+          ],
+          "min": 2,
+          "max": 3,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 30,
+          "max": 30,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_seals_t3": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "iron_oath_seal",
+            "alchemy_core",
+            "bellglass_shard"
+          ],
+          "min": 3,
+          "max": 4,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 40,
+          "max": 40,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_seals_t4": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "iron_oath_seal",
+            "alchemy_core",
+            "bellglass_shard"
+          ],
+          "min": 4,
+          "max": 5,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 50,
+          "max": 50,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_seals_t5": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "iron_oath_seal",
+            "alchemy_core",
+            "bellglass_shard"
+          ],
+          "min": 5,
+          "max": 6,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_notes_t1": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "tactical_notes",
+            "hymn_leaves"
+          ],
+          "min": 1,
+          "max": 2,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 20,
+          "max": 20,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_notes_t2": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "tactical_notes",
+            "hymn_leaves"
+          ],
+          "min": 2,
+          "max": 3,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 30,
+          "max": 30,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_notes_t3": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "tactical_notes",
+            "hymn_leaves"
+          ],
+          "min": 3,
+          "max": 4,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 40,
+          "max": 40,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_notes_t4": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "tactical_notes",
+            "hymn_leaves"
+          ],
+          "min": 4,
+          "max": 5,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 50,
+          "max": 50,
+          "chance": 1
+        }
+      ]
+    },
+    "hunt_notes_t5": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "item_pool",
+          "itemIds": [
+            "tactical_notes",
+            "hymn_leaves"
+          ],
+          "min": 5,
+          "max": 6,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "dungeon_gear_t1": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "weapon",
+          "rarities": [
+            3
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "armor",
+          "rarities": [
+            3
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "accessory",
+          "rarities": [
+            3
+          ],
+          "chance": 0.35
+        },
+        {
+          "kind": "item",
+          "itemId": "blacksmith_rivet",
+          "min": 2,
+          "max": 4,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 20,
+          "max": 20,
+          "chance": 1
+        }
+      ]
+    },
+    "dungeon_gear_t2": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "weapon",
+          "rarities": [
+            3,
+            4
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "armor",
+          "rarities": [
+            3,
+            4
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "accessory",
+          "rarities": [
+            3,
+            4
+          ],
+          "chance": 0.35
+        },
+        {
+          "kind": "item",
+          "itemId": "blacksmith_rivet",
+          "min": 3,
+          "max": 5,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 30,
+          "max": 30,
+          "chance": 1
+        }
+      ]
+    },
+    "dungeon_gear_t3": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "weapon",
+          "rarities": [
+            4
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "armor",
+          "rarities": [
+            4
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "accessory",
+          "rarities": [
+            4
+          ],
+          "chance": 0.35
+        },
+        {
+          "kind": "item",
+          "itemId": "blacksmith_rivet",
+          "min": 4,
+          "max": 6,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 40,
+          "max": 40,
+          "chance": 1
+        }
+      ]
+    },
+    "dungeon_gear_t4": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "weapon",
+          "rarities": [
+            4
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "armor",
+          "rarities": [
+            4,
+            5
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "accessory",
+          "rarities": [
+            4,
+            5
+          ],
+          "chance": 0.35
+        },
+        {
+          "kind": "item",
+          "itemId": "blacksmith_rivet",
+          "min": 5,
+          "max": 7,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 50,
+          "max": 50,
+          "chance": 1
+        }
+      ]
+    },
+    "dungeon_gear_t5": {
+      "repeat": [
+        {
+          "kind": "currency",
+          "min": 4,
+          "max": 4,
+          "chance": 1
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "weapon",
+          "rarities": [
+            4
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "armor",
+          "rarities": [
+            5
+          ],
+          "chance": 0.5
+        },
+        {
+          "kind": "gear_pool",
+          "slot": "accessory",
+          "rarities": [
+            5
+          ],
+          "chance": 0.35
+        },
+        {
+          "kind": "item",
+          "itemId": "blacksmith_rivet",
+          "min": 6,
+          "max": 8,
+          "chance": 1
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_1": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_2": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "bound_chronicle",
+          "min": 5,
+          "max": 5,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_3": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_4": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "iron_oath_seal",
+          "min": 6,
+          "max": 6,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_5": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "universal_memory_shard",
+          "min": 1,
+          "max": 1,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_6": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "alchemy_core",
+          "min": 6,
+          "max": 6,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_7": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_8": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "illuminated_chronicle",
+          "min": 3,
+          "max": 3,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_9": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "pilgrim_10": {
+      "repeat": [],
+      "firstClear": [
+        {
+          "kind": "currency",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        },
+        {
+          "kind": "item",
+          "itemId": "first_oath_invitation",
+          "min": 1,
+          "max": 1,
+          "chance": 1
+        }
+      ]
+    },
+    "oath_1": {
+      "repeat": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 25,
+          "max": 35,
+          "chance": 1
+        },
+        {
+          "kind": "boss_set",
+          "rarity": 4,
+          "chance": 0.2
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "oath_2": {
+      "repeat": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 30,
+          "max": 40,
+          "chance": 1
+        },
+        {
+          "kind": "boss_set",
+          "rarity": 4,
+          "chance": 0.2
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "oath_3": {
+      "repeat": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 35,
+          "max": 45,
+          "chance": 1
+        },
+        {
+          "kind": "boss_set",
+          "rarity": 4,
+          "chance": 0.2
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "oath_4": {
+      "repeat": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 40,
+          "max": 50,
+          "chance": 1
+        },
+        {
+          "kind": "boss_set",
+          "rarity": 4,
+          "chance": 0.2
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "oath_5": {
+      "repeat": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 45,
+          "max": 55,
+          "chance": 1
+        },
+        {
+          "kind": "boss_set",
+          "rarity": 4,
+          "chance": 0.2
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "oath_6": {
+      "repeat": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 50,
+          "max": 60,
+          "chance": 1
+        },
+        {
+          "kind": "boss_set",
+          "rarity": 4,
+          "chance": 0.2
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    },
+    "oath_7": {
+      "repeat": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 55,
+          "max": 65,
+          "chance": 1
+        },
+        {
+          "kind": "boss_set",
+          "rarity": 4,
+          "chance": 0.2
+        }
+      ],
+      "firstClear": [
+        {
+          "kind": "item",
+          "itemId": "reliquary_medal",
+          "min": 60,
+          "max": 60,
+          "chance": 1
+        }
+      ]
+    }
+  }
+}

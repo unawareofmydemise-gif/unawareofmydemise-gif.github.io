@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "encounter_id": "stage_6_1",
+  "stage_id": "6-1",
+  "title_en": "The Servants' Entrance",
+  "location_id": "estate_ashen_lord",
+  "seed": 857829140,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "guests": [
+    "sable_wren",
+    "clem_marr"
+  ],
+  "enemies": [
+    {
+      "unit_id": "noble_retainer",
+      "level": 15,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "noble_retainer",
+      "level": 15,
+      "slot": 1,
+      "row": "rear"
+    },
+    {
+      "unit_id": "inkbound_dead",
+      "level": 15,
+      "slot": 2,
+      "row": "rear"
+    }
+  ],
+  "pre_story": "story/vn_6_1_pre.json",
+  "post_story": "story/vn_6_1_post.json",
+  "provenance": {
+    "source": "narrative/09_VN_Scripts/Runtime_Snapshot/game/data/content/stages_part1.json#6-1"
+  }
+}

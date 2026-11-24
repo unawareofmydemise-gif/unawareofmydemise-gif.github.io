@@ -1,0 +1,42 @@
+{
+  "template": "floater",
+  "facing": "right",
+  "joints": {
+    "hover": [
+      512,
+      980
+    ],
+    "chest": [
+      508,
+      525
+    ],
+    "neck": [
+      528,
+      410
+    ],
+    "head_top": [
+      514,
+      91
+    ],
+    "shoulder_l": [
+      628,
+      495
+    ],
+    "hand_l": [
+      863,
+      482
+    ],
+    "shoulder_r": [
+      417,
+      500
+    ],
+    "hand_r": [
+      169,
+      513
+    ],
+    "tail_tip": [
+      524,
+      919
+    ]
+  }
+}

@@ -1,0 +1,1666 @@
+{
+  "schema_version": 1,
+  "pack_id": "part1_character_stories_additions",
+  "content_language": "en",
+  "voice_language": "ja",
+  "presentation": "light_novel_visual_novel",
+  "canon_status": "draft_for_owner_review",
+  "rules_tr": "K19 (2026-11-13): eski projenin karakter profillerinde başlığı ve konusu belirlenmiş ama yazılmamış 5 kahramanın 4'er yan hikâyesi (Cassian, Corbin, Dorian, Garrick, Rowan). Kural character_stories_part1.json ile aynı: sahiplik + aşama, bölümler sırayla. Part II sırrı çözülmez; Garrick dünya kuralı 11 gereği şansölyenin adını hatırlamaz; Dorian mührün sahibini adlandırmaz. Sahip onayına açık.",
+  "stories": [
+    {
+      "character_id": "cassian_thorne",
+      "name_en": "Cassian Thorne",
+      "tier": "B",
+      "parts": [
+        {
+          "story_id": "cs_cassian_thorne_1",
+          "part": 1,
+          "title_en": "How the Bell Lost Its Tongue",
+          "unlock": {
+            "requires_owned_character": "cassian_thorne",
+            "after_stage": "2-5"
+          },
+          "location_id": "cathedral_saint_luthos",
+          "direction_en": "The night after the Bell-Widow falls. Cassian sits on the belfry stair with an iron clapper-ring across his knees. Mahmut finds him there.",
+          "lines": [
+            {
+              "line_id": "cs_cassian_thorne_1_001",
+              "speaker_id": "mahmut",
+              "speaker_display": "Mahmut",
+              "text_en": "You keep that ring cleaner than your sword.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_1_002",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "The sword is for Choir Knights. The ring is for me.",
+              "emotion": "measured",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_1_003",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Five years ago I climbed this stair in a storm and cut the clapper free. I thought a bell without a tongue could not take anything.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_1_004",
+              "speaker_id": "mahmut",
+              "speaker_display": "Mahmut",
+              "text_en": "And?",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_1_005",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "The next night it rang anyway. No rope. No tongue. The villages lost names all the same.",
+              "emotion": "grave",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_1_006",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "The chapter sent me down to the flooded doors so no one would ask why the warden had climbed. I stayed, because the doors still needed someone.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_1_007",
+              "speaker_id": "mahmut",
+              "speaker_display": "Mahmut",
+              "text_en": "A man who disobeys a bad order and then guards the door anyway. I know the type.",
+              "emotion": "observant",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_1_008",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Then you know it is not a virtue. It is only the next thing to do.",
+              "emotion": "measured",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_cassian_thorne_2",
+          "part": 2,
+          "title_en": "Knee-Deep in the Nave",
+          "unlock": {
+            "requires_owned_character": "cassian_thorne",
+            "after_stage": "3-2"
+          },
+          "location_id": "lowland_refuge",
+          "direction_en": "At the refuge fire, Aveline and Cassian tally the pilgrims they brought out of the flooded nave of Saint Luthos.",
+          "lines": [
+            {
+              "line_id": "cs_cassian_thorne_2_001",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "Forty-one through the nave doors. Mirel wrote every one of them down before we let them go.",
+              "emotion": "dry_kind",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_2_002",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Forty-two. The baker's boy went through on my shoulders. Mirel was busy shouting at the water.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_2_003",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "You stood in that water for six hours.",
+              "emotion": "concern",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_2_004",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "The Choir Knights stood in it longer. Someone had to be more stubborn than the dead.",
+              "emotion": "measured",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_2_005",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "You could have left with the first group. No one would have counted it against you.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_2_006",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "The bell would have. It counts what we leave behind.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_2_007",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "Then let me count something for once. Forty-two, and the warden.",
+              "emotion": "warm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_2_008",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "...Forty-three. Fine. Write it down before I argue.",
+              "emotion": "flustered",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_cassian_thorne_3",
+          "part": 3,
+          "title_en": "The Archivist's Escort",
+          "unlock": {
+            "requires_owned_character": "cassian_thorne",
+            "after_stage": "6-2"
+          },
+          "location_id": "eastern_ravine_road",
+          "direction_en": "Rain on the road to the Ashen Lord's estate. Mirel walks beside Cassian, who carries the cathedral folio under his tabard.",
+          "lines": [
+            {
+              "line_id": "cs_cassian_thorne_3_001",
+              "speaker_id": "mirel_quill",
+              "speaker_display": "Mirel",
+              "text_en": "Do not carry it like a shield. It is a folio, not a door.",
+              "emotion": "precise",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_3_002",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Everything I carry ends up being a door eventually.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_3_003",
+              "speaker_id": "mirel_quill",
+              "speaker_display": "Mirel",
+              "text_en": "If the rain reaches the binding, the names in the seventh gathering run together. I cannot recopy what I cannot read.",
+              "emotion": "tense",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_3_004",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Then it rides under my tabard and I walk in the rain. That is the whole plan.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_3_005",
+              "speaker_id": "mirel_quill",
+              "speaker_display": "Mirel",
+              "text_en": "You are very calm for a man carrying the only record of what the chapter took.",
+              "emotion": "wary",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_3_006",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "I was calm when I cut the clapper too. Calm is only the part people see.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_3_007",
+              "speaker_id": "mirel_quill",
+              "speaker_display": "Mirel",
+              "text_en": "Keep the folio dry, Cassian. I will keep you honest.",
+              "emotion": "small_smile",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_3_008",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "That is the better trade for both of us.",
+              "emotion": "warm",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_cassian_thorne_4",
+          "part": 4,
+          "title_en": "Witnesses in Iron",
+          "unlock": {
+            "requires_owned_character": "cassian_thorne",
+            "after_stage": "7-3"
+          },
+          "location_id": "altar_field_infirmary",
+          "direction_en": "Below the altar, between two braziers, Cassian scratches a name into the fuller of his greatsword. Aveline sits down beside him.",
+          "lines": [
+            {
+              "line_id": "cs_cassian_thorne_4_001",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "You are scratching again. That blade holds more names than my register.",
+              "emotion": "dry_kind",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_4_002",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Your register is ink. Ink can be blotted, or burned, or bought.",
+              "emotion": "measured",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_4_003",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Iron has to be ground away. Whoever wants these names gone will have to take the sword from me first.",
+              "emotion": "resolved",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_4_004",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "And when the fuller is full?",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_4_005",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Then the flat of the blade. Then the hilt. Then I start on the clapper-ring.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_4_006",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "You took the bell's tongue and found it a better use.",
+              "emotion": "warm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_4_007",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "I took its tongue. It spoke anyway. So now I stand in front of it, and these stand with me.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_4_008",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "Then carve one more. The warden who held the nave.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_cassian_thorne_4_009",
+              "speaker_id": "cassian_thorne",
+              "speaker_display": "Cassian",
+              "text_en": "Not yet. A man does not witness for himself.",
+              "emotion": "measured",
+              "voice_track": "jp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "corbin_locke",
+      "name_en": "Corbin Locke",
+      "tier": "C",
+      "parts": [
+        {
+          "story_id": "cs_corbin_locke_1",
+          "part": 1,
+          "title_en": "The Lowest Sluice",
+          "unlock": {
+            "requires_owned_character": "corbin_locke",
+            "after_stage": "4-2"
+          },
+          "location_id": "undercity_cistern",
+          "direction_en": "Water drips through the bricked arch of the lowest cistern. Corbin counts the drops; Odelia watches him count.",
+          "lines": [
+            {
+              "line_id": "cs_corbin_locke_1_001",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "You count the drips. I have watched you do it for an hour.",
+              "emotion": "curious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_1_002",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "Seventeen a minute here. Twenty-two at the bricked arch. The water is still pushing against what they built.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_1_003",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "Two winters ago the Matron ordered the lowest cistern drained and sealed, so her ledger wing could reach the Glass Bell's wards.",
+              "emotion": "grave",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_1_004",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "I kept the master sluice-wheel. When they came for it, I tried to flood their conduit instead.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_1_005",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "And they threw you in the spillway.",
+              "emotion": "serious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_1_006",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "In chains. The river remembers its level, even when they brick the arch. So did I.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_1_007",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "Someday you are going to open that arch.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_1_008",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "Someday. When opening it drowns the right people.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_corbin_locke_2",
+          "part": 2,
+          "title_en": "One Clean Table",
+          "unlock": {
+            "requires_owned_character": "corbin_locke",
+            "after_stage": "4-3"
+          },
+          "location_id": "tl_clinic_table",
+          "direction_en": "Tilda's clinic, after closing. Corbin sits on the single clean table while Tilda checks old stitches and Iona trims the lantern wick.",
+          "lines": [
+            {
+              "line_id": "cs_corbin_locke_2_001",
+              "speaker_id": "tilda_fen",
+              "speaker_display": "Tilda",
+              "text_en": "Arm up. Slowly. If you tear my stitches again I am charging you for the thread.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_2_002",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "You said that two winters ago.",
+              "emotion": "amused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_2_003",
+              "speaker_id": "tilda_fen",
+              "speaker_display": "Tilda",
+              "text_en": "And you still have not paid.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_2_004",
+              "speaker_id": "iona_mist",
+              "speaker_display": "Iona",
+              "text_en": "She pulled you out of the canal by your collar. I held the lantern and read your name until you answered to it.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_2_005",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "I remember the voice. Not the words. Only that someone kept saying 'Corbin' as if it mattered.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_2_006",
+              "speaker_id": "iona_mist",
+              "speaker_display": "Iona",
+              "text_en": "It did. Names come back when someone keeps them warm.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_2_007",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "So I bolted the broken sluice-wheel to my arm and stood at your door. Seemed a fair price for one clean table.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_2_008",
+              "speaker_id": "tilda_fen",
+              "speaker_display": "Tilda",
+              "text_en": "The table is still clean because you are standing at the door. Stay there.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_corbin_locke_3",
+          "part": 3,
+          "title_en": "The Chalk Arrow on the Lock",
+          "unlock": {
+            "requires_owned_character": "corbin_locke",
+            "after_stage": "4-5"
+          },
+          "location_id": "undercity_cistern_stairs",
+          "direction_en": "The lower cistern stairs. A faded harbor-knot arrow is chalked on the sluice wall, pointing down. Corbin stops beside it with Odelia.",
+          "lines": [
+            {
+              "line_id": "cs_corbin_locke_3_001",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "Your brother came down these stairs two winters ago. I was the last one outside the Guild to see him.",
+              "emotion": "careful",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_3_002",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "You never told me.",
+              "emotion": "hesitant",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_3_003",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "You never asked, and I did not want to be the one who made it true.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_3_004",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "Tomas chalked that harbor-knot arrow on the wall. Pointing down. The Guild sent a boy with a scrub-brush the next morning.",
+              "emotion": "grave",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_3_005",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "And?",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_3_006",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "I took the brush and threw it in the canal. Then I stood in front of this wall every morning until they stopped sending boys.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_3_007",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "It is still here.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_3_008",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "It is still here. Whatever he was pointing at, he wanted someone to follow. I would rather it was you than the Guild.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_3_009",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "Then we follow it together.",
+              "emotion": "serious",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_corbin_locke_4",
+          "part": 4,
+          "title_en": "High Water",
+          "unlock": {
+            "requires_owned_character": "corbin_locke",
+            "after_stage": "5-1"
+          },
+          "location_id": "undercity_cistern",
+          "direction_en": "With the Matron gone, Corbin sets his hands on the master sluice-wheel he kept for two winters. Odelia holds the lantern.",
+          "lines": [
+            {
+              "line_id": "cs_corbin_locke_4_001",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "Master wheel. Three turns left, one back, then hold.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_4_002",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "And if the arch does not give?",
+              "emotion": "hesitant",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_4_003",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "Then the water waits. It has waited two winters. It is better at it than we are.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_4_004",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "There. Hear that? The lowest sluice, breathing again.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_4_005",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "The glass wards on the ledger wing are going dark.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_4_006",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "Washed clean. Whatever the Glass Bell keeps, it will not drink from our cistern anymore.",
+              "emotion": "grave",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_4_007",
+              "speaker_id": "odelia_pike",
+              "speaker_display": "Odelia",
+              "text_en": "You once said there is one thing you never say about drowned people.",
+              "emotion": "small_smile",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_corbin_locke_4_008",
+              "speaker_id": "corbin_locke",
+              "speaker_display": "Corbin",
+              "text_en": "That the water took them. It is never the water. It is whoever bricks the arch. Today the water gives something back.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "dorian_kesk",
+      "name_en": "Dorian Kesk",
+      "tier": "B",
+      "parts": [
+        {
+          "story_id": "cs_dorian_kesk_1",
+          "part": 1,
+          "title_en": "Gray Wax",
+          "unlock": {
+            "requires_owned_character": "dorian_kesk",
+            "after_stage": "4-4"
+          },
+          "location_id": "undercity_archive_room",
+          "direction_en": "A candle in the Undercity archive room. Dorian turns a seven-notched brass matrix in his gloved fingers while Clem copies headstone names.",
+          "lines": [
+            {
+              "line_id": "cs_dorian_kesk_1_001",
+              "speaker_id": "clem_marr",
+              "speaker_display": "Clem",
+              "text_en": "You hold that thing like it bites.",
+              "emotion": "curious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_1_002",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "It does. Only slowly.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_1_003",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "On Crownfall night I was twenty, a novice at the chancery table. My work was to heat the wax and keep my mouth shut.",
+              "emotion": "measured",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_1_004",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Two orders came down at the end. Gray wax for both. Two initials under the seal of the second. I pressed it myself.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_1_005",
+              "speaker_id": "clem_marr",
+              "speaker_display": "Clem",
+              "text_en": "Whose initials?",
+              "emotion": "curious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_1_006",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "I cut wax. I did not ask. That was the rule. Someone in a wet cloak carried the second order into the rain, and by morning the Inquisition was gone.",
+              "emotion": "grave",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_1_007",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "I took one thing with me. Seven notches on the brass. Whoever wants it back will know exactly where to look.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_1_008",
+              "speaker_id": "clem_marr",
+              "speaker_display": "Clem",
+              "text_en": "Then I am glad it sits in a coat I can find.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_dorian_kesk_2",
+          "part": 2,
+          "title_en": "One Copper or a Lie",
+          "unlock": {
+            "requires_owned_character": "dorian_kesk",
+            "after_stage": "4-5"
+          },
+          "location_id": "undercity_market",
+          "direction_en": "A cramped room above Tilda's clinic. A family without coin waits at the door while Dorian warms his seal-iron. Iona keeps them company.",
+          "lines": [
+            {
+              "line_id": "cs_dorian_kesk_2_001",
+              "speaker_id": "iona_mist",
+              "speaker_display": "Iona",
+              "text_en": "The family at the door has no copper.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_2_002",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Then they owe me a passable lie. Ask the youngest what the Duke's gate guards smell like.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_2_003",
+              "speaker_id": "iona_mist",
+              "speaker_display": "Iona",
+              "text_en": "She says onions.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_2_004",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Perfect. That is worth a whole pass. Onions are the one true thing about every gatehouse.",
+              "emotion": "amused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_2_005",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Ducal travel warrant, eastern toll seal, three names. Clem checked the headstones. These are real grandparents.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_2_006",
+              "speaker_id": "iona_mist",
+              "speaker_display": "Iona",
+              "text_en": "If they catch you, these papers hang you.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_2_007",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "If they catch these three without papers, the road takes their names. My neck is the cheaper price.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_2_008",
+              "speaker_id": "iona_mist",
+              "speaker_display": "Iona",
+              "text_en": "You say everything has a fee.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_2_009",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Everything does. Some fees are paid by the one who charges them.",
+              "emotion": "soft",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_dorian_kesk_3",
+          "part": 3,
+          "title_en": "The Seventh Notch",
+          "unlock": {
+            "requires_owned_character": "dorian_kesk",
+            "after_stage": "5-3"
+          },
+          "location_id": "bridge_forsaken",
+          "direction_en": "Under the bridge gate, Sable lays two captured orders side by side — Rusk's and Oren's. Dorian bends over the wax.",
+          "lines": [
+            {
+              "line_id": "cs_dorian_kesk_3_001",
+              "speaker_id": "sable_wren",
+              "speaker_display": "Sable",
+              "text_en": "Rusk's order. Oren's order. The same gray wax.",
+              "emotion": "flat",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_3_002",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "The same recipe, too. I mixed it for years. Pine resin, lamp-black, too much chalk.",
+              "emotion": "grave",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_3_003",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Look at the rim. Seven notches, the seventh shallower than the rest. That die was cut for the chancery's private hand.",
+              "emotion": "precise",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_3_004",
+              "speaker_id": "sable_wren",
+              "speaker_display": "Sable",
+              "text_en": "The matrix in your coat has seven notches.",
+              "emotion": "wary",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_3_005",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Mine is a cutter's copy. The private die never left its owner. Someone is still pressing it, two years after the chancery fell.",
+              "emotion": "tense",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_3_006",
+              "speaker_id": "sable_wren",
+              "speaker_display": "Sable",
+              "text_en": "Then the Inquisition did not end on Crownfall night.",
+              "emotion": "cold",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_3_007",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Its table did. Its wax did not.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_3_008",
+              "speaker_id": "sable_wren",
+              "speaker_display": "Sable",
+              "text_en": "Keep that copy close. If they learn you can read their wax, they will come for the reader before the seal.",
+              "emotion": "warning",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_3_009",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "Let them come. I have forged worse letters than my own obituary.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_dorian_kesk_4",
+          "part": 4,
+          "title_en": "A Name They Cannot File",
+          "unlock": {
+            "requires_owned_character": "dorian_kesk",
+            "after_stage": "6-4"
+          },
+          "location_id": "shelter_courtyard_dusk",
+          "direction_en": "Dusk at the company's shelter. Clem writes in her grave-book by hand; Dorian sits on the step below her.",
+          "lines": [
+            {
+              "line_id": "cs_dorian_kesk_4_001",
+              "speaker_id": "clem_marr",
+              "speaker_display": "Clem",
+              "text_en": "You never asked why I keep the grave-book by hand.",
+              "emotion": "curious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_4_002",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "I assumed you distrust printers. Reasonable people do.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_4_003",
+              "speaker_id": "clem_marr",
+              "speaker_display": "Clem",
+              "text_en": "A register can be sealed, filed and forgotten. A book in a gravedigger's coat cannot be filed.",
+              "emotion": "serious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_4_004",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "And that is why you check my passes against your stones.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_4_005",
+              "speaker_id": "clem_marr",
+              "speaker_display": "Clem",
+              "text_en": "Your forgeries are only as good as the names under them. I make sure the names are true.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_4_006",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "The chancery taught me that a seal makes a thing true. You taught me it only makes a thing filed.",
+              "emotion": "measured",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_4_007",
+              "speaker_id": "clem_marr",
+              "speaker_display": "Clem",
+              "text_en": "So which are you now?",
+              "emotion": "small_smile",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_4_008",
+              "speaker_id": "dorian_kesk",
+              "speaker_display": "Dorian",
+              "text_en": "A man who carries a seal and trusts a shovel more.",
+              "emotion": "soft",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_dorian_kesk_4_009",
+              "speaker_id": "clem_marr",
+              "speaker_display": "Clem",
+              "text_en": "That is the nicest thing anyone has ever said about my shovel.",
+              "emotion": "delighted",
+              "voice_track": "jp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "garrick_cinder",
+      "name_en": "Garrick Cinder",
+      "tier": "B",
+      "parts": [
+        {
+          "story_id": "cs_garrick_cinder_1",
+          "part": 1,
+          "title_en": "The Sixty-First Minute",
+          "unlock": {
+            "requires_owned_character": "garrick_cinder",
+            "after_stage": "3-2"
+          },
+          "location_id": "orchard_lowlands",
+          "direction_en": "Night patrol along the orchard firebreak outside Oakhaven. The far bell rings once; Garrick checks the watch-glass at his belt. Jori notices.",
+          "lines": [
+            {
+              "line_id": "cs_garrick_cinder_1_001",
+              "speaker_id": "jori_flint",
+              "speaker_display": "Jori",
+              "text_en": "You check that watch-glass every time the bell rings.",
+              "emotion": "curious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_1_002",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Habit. Eight years ago a relief order came timed to the minute by a court chronometer. It arrived one hour late.",
+              "emotion": "grave",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_1_003",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "I held the outer furnace-gate of a keep while a chancellor's household sheltered inside. The gate fell in fire at the sixty-first minute.",
+              "emotion": "grim",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_1_004",
+              "speaker_id": "jori_flint",
+              "speaker_display": "Jori",
+              "text_en": "Whose household?",
+              "emotion": "careful",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_1_005",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "I remember the gate. The draft through the breach. A woman and a boy I could not reach. Liora and Aren.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_1_006",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Their names stayed with me. His did not. I have tried. It slides off like water off hot iron.",
+              "emotion": "troubled",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_1_007",
+              "speaker_id": "jori_flint",
+              "speaker_display": "Jori",
+              "text_en": "That is the bell's work.",
+              "emotion": "serious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_1_008",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Maybe. Or maybe a man who schedules lives to the minute does not deserve to be remembered. Either way, I am never late again.",
+              "emotion": "hard",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_garrick_cinder_2",
+          "part": 2,
+          "title_en": "Firebreak",
+          "unlock": {
+            "requires_owned_character": "garrick_cinder",
+            "after_stage": "3-5"
+          },
+          "location_id": "oakhaven_forge",
+          "direction_en": "Morning after the mercenaries leave Oakhaven. Garrick drills Rikka's kiln militia with spades behind the forge.",
+          "lines": [
+            {
+              "line_id": "cs_garrick_cinder_2_001",
+              "speaker_id": "rikka_ember",
+              "speaker_display": "Rikka",
+              "text_en": "Again? We dug a firebreak yesterday.",
+              "emotion": "annoyed",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_2_002",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Yesterday's break was two spades wide. Fire jumps two spades. Make it four.",
+              "emotion": "gruff",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_2_003",
+              "speaker_id": "rikka_ember",
+              "speaker_display": "Rikka",
+              "text_en": "Rusk is gone. The orchards are safe.",
+              "emotion": "defiant",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_2_004",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Rusk was a schedule. Fire is weather. Weather does not care who won.",
+              "emotion": "dry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_2_005",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Load, timber, draft. Take away one and a fire starves. Your kiln crews already know two of those. Learn the third.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_2_006",
+              "speaker_id": "rikka_ember",
+              "speaker_display": "Rikka",
+              "text_en": "The draft. You want the break cut across the wind.",
+              "emotion": "curious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_2_007",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "There it is. Now you are a militia instead of a crowd with shovels.",
+              "emotion": "warm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_2_008",
+              "speaker_id": "rikka_ember",
+              "speaker_display": "Rikka",
+              "text_en": "Is that praise, Captain?",
+              "emotion": "smug",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_2_009",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "It is a schedule. Four spades by dusk.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_garrick_cinder_3",
+          "part": 3,
+          "title_en": "Our Own Winches",
+          "unlock": {
+            "requires_owned_character": "garrick_cinder",
+            "after_stage": "5-2"
+          },
+          "location_id": "bridge_gate",
+          "direction_en": "Under the bridge gate, the Crown Guard's siege winches stand in a row. Garrick lays a gauntlet on the nearest drum; Jori kneels beside the pawl.",
+          "lines": [
+            {
+              "line_id": "cs_garrick_cinder_3_001",
+              "speaker_id": "jori_flint",
+              "speaker_display": "Jori",
+              "text_en": "These drums carry your mark.",
+              "emotion": "surprised",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_3_002",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "I drew them. Throne wars. The Crown Guard kept the plans after I walked away.",
+              "emotion": "grim",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_3_003",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Pin here, pawl there. Pull the pawl and the drum spins free; the whole line drops its load into the river.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_3_004",
+              "speaker_id": "jori_flint",
+              "speaker_display": "Jori",
+              "text_en": "You are taking apart your own work.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_3_005",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "I built them to break walls with soldiers behind them. They turned them on a bridge full of people walking home.",
+              "emotion": "hard",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_3_006",
+              "speaker_id": "jori_flint",
+              "speaker_display": "Jori",
+              "text_en": "Then let me take the pawls. My hands are smaller.",
+              "emotion": "determined",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_3_007",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Good. A smith who knows where to strike a gate also knows where to save one.",
+              "emotion": "warm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_3_008",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "When the drums fall, do not watch them. Watch the far bank. That is who we did it for.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_garrick_cinder_4",
+          "part": 4,
+          "title_en": "No More Schedules",
+          "unlock": {
+            "requires_owned_character": "garrick_cinder",
+            "after_stage": "6-4"
+          },
+          "location_id": "ashen_estate_gallery",
+          "direction_en": "The collapsed gallery. Garrick holds a recovered diagram up to the lantern, its margin lined with times written minute by minute. Mahmut waits.",
+          "lines": [
+            {
+              "line_id": "cs_garrick_cinder_4_001",
+              "speaker_id": "mahmut",
+              "speaker_display": "Mahmut",
+              "text_en": "You have been staring at that page since the gallery came down.",
+              "emotion": "observant",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_4_002",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "The hand. Times down the margin, minute by minute. I have seen this hand before.",
+              "emotion": "tense",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_4_003",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "On a relief order, eight years ago. The one that came an hour late.",
+              "emotion": "grim",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_4_004",
+              "speaker_id": "mahmut",
+              "speaker_display": "Mahmut",
+              "text_en": "Then you know who wrote it.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_4_005",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "I know the hand. I cannot hold the name. Every time I reach for it there is only the smell of the burning gate.",
+              "emotion": "troubled",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_4_006",
+              "speaker_id": "mahmut",
+              "speaker_display": "Mahmut",
+              "text_en": "A name the bell took still belongs to a man who did something. We can follow what he did.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_4_007",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Then I follow it. No more schedules, Mahmut. Not his. Not mine.",
+              "emotion": "resolved",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_4_008",
+              "speaker_id": "mahmut",
+              "speaker_display": "Mahmut",
+              "text_en": "We walk when the people ahead of us need us. Not when a clock says.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_garrick_cinder_4_009",
+              "speaker_id": "garrick_cinder",
+              "speaker_display": "Garrick",
+              "text_en": "Spoken like a man who has been late to something too.",
+              "emotion": "gruff",
+              "voice_track": "jp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character_id": "rowan_reed",
+      "name_en": "Rowan Reed",
+      "tier": "C",
+      "parts": [
+        {
+          "story_id": "cs_rowan_reed_1",
+          "part": 1,
+          "title_en": "The Missing Letter",
+          "unlock": {
+            "requires_owned_character": "rowan_reed",
+            "after_stage": "1-2"
+          },
+          "location_id": "forest_whispering_ash",
+          "direction_en": "Evening at the forest wayshrine. Rowan kneels at an alder way-marker with chisel and mallet; Brin holds the brazier for him.",
+          "lines": [
+            {
+              "line_id": "cs_rowan_reed_1_001",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "Lower with the light. There. The second letter of Bram is nearly gone.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_1_002",
+              "speaker_id": "brin_alder",
+              "speaker_display": "Brin",
+              "text_en": "My father's name was on this shrine before I could read it.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_1_003",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "The bell rang twice last night. Every time it rings, the bark forgets a little. So I remind it.",
+              "emotion": "earnest",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_1_004",
+              "speaker_id": "brin_alder",
+              "speaker_display": "Brin",
+              "text_en": "With a chisel.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_1_005",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "With a chisel. If the tree forgets a letter, carve it deeper.",
+              "emotion": "earnest",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_1_006",
+              "speaker_id": "brin_alder",
+              "speaker_display": "Brin",
+              "text_en": "Does it work?",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_1_007",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "The old keeper says the bark does not keep the name. The hand that comes back to cut it does. So I keep coming back.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_1_008",
+              "speaker_id": "brin_alder",
+              "speaker_display": "Brin",
+              "text_en": "Show me how. I would rather be the hand than the one who watches.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_rowan_reed_2",
+          "part": 2,
+          "title_en": "Dry Tallow",
+          "unlock": {
+            "requires_owned_character": "rowan_reed",
+            "after_stage": "2-2"
+          },
+          "location_id": "cathedral_saint_luthos",
+          "direction_en": "The flooded steps of Saint Luthos. Rowan fights to keep five braziers lit in the rain while pilgrims wade toward the road. Aveline brings a crate.",
+          "lines": [
+            {
+              "line_id": "cs_rowan_reed_2_001",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "Three braziers dry, two drowning. I need more tallow and less rain.",
+              "emotion": "flustered",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_2_002",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "Sister Thistle sent wax. It is in the crate marked 'not bread'.",
+              "emotion": "dry_kind",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_2_003",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "That crate has bread in it.",
+              "emotion": "confused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_2_004",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "Then the bread is waxy and the wax is crumbly. Use whatever lights.",
+              "emotion": "wry",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_2_005",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "The pilgrims come down the steps in the dark. If the fire goes out, they stop. If they stop in the water, the Choir Knights...",
+              "emotion": "worried",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_2_006",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "That is why you are here and not at your shrine. Keep them walking toward the light.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_2_007",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "Yes, Sister. I mean, yes, ma'am. I mean...",
+              "emotion": "flustered",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_2_008",
+              "speaker_id": "sister_aveline",
+              "speaker_display": "Aveline",
+              "text_en": "Rowan. The fire, please.",
+              "emotion": "dry_kind",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_2_009",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "Fire. Yes. Fire first.",
+              "emotion": "earnest",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_rowan_reed_3",
+          "part": 3,
+          "title_en": "Bell-Ash and Beeswax",
+          "unlock": {
+            "requires_owned_character": "rowan_reed",
+            "after_stage": "2-5"
+          },
+          "location_id": "lowland_refuge",
+          "direction_en": "A trade at the refuge road: Rowan's tins of shrine beeswax for Thistle's salves. Neither of them is good at haggling.",
+          "lines": [
+            {
+              "line_id": "cs_rowan_reed_3_001",
+              "speaker_id": "thistle_roe",
+              "speaker_display": "Thistle",
+              "text_en": "Four tins of beeswax for two jars of comfrey salve. That is a very good trade for you.",
+              "emotion": "curious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_3_002",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "The shrine bees worked hard this year. The ash keeps the wasps away.",
+              "emotion": "earnest",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_3_003",
+              "speaker_id": "thistle_roe",
+              "speaker_display": "Thistle",
+              "text_en": "Ash from the bell?",
+              "emotion": "curious",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_3_004",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "It falls on the hives every time the bell rings. The bees do not mind. The honey tastes of smoke.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_3_005",
+              "speaker_id": "thistle_roe",
+              "speaker_display": "Thistle",
+              "text_en": "Everything here tastes of smoke.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_3_006",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "Then everything here is still burning, and burning means someone is keeping warm.",
+              "emotion": "earnest",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_3_007",
+              "speaker_id": "thistle_roe",
+              "speaker_display": "Thistle",
+              "text_en": "Fine. Two jars, and yarrow for your cut thumb. Do not argue.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_3_008",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "I was not going to argue.",
+              "emotion": "flustered",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_3_009",
+              "speaker_id": "thistle_roe",
+              "speaker_display": "Thistle",
+              "text_en": "You were going to say it was nothing. That is the same thing.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            }
+          ]
+        },
+        {
+          "story_id": "cs_rowan_reed_4",
+          "part": 4,
+          "title_en": "Deep Enough to Last",
+          "unlock": {
+            "requires_owned_character": "rowan_reed",
+            "after_stage": "7-5"
+          },
+          "location_id": "mountain_crater_rim",
+          "direction_en": "After the altar, at the crater rim. Rowan carves oak road-markers, one for every name in the company. Brin stacks the finished ones.",
+          "lines": [
+            {
+              "line_id": "cs_rowan_reed_4_001",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "One marker for every name in the company. Oak, not alder. Oak holds a letter longer.",
+              "emotion": "focused",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_4_002",
+              "speaker_id": "brin_alder",
+              "speaker_display": "Brin",
+              "text_en": "You have carved forty already.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_4_003",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "Forty-one. I put the old keeper on the first one. He never let anyone carve his name. He is not here to stop me.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_4_004",
+              "speaker_id": "brin_alder",
+              "speaker_display": "Brin",
+              "text_en": "The crater is quiet tonight.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_4_005",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "Quiet is not gone. The road will still forget, slowly. Someone will have to come back with a chisel.",
+              "emotion": "earnest",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_4_006",
+              "speaker_id": "brin_alder",
+              "speaker_display": "Brin",
+              "text_en": "Then teach the next one, the way he taught you.",
+              "emotion": "gentle",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_4_007",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "That is the plan. Deep enough to last until the next hand finds them.",
+              "emotion": "determined",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_4_008",
+              "speaker_id": "brin_alder",
+              "speaker_display": "Brin",
+              "text_en": "Carve one for yourself, Rowan.",
+              "emotion": "calm",
+              "voice_track": "jp"
+            },
+            {
+              "line_id": "cs_rowan_reed_4_009",
+              "speaker_id": "rowan_reed",
+              "speaker_display": "Rowan",
+              "text_en": "Last. After everyone else is safe on the board.",
+              "emotion": "quiet",
+              "voice_track": "jp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

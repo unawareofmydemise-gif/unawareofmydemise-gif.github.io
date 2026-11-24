@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "canon_status": "draft_for_owner_review",
+  "rules_tr": "M17 G9 (Claude, 2026-11-15): son eklenen 5 kahramanın ana hikâyede ilk görünmeleri; yerleri yoldaş hikâyelerinin (E9) açılma noktasından önce ve geçtikleri yerde. Satırlar oyunun sahne dosyalarında (games/uomd/content/patches/rel_0003_part1_campaign/story); burası onay kaydı. Kanon: Fadyme'nin sırrı açılmaz, Garrick şansölyenin adını söylemez, Dorian mührün sahibini adlandırmaz.",
+  "placements": {
+    "rowan_reed": "ch1_first_oath (1-2 sonrası türbe)",
+    "cassian_thorne": "vn_2_1 (Saint Luthos nefi)",
+    "garrick_cinder": "vn_3_1 (Oakhaven bahçe gece nöbeti)",
+    "corbin_locke": "vn_4_1 (sarnıç merdivenleri)",
+    "dorian_kesk": "ch4_road (nehir şehri kapısı; mühürlü izciler)",
+    "thistle_roe": "vn_4_3_post (eski projeden kalan açık: yoldaş hikâyesi 4-3'te açılıyordu, ana hikâyede ilk 6-3'te görünüyordu)"
+  },
+  "lines": [
+    {
+      "scene_id": "ch1_first_oath",
+      "line_id": "ch1_first_oath_008",
+      "speaker": "rowan_reed",
+      "text": "Keeper, the alder marker by the shelter lost another letter last night. I will recut it before the light goes."
+    },
+    {
+      "scene_id": "ch1_first_oath",
+      "line_id": "ch1_first_oath_009",
+      "speaker": "shrine_keeper",
+      "text": "My apprentice, Rowan. He keeps the names this forest keeps forgetting."
+    },
+    {
+      "scene_id": "ch1_first_oath",
+      "line_id": "ch1_first_oath_010",
+      "speaker": "rowan_reed",
+      "text": "Tell me yours, and I will remember it. That is the whole job."
+    },
+    {
+      "scene_id": "ch1_first_oath",
+      "line_id": "ch1_first_oath_011",
+      "speaker": "mahmut",
+      "text": "Mahmut. Carve it shallow. I do not stay anywhere long."
+    },
+    {
+      "scene_id": "ch1_first_oath",
+      "line_id": "ch1_first_oath_012",
+      "speaker": "rowan_reed",
+      "text": "Everyone says that. I carve them deep anyway."
+    },
+    {
+      "scene_id": "vn_2_1_pre",
+      "line_id": "node_2_1_pre_004",
+      "speaker": "cassian_thorne",
+      "text": "No rope and no tongue. It rings anyway. Do not stand beneath it."
+    },
+    {
+      "scene_id": "vn_2_1_pre",
+      "line_id": "node_2_1_pre_005",
+      "speaker": "sister_aveline",
+      "text": "Cassian Thorne, the tower's warden. He stayed with the flooded doors when the chapter left them."
+    },
+    {
+      "scene_id": "vn_2_1_pre",
+      "line_id": "node_2_1_pre_006",
+      "speaker": "cassian_thorne",
+      "text": "Eleven carried out since dusk. Count with me. We stop when the numbers match."
+    },
+    {
+      "scene_id": "vn_2_1_post",
+      "line_id": "node_2_1_post_004",
+      "speaker": "cassian_thorne",
+      "text": "Twelve. Thirteen. Keep walking; I am still counting."
+    },
+    {
+      "scene_id": "vn_3_1_pre",
+      "line_id": "node_3_1_pre_004",
+      "speaker": "garrick_cinder",
+      "text": "Then they come through the firebreak at the second bell. They always time it to the bell."
+    },
+    {
+      "scene_id": "vn_3_1_pre",
+      "line_id": "node_3_1_pre_005",
+      "speaker": "mahmut",
+      "text": "And you are?"
+    },
+    {
+      "scene_id": "vn_3_1_pre",
+      "line_id": "node_3_1_pre_006",
+      "speaker": "garrick_cinder",
+      "text": "Garrick Cinder. Night watch, since the watch had no one else. Stand where I put you and nobody burns tonight."
+    },
+    {
+      "scene_id": "vn_3_1_post",
+      "line_id": "node_3_1_post_005",
+      "speaker": "garrick_cinder",
+      "text": "Second bell, as I said. Next time they will come early. I will be earlier."
+    },
+    {
+      "scene_id": "vn_4_1_pre",
+      "line_id": "node_4_1_pre_004",
+      "speaker": "corbin_locke",
+      "text": "Seventeen drips a minute on these stairs. If it reaches twenty, the arch is failing and we leave."
+    },
+    {
+      "scene_id": "vn_4_1_pre",
+      "line_id": "node_4_1_pre_005",
+      "speaker": "odelia_pike",
+      "text": "Corbin Locke. He ran the sluices before the Guild bricked the lowest cistern."
+    },
+    {
+      "scene_id": "vn_4_1_pre",
+      "line_id": "node_4_1_pre_006",
+      "speaker": "corbin_locke",
+      "text": "The water has not agreed to the bricks yet. Neither have I."
+    },
+    {
+      "scene_id": "vn_4_1_post",
+      "line_id": "node_4_1_post_004",
+      "speaker": "corbin_locke",
+      "text": "Twenty-two at the bricked arch. Not tonight, then."
+    },
+    {
+      "scene_id": "ch4_road",
+      "line_id": "ch4_road_007",
+      "speaker": "dorian_kesk",
+      "text": "Hunting is a strong word. I filed them. Under 'returned, unopened.'"
+    },
+    {
+      "scene_id": "ch4_road",
+      "line_id": "ch4_road_008",
+      "speaker": "kera_voss",
+      "text": "And who are you supposed to be?"
+    },
+    {
+      "scene_id": "ch4_road",
+      "line_id": "ch4_road_009",
+      "speaker": "dorian_kesk",
+      "text": "Dorian Kesk. I make papers that open doors. You will want some for the gate above, and I will want a favor below."
+    },
+    {
+      "scene_id": "ch4_road",
+      "line_id": "ch4_road_010",
+      "speaker": "mahmut",
+      "text": "We do not buy lies."
+    },
+    {
+      "scene_id": "ch4_road",
+      "line_id": "ch4_road_011",
+      "speaker": "dorian_kesk",
+      "text": "Then borrow one. The seal on those collars is the only true thing I own, and that is not for sale either."
+    },
+    {
+      "scene_id": "vn_4_3_post",
+      "line_id": "node_4_3_post_006",
+      "speaker": "thistle_roe",
+      "text": "Y-you are waiting too. I am Thistle. I tend the bell garden at the monastery, when there is a monastery to tend."
+    },
+    {
+      "scene_id": "vn_4_3_post",
+      "line_id": "node_4_3_post_007",
+      "speaker": "mahmut",
+      "text": "Mahmut. Who are you waiting for?"
+    },
+    {
+      "scene_id": "vn_4_3_post",
+      "line_id": "node_4_3_post_008",
+      "speaker": "thistle_roe",
+      "text": "Clem. She reads the graves; I bring the flowers. It is easier to wait with someone."
+    }
+  ]
+}

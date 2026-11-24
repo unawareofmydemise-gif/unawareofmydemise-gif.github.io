@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "encounter_id": "or_enc_passage",
+  "stage_id": "OR-B7C5",
+  "title_en": "Beyond the Crossing",
+  "location_id": "or_safe_approach",
+  "seed": 3083162824,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "bridge_revenant",
+      "level": 15,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "lost_vow_knight",
+      "level": 15,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 15,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "hollow_cleric",
+      "level": 15,
+      "slot": 3,
+      "row": "rear"
+    },
+    {
+      "unit_id": "lost_vow_knight",
+      "level": 15,
+      "slot": 4,
+      "row": "rear"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/open_road/authoring/encounters.json#or_enc_passage"
+  }
+}

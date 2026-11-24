@@ -1,0 +1,382 @@
+{
+ "schema_version": 1,
+ "model": "gemini-3.8-flash-tts",
+ "rules_tr": "Japonca ses kadrosu. 'locked' sesler eski projeden (E:/Unity/unaware-of-my-demise narrative/10_VO/Line_Maps/casting.json, 2026-10-16 kilit; kötüler tools/build_villains_and_boss_voices.py) ve oyundaki kayıtlarla aynı; değişmez. 'audition' satırları sahibin dinleyip seçmesi için adaylar; seçilen ses 'locked'a taşınır. Aynı sahnede konuşan iki karakter aynı sesi almaz. Kural (eski bütçe defteri): satır başı en çok 3 deneme, parti başı en çok 3 USD.",
+ "locked": {
+  "narrator": {
+   "voice": "Algieba",
+   "style": "Deep, weathered Japanese chronicle narrator; unhurried, intimate, and resonant, letting quiet pauses settle like falling ash."
+  },
+  "fadyme": {
+   "voice": "Sulafat",
+   "style": "Poised young woman with a calm, luminous alto voice; unhurried cadence, subtle dry wit, and gentle warmth beneath composed restraint."
+  },
+  "mahmut": {
+   "voice": "Iapetus",
+   "style": "Grounded, travel-worn knight with a calm low baritone; economical phrasing, steady protective warmth, and understated dry humor."
+  },
+  "lady_yseldra_vale": {
+   "voice": "Erinome"
+  },
+  "lord_cael_veyr": {
+   "voice": "Charon"
+  },
+  "rusk": {
+   "voice": "Fenrir"
+  },
+  "alchemist": {
+   "voice": "Puck"
+  },
+  "red_vial_matron": {
+   "voice": "Despina"
+  },
+  "marshal_oren": {
+   "voice": "Schedar"
+  },
+  "ashen_lord_wraith": {
+   "voice": "Orus"
+  },
+  "eclipse_construct": {
+   "voice": "Algieba"
+  },
+  "brin_alder": {
+   "voice": "Kore",
+   "style": "Twenty-three-year-old village guard and woodcutter; sturdy, plain-spoken and few words, warm but immovable."
+  },
+  "clem_marr": {
+   "voice": "Leda",
+   "style": "Nineteen-year-old gravedigger's granddaughter; chatty, quirky and upbeat about a gloomy trade."
+  },
+  "hana_birch": {
+   "voice": "Zephyr",
+   "style": "Eighteen-year-old gamekeeper's daughter; very shy and quiet, awkward with greetings, focused in the hunt."
+  },
+  "iona_mist": {
+   "voice": "Callirrhoe",
+   "style": "Twenty-four-year-old river lantern keeper; calm, soothing and gentle, a guiding voice in fog."
+  },
+  "jori_flint": {
+   "voice": "Kore",
+   "style": "Twenty-year-old blacksmith; blunt, proud and principled, a hard edge with a warm core."
+  },
+  "kera_voss": {
+   "voice": "Autonoe",
+   "style": "Twenty-year-old alchemist girl; quick, wry and self-assured, a mischievous grin in the voice, playful confidence."
+  },
+  "marek_vane": {
+   "voice": "Sadaltager",
+   "style": "Thirty-year-old former border guard and herald; wry, weary and warm, a storyteller's rhythm.",
+   "provisional": "2026-11-22: Claude's pick so the first build has voices; the owner can change it (ask in chat or the panel) and the lines are re-recorded"
+  },
+  "mirel_quill": {
+   "voice": "Gacrux",
+   "style": "Twenty-five-year-old former court scribe and archivist; precise, composed and articulate, a hint of self-reproach."
+  },
+  "nara_vell": {
+   "voice": "Gacrux",
+   "style": "Twenty-seven-year-old hereditary bridge warden; steady, grounded and quietly authoritative, a protector."
+  },
+  "nixie_vale": {
+   "voice": "Laomedeia",
+   "style": "Nineteen-year-old caravan scout and archer; energetic, curious and quick, always ready to run ahead."
+  },
+  "odelia_pike": {
+   "voice": "Achernar",
+   "style": "Twenty-two-year-old harbor watcher and archer; shy and hesitant with people, but sharp and sure when she shoots."
+  },
+  "pippa_bell": {
+   "voice": "Aoede",
+   "style": "Twenty-year-old travelling singer; cheerful, musical and lilting, warm and open to everyone."
+  },
+  "refugee_woman": {
+   "voice": "Achernar",
+   "style": "Frightened refugee woman in her thirties; breathless, hushed and quick, trying not to be overheard."
+  },
+  "rikka_ember": {
+   "voice": "Laomedeia",
+   "style": "Eighteen-year-old festival spear-guard; loud, bright and bubbling with excitement, big festival energy."
+  },
+  "sable_wren": {
+   "voice": "Despina",
+   "style": "Twenty-one-year-old courier and assassin; cool, low and quiet, guarded, every word measured."
+  },
+  "shrine_keeper": {
+   "voice": "Gacrux",
+   "style": "Elderly wayshrine keeper; warm, slow and kind, a gentle mystery in the voice, speaking like a blessing."
+  },
+  "sister_aveline": {
+   "voice": "Vindemiatrix",
+   "style": "Twenty-six-year-old wandering field sister and healer; calm, firm and kind, the steadiness of someone who has worked in triage.",
+   "provisional": "2026-11-22: Claude's pick so the first build has voices; the owner can change it (ask in chat or the panel) and the lines are re-recorded"
+  },
+  "thistle_roe": {
+   "voice": "Vindemiatrix",
+   "style": "Twenty-one-year-old monastery bell gardener; gentle, nervous and stammering, sweet and earnest."
+  },
+  "tilda_fen": {
+   "voice": "Callirrhoe",
+   "style": "Twenty-four-year-old field surgeon from the salt coast; brisk, practical and blunt, caring hidden under impatience."
+  },
+  "vespera_wisp": {
+   "voice": "Despina",
+   "style": "Twenty-three-year-old glass mage; dreamy, soft and mysterious, slightly unsettling calm."
+  },
+  "cassian_thorne": {
+   "voice": "Alnilam",
+   "style": "Twenty-seven-year-old cathedral templar who counts the living; solemn, low and dutiful, grief held under strict control."
+  },
+  "corbin_locke": {
+   "voice": "Zubenelgenubi",
+   "style": "Twenty-nine-year-old sluice warden; terse, practical and level, a man who reads water better than people."
+  },
+  "dorian_kesk": {
+   "voice": "Achird",
+   "style": "Twenty-six-year-old forger of papers; smooth, sly and amused, charming with a conspiratorial wink."
+  },
+  "garrick_cinder": {
+   "voice": "Rasalgethi",
+   "style": "Thirty-three-year-old former gate captain; gruff, weary and stubborn, old guilt burning under a steady voice."
+  },
+  "rowan_reed": {
+   "voice": "Sadachbia",
+   "style": "Nineteen-year-old wayshrine keeper and carver; gentle, earnest and warm, a young man who remembers every name."
+  }
+ },
+ "audition": {
+  "kera_voss": {
+   "name_ja": "ケラ・ヴォス",
+   "candidates": [
+    "Autonoe",
+    "Pulcherrima",
+    "Zephyr"
+   ],
+   "style": "Twenty-year-old alchemist girl; quick, wry and self-assured, a mischievous grin in the voice, playful confidence.",
+   "text_ja": "ケラ・ヴォス、赤い薬瓶の書庫係。先に言っておくけど、爆発はしないわ。……たぶんね。<long pause> リダウト反応――下がって！"
+  },
+  "brin_alder": {
+   "name_ja": "ブリン・アルダー",
+   "candidates": [
+    "Kore",
+    "Gacrux",
+    "Pulcherrima"
+   ],
+   "style": "Twenty-three-year-old village guard and woodcutter; sturdy, plain-spoken and few words, warm but immovable.",
+   "text_ja": "ブリン・アルダー。支えるのが私の仕事。<long pause> アルダーウォール！"
+  },
+  "nixie_vale": {
+   "name_ja": "ニクシー・ヴェイル",
+   "candidates": [
+    "Laomedeia",
+    "Zephyr",
+    "Leda"
+   ],
+   "style": "Nineteen-year-old caravan scout and archer; energetic, curious and quick, always ready to run ahead.",
+   "text_ja": "ニクシー・ヴェイル！斥候で弓使いで、木登りのプロ！で、どこ行くの？<long pause> 峠の上に鷹を！"
+  },
+  "sister_aveline": {
+   "name_ja": "シスター・アヴェリン",
+   "candidates": [
+    "Erinome",
+    "Pulcherrima",
+    "Achernar"
+   ],
+   "style": "Twenty-six-year-old wandering field sister and healer; calm, firm and kind, the steadiness of someone who has worked in triage.",
+   "text_ja": "聖ルトスのシスター・アヴェリンです。まず人を。質問はそのあとで。<long pause> 最後の扉に朝課の祈りを！",
+   "rejected_before": [
+    "Vindemiatrix",
+    "Kore",
+    "Gacrux"
+   ]
+  },
+  "sable_wren": {
+   "name_ja": "セーブル・レン",
+   "candidates": [
+    "Despina",
+    "Achernar",
+    "Kore"
+   ],
+   "style": "Twenty-one-year-old courier and assassin; cool, low and quiet, guarded, every word measured.",
+   "text_ja": "セーブル。運び屋。ほかの名前は要らないでしょう。<long pause> 名は奪った。静寂のうちに。"
+  },
+  "tilda_fen": {
+   "name_ja": "ティルダ・フェン",
+   "candidates": [
+    "Pulcherrima",
+    "Kore",
+    "Callirrhoe"
+   ],
+   "style": "Twenty-four-year-old field surgeon from the salt coast; brisk, practical and blunt, caring hidden under impatience.",
+   "text_ja": "ティルダ・フェン、治療師よ。血が出てるなら座って。出てないなら動いて。<long pause> 塩の道に雨を。"
+  },
+  "rikka_ember": {
+   "name_ja": "リッカ・エンバー",
+   "candidates": [
+    "Laomedeia",
+    "Zephyr",
+    "Autonoe"
+   ],
+   "style": "Eighteen-year-old festival spear-guard; loud, bright and bubbling with excitement, big festival energy.",
+   "text_ja": "窯の組のリッカ・エンバー！うるさくて、明るくて、槍の腕はすっごくいいよ！<long pause> 火の粉の行列！みんな、声を上げて！"
+  },
+  "mirel_quill": {
+   "name_ja": "ミレル・クイル",
+   "candidates": [
+    "Gacrux",
+    "Despina",
+    "Vindemiatrix"
+   ],
+   "style": "Twenty-five-year-old former court scribe and archivist; precise, composed and articulate, a hint of self-reproach.",
+   "text_ja": "書庫番のミレル・クイル。記録を正すのが仕事です。……自分の記録も、いくつか。<long pause> 不落の勅令！"
+  },
+  "odelia_pike": {
+   "name_ja": "オデリア・パイク",
+   "candidates": [
+    "Achernar",
+    "Leda",
+    "Vindemiatrix"
+   ],
+   "style": "Twenty-two-year-old harbor watcher and archer; shy and hesitant with people, but sharp and sure when she shoots.",
+   "text_ja": "オデリア・パイク。わ、私……足跡を追います。港の生まれです。<long pause> 防波堤の一斉射！"
+  },
+  "pippa_bell": {
+   "name_ja": "ピッパ・ベル",
+   "candidates": [
+    "Aoede",
+    "Laomedeia",
+    "Autonoe"
+   ],
+   "style": "Twenty-year-old travelling singer; cheerful, musical and lilting, warm and open to everyone.",
+   "text_ja": "旅の歌い手、ピッパ・ベル！どの名前にも一節ずつ歌をあげる！<long pause> 長い道のための歌を！"
+  },
+  "nara_vell": {
+   "name_ja": "ナラ・ヴェル",
+   "candidates": [
+    "Gacrux",
+    "Kore",
+    "Callirrhoe"
+   ],
+   "style": "Twenty-seven-year-old hereditary bridge warden; steady, grounded and quietly authoritative, a protector.",
+   "text_ja": "橋守のナラ・ヴェル。誰もが渡る。<long pause> 狭き門は持ちこたえる！"
+  },
+  "clem_marr": {
+   "name_ja": "クレム・マー",
+   "candidates": [
+    "Leda",
+    "Aoede",
+    "Zephyr"
+   ],
+   "style": "Nineteen-year-old gravedigger's granddaughter; chatty, quirky and upbeat about a gloomy trade.",
+   "text_ja": "クレム・マー！お墓を読むの。心配しないで、古いのだけだから。<long pause> 逆さの墓碑銘！"
+  },
+  "vespera_wisp": {
+   "name_ja": "ヴェスペラ・ウィスプ",
+   "candidates": [
+    "Despina",
+    "Achernar",
+    "Aoede"
+   ],
+   "style": "Twenty-three-year-old glass mage; dreamy, soft and mysterious, slightly unsettling calm.",
+   "text_ja": "ヴェスペラ。硝子を研究しているの。硝子のほうも、私を見ている。<long pause> 青白い灯の行列。"
+  },
+  "hana_birch": {
+   "name_ja": "ハナ・バーチ",
+   "candidates": [
+    "Leda",
+    "Achernar",
+    "Callirrhoe"
+   ],
+   "style": "Eighteen-year-old gamekeeper's daughter; very shy and quiet, awkward with greetings, focused in the hunt.",
+   "text_ja": "ハナ・バーチ。わ、罠の見張りを……してます。こんにちは。<long pause> 白樺の伏兵！"
+  },
+  "thistle_roe": {
+   "name_ja": "シスル・ロウ",
+   "candidates": [
+    "Vindemiatrix",
+    "Leda",
+    "Achernar"
+   ],
+   "style": "Twenty-one-year-old monastery bell gardener; gentle, nervous and stammering, sweet and earnest.",
+   "text_ja": "シ、シスル・ロウ。鐘の庭師です。いろいろ育ててます。……だいたいは。<long pause> 冬の前に庭を！"
+  },
+  "iona_mist": {
+   "name_ja": "イオナ・ミスト",
+   "candidates": [
+    "Callirrhoe",
+    "Vindemiatrix",
+    "Aoede"
+   ],
+   "style": "Twenty-four-year-old river lantern keeper; calm, soothing and gentle, a guiding voice in fog.",
+   "text_ja": "川灯守のイオナ・ミスト。霧の中を、ひとりで渡らせはしません。<long pause> 霧の中の安らぎの港。"
+  },
+  "jori_flint": {
+   "name_ja": "ジョリ・フリント",
+   "candidates": [
+    "Kore",
+    "Pulcherrima",
+    "Callirrhoe"
+   ],
+   "style": "Twenty-year-old blacksmith; blunt, proud and principled, a hard edge with a warm core.",
+   "text_ja": "ジョリ・フリント。鍛冶屋よ。作るのは盾。鎖じゃない。覚えておいて。<long pause> 炉の扉――閉じろ！"
+  },
+  "marek_vane": {
+   "name_ja": "マレク・ヴェイン",
+   "candidates": [
+    "Sadaltager",
+    "Algenib",
+    "Umbriel"
+   ],
+   "style": "Thirty-year-old former border guard and herald; wry, weary and warm, a storyteller's rhythm.",
+   "text_ja": "マレク・ヴェイン、今はもう何の伝令でもない。紙の代わりに、人を運んでいる。<long pause> 旗なき行進！"
+  },
+  "cassian_thorne": {
+   "name_ja": "カシアン・ソーン",
+   "candidates": [
+    "Alnilam",
+    "Rasalgethi",
+    "Enceladus"
+   ],
+   "style": "Twenty-seven-year-old cathedral templar who counts the living; solemn, low and dutiful, grief held under strict control.",
+   "text_ja": "カシアン・ソーン。剣は大聖堂のものだった。指輪は自分で取った。名が守られるまで、どちらも背負っていく。<long pause> 舌なき鐘に、鐘賃はなし。我がために鳴れ！"
+  },
+  "corbin_locke": {
+   "name_ja": "コービン・ロック",
+   "candidates": [
+    "Algenib",
+    "Alnilam",
+    "Zubenelgenubi"
+   ],
+   "style": "Twenty-nine-year-old sluice warden; terse, practical and level, a man who reads water better than people.",
+   "text_ja": "コービン・ロック、水門番だ。水は読める。人のほうが難しい。<long pause> 下の水門を開けろ。全部だ！"
+  },
+  "dorian_kesk": {
+   "name_ja": "ドリアン・ケスク",
+   "candidates": [
+    "Zubenelgenubi",
+    "Achird",
+    "Umbriel"
+   ],
+   "style": "Twenty-six-year-old forger of papers; smooth, sly and amused, charming with a conspiratorial wink.",
+   "text_ja": "ドリアン・ケスク。扉を開ける書類を作っている。中には本物もあるさ。<long pause> 第七の刻み。封印、そして無効！"
+  },
+  "garrick_cinder": {
+   "name_ja": "ギャリック・シンダー",
+   "candidates": [
+    "Algenib",
+    "Enceladus",
+    "Rasalgethi"
+   ],
+   "style": "Thirty-three-year-old former gate captain; gruff, weary and stubborn, old guilt burning under a steady voice.",
+   "text_ja": "ギャリック・シンダー。かつて門を守った。時計が『もう遅い』と言うまでな。予定表なんぞ渡すな。<long pause> 六十一分目。今度こそは！"
+  },
+  "rowan_reed": {
+   "name_ja": "ロワン・リード",
+   "candidates": [
+    "Sadachbia",
+    "Achird",
+    "Umbriel"
+   ],
+   "style": "Nineteen-year-old wayshrine keeper and carver; gentle, earnest and warm, a young man who remembers every name.",
+   "text_ja": "ロワン・リード。道祠と、そこに刻まれた名前を守っています。あなたの名前も教えてください。覚えておきますから。<long pause> すべての名を、忘れずに。燃え上がれ！"
+  }
+ }
+}

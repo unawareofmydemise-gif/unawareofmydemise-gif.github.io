@@ -1,0 +1,1775 @@
+{
+  "schema_version": 1,
+  "atlases": {
+    "atlas_sol_fadyme": {
+      "image": "art/atlas_sol_fadyme.webp",
+      "width": 1944,
+      "height": 535,
+      "frames": {
+        "idle": [
+          4,
+          4,
+          174,
+          269
+        ],
+        "idle_2": [
+          182,
+          4,
+          174,
+          269
+        ],
+        "idle_3": [
+          360,
+          4,
+          174,
+          269
+        ],
+        "ultimate": [
+          538,
+          4,
+          204,
+          261
+        ],
+        "ultimate_2": [
+          746,
+          4,
+          204,
+          261
+        ],
+        "ultimate_3": [
+          954,
+          4,
+          204,
+          261
+        ],
+        "victory": [
+          1162,
+          4,
+          159,
+          260
+        ],
+        "walk": [
+          1325,
+          4,
+          179,
+          259
+        ],
+        "active": [
+          1508,
+          4,
+          214,
+          254
+        ],
+        "active_2": [
+          1726,
+          4,
+          214,
+          254
+        ],
+        "active_3": [
+          4,
+          277,
+          214,
+          254
+        ],
+        "basic": [
+          222,
+          277,
+          229,
+          248
+        ],
+        "basic_2": [
+          455,
+          277,
+          229,
+          248
+        ],
+        "basic_3": [
+          688,
+          277,
+          229,
+          248
+        ],
+        "defeat": [
+          921,
+          277,
+          212,
+          243
+        ],
+        "hit": [
+          1137,
+          277,
+          212,
+          243
+        ]
+      }
+    },
+    "atlas_sol_mahmut": {
+      "image": "art/atlas_sol_mahmut.webp",
+      "width": 1967,
+      "height": 411,
+      "frames": {
+        "victory": [
+          4,
+          4,
+          162,
+          206
+        ],
+        "idle": [
+          170,
+          4,
+          165,
+          200
+        ],
+        "idle_2": [
+          339,
+          4,
+          165,
+          200
+        ],
+        "idle_3": [
+          508,
+          4,
+          165,
+          200
+        ],
+        "walk": [
+          677,
+          4,
+          169,
+          200
+        ],
+        "defeat": [
+          850,
+          4,
+          214,
+          198
+        ],
+        "hit": [
+          1068,
+          4,
+          214,
+          198
+        ],
+        "ultimate": [
+          1286,
+          4,
+          223,
+          194
+        ],
+        "ultimate_2": [
+          1513,
+          4,
+          223,
+          194
+        ],
+        "ultimate_3": [
+          1740,
+          4,
+          223,
+          194
+        ],
+        "basic": [
+          4,
+          214,
+          206,
+          193
+        ],
+        "basic_2": [
+          214,
+          214,
+          206,
+          193
+        ],
+        "basic_3": [
+          424,
+          214,
+          206,
+          193
+        ],
+        "active": [
+          634,
+          214,
+          195,
+          190
+        ],
+        "active_2": [
+          833,
+          214,
+          195,
+          190
+        ],
+        "active_3": [
+          1032,
+          214,
+          195,
+          190
+        ]
+      }
+    },
+    "atlas_sol_bellbound_dead": {
+      "image": "art/atlas_sol_bellbound_dead.webp",
+      "width": 1888,
+      "height": 388,
+      "frames": {
+        "idle": [
+          4,
+          4,
+          127,
+          200
+        ],
+        "idle_2": [
+          135,
+          4,
+          127,
+          200
+        ],
+        "idle_3": [
+          266,
+          4,
+          127,
+          200
+        ],
+        "walk": [
+          397,
+          4,
+          157,
+          190
+        ],
+        "defeat": [
+          558,
+          4,
+          238,
+          183
+        ],
+        "hit": [
+          800,
+          4,
+          238,
+          183
+        ],
+        "basic": [
+          1042,
+          4,
+          278,
+          178
+        ],
+        "basic_2": [
+          1324,
+          4,
+          278,
+          178
+        ],
+        "basic_3": [
+          1606,
+          4,
+          278,
+          178
+        ],
+        "active": [
+          4,
+          208,
+          266,
+          176
+        ],
+        "active_2": [
+          274,
+          208,
+          266,
+          176
+        ],
+        "active_3": [
+          544,
+          208,
+          266,
+          176
+        ],
+        "ultimate": [
+          814,
+          208,
+          293,
+          169
+        ],
+        "ultimate_2": [
+          1111,
+          208,
+          293,
+          169
+        ],
+        "ultimate_3": [
+          1408,
+          208,
+          293,
+          169
+        ],
+        "victory": [
+          1705,
+          208,
+          150,
+          168
+        ]
+      }
+    },
+    "atlas_sol_hollow_pilgrim": {
+      "image": "art/atlas_sol_hollow_pilgrim.webp",
+      "width": 1936,
+      "height": 420,
+      "frames": {
+        "basic": [
+          4,
+          4,
+          257,
+          208
+        ],
+        "basic_2": [
+          265,
+          4,
+          257,
+          208
+        ],
+        "basic_3": [
+          526,
+          4,
+          257,
+          208
+        ],
+        "ultimate": [
+          787,
+          4,
+          259,
+          207
+        ],
+        "ultimate_2": [
+          1050,
+          4,
+          259,
+          207
+        ],
+        "ultimate_3": [
+          1313,
+          4,
+          259,
+          207
+        ],
+        "victory": [
+          1576,
+          4,
+          170,
+          201
+        ],
+        "idle": [
+          1750,
+          4,
+          182,
+          200
+        ],
+        "idle_2": [
+          4,
+          216,
+          182,
+          200
+        ],
+        "idle_3": [
+          190,
+          216,
+          182,
+          200
+        ],
+        "walk": [
+          376,
+          216,
+          205,
+          199
+        ],
+        "active": [
+          585,
+          216,
+          208,
+          194
+        ],
+        "active_2": [
+          797,
+          216,
+          208,
+          194
+        ],
+        "active_3": [
+          1009,
+          216,
+          208,
+          194
+        ],
+        "defeat": [
+          1221,
+          216,
+          238,
+          190
+        ],
+        "hit": [
+          1463,
+          216,
+          238,
+          190
+        ]
+      }
+    }
+  },
+  "units": {
+    "fadyme": {
+      "atlas": "atlas_sol_fadyme",
+      "facing": "right",
+      "height_px": 204,
+      "states": {
+        "idle": {
+          "frame": "idle",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "idle",
+              "idle_2",
+              "idle_3",
+              "idle_2"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.482
+        },
+        "walk": {
+          "frame": "walk",
+          "scale": 1,
+          "foot_y": 0.998,
+          "animation": {
+            "frames": [
+              "walk",
+              "idle_2",
+              "walk",
+              "idle_3"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "pivot_x": 0.496
+        },
+        "basic": {
+          "frame": "basic",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "basic",
+              "basic_2",
+              "basic_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.457
+        },
+        "active": {
+          "frame": "active",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "active",
+              "active_2",
+              "active_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.495
+        },
+        "ultimate": {
+          "frame": "ultimate",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "ultimate",
+              "ultimate_2",
+              "ultimate_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.494
+        },
+        "hit": {
+          "frame": "hit",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit"
+            ],
+            "fps": 8,
+            "loop": false
+          },
+          "pivot_x": 0.462
+        },
+        "defeat": {
+          "frame": "defeat",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit",
+              "defeat"
+            ],
+            "fps": 6,
+            "loop": false
+          },
+          "pivot_x": 0.462
+        },
+        "victory": {
+          "frame": "victory",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "victory"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.523
+        }
+      }
+    },
+    "mahmut": {
+      "atlas": "atlas_sol_mahmut",
+      "facing": "right",
+      "height_px": 216,
+      "states": {
+        "idle": {
+          "frame": "idle",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "idle",
+              "idle_2",
+              "idle_3",
+              "idle_2"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.52
+        },
+        "walk": {
+          "frame": "walk",
+          "scale": 1,
+          "foot_y": 0.996,
+          "animation": {
+            "frames": [
+              "walk",
+              "idle_2",
+              "walk",
+              "idle_3"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "pivot_x": 0.527
+        },
+        "basic": {
+          "frame": "basic",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "basic",
+              "basic_2",
+              "basic_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.49
+        },
+        "active": {
+          "frame": "active",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "active",
+              "active_2",
+              "active_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.519
+        },
+        "ultimate": {
+          "frame": "ultimate",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "ultimate",
+              "ultimate_2",
+              "ultimate_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.447
+        },
+        "hit": {
+          "frame": "hit",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit"
+            ],
+            "fps": 8,
+            "loop": false
+          },
+          "pivot_x": 0.53
+        },
+        "defeat": {
+          "frame": "defeat",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit",
+              "defeat"
+            ],
+            "fps": 6,
+            "loop": false
+          },
+          "pivot_x": 0.53
+        },
+        "victory": {
+          "frame": "victory",
+          "scale": 1,
+          "foot_y": 0.996,
+          "animation": {
+            "frames": [
+              "victory"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.525
+        }
+      }
+    },
+    "bellbound_dead": {
+      "atlas": "atlas_sol_bellbound_dead",
+      "facing": "left",
+      "height_px": 196,
+      "states": {
+        "idle": {
+          "frame": "idle",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "idle",
+              "idle_2",
+              "idle_3",
+              "idle_2"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.585
+        },
+        "walk": {
+          "frame": "walk",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "walk",
+              "idle_2",
+              "walk",
+              "idle_3"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "pivot_x": 0.516
+        },
+        "basic": {
+          "frame": "basic",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "basic",
+              "basic_2",
+              "basic_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.567
+        },
+        "active": {
+          "frame": "active",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "active",
+              "active_2",
+              "active_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.723
+        },
+        "ultimate": {
+          "frame": "ultimate",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "ultimate",
+              "ultimate_2",
+              "ultimate_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.612
+        },
+        "hit": {
+          "frame": "hit",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit"
+            ],
+            "fps": 8,
+            "loop": false
+          },
+          "pivot_x": 0.524
+        },
+        "defeat": {
+          "frame": "defeat",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit",
+              "defeat"
+            ],
+            "fps": 6,
+            "loop": false
+          },
+          "pivot_x": 0.524
+        },
+        "victory": {
+          "frame": "victory",
+          "scale": 1,
+          "foot_y": 0.995,
+          "animation": {
+            "frames": [
+              "victory"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.526
+        }
+      }
+    },
+    "hollow_pilgrim": {
+      "atlas": "atlas_sol_hollow_pilgrim",
+      "facing": "left",
+      "height_px": 236,
+      "states": {
+        "idle": {
+          "frame": "idle",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "idle",
+              "idle_2",
+              "idle_3",
+              "idle_2"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.514
+        },
+        "walk": {
+          "frame": "walk",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "walk",
+              "idle_2",
+              "walk",
+              "idle_3"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "pivot_x": 0.543
+        },
+        "basic": {
+          "frame": "basic",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "basic",
+              "basic_2",
+              "basic_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.565
+        },
+        "active": {
+          "frame": "active",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "active",
+              "active_2",
+              "active_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.521
+        },
+        "ultimate": {
+          "frame": "ultimate",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "ultimate",
+              "ultimate_2",
+              "ultimate_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.552
+        },
+        "hit": {
+          "frame": "hit",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit"
+            ],
+            "fps": 8,
+            "loop": false
+          },
+          "pivot_x": 0.474
+        },
+        "defeat": {
+          "frame": "defeat",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit",
+              "defeat"
+            ],
+            "fps": 6,
+            "loop": false
+          },
+          "pivot_x": 0.474
+        },
+        "victory": {
+          "frame": "victory",
+          "scale": 1,
+          "foot_y": 0.996,
+          "animation": {
+            "frames": [
+              "victory"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.522
+        }
+      }
+    },
+    "sol_fadyme": {
+      "atlas": "atlas_sol_fadyme",
+      "facing": "right",
+      "height_px": 204,
+      "states": {
+        "idle": {
+          "frame": "idle",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "idle",
+              "idle_2",
+              "idle_3",
+              "idle_2"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.482
+        },
+        "walk": {
+          "frame": "walk",
+          "scale": 1,
+          "foot_y": 0.998,
+          "animation": {
+            "frames": [
+              "walk",
+              "idle_2",
+              "walk",
+              "idle_3"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "pivot_x": 0.496
+        },
+        "basic": {
+          "frame": "basic",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "basic",
+              "basic_2",
+              "basic_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.457
+        },
+        "active": {
+          "frame": "active",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "active",
+              "active_2",
+              "active_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.495
+        },
+        "ultimate": {
+          "frame": "ultimate",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "ultimate",
+              "ultimate_2",
+              "ultimate_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.494
+        },
+        "hit": {
+          "frame": "hit",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit"
+            ],
+            "fps": 8,
+            "loop": false
+          },
+          "pivot_x": 0.462
+        },
+        "defeat": {
+          "frame": "defeat",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit",
+              "defeat"
+            ],
+            "fps": 6,
+            "loop": false
+          },
+          "pivot_x": 0.462
+        },
+        "victory": {
+          "frame": "victory",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "victory"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.523
+        }
+      }
+    },
+    "sol_mahmut": {
+      "atlas": "atlas_sol_mahmut",
+      "facing": "right",
+      "height_px": 216,
+      "states": {
+        "idle": {
+          "frame": "idle",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "idle",
+              "idle_2",
+              "idle_3",
+              "idle_2"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.52
+        },
+        "walk": {
+          "frame": "walk",
+          "scale": 1,
+          "foot_y": 0.996,
+          "animation": {
+            "frames": [
+              "walk",
+              "idle_2",
+              "walk",
+              "idle_3"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "pivot_x": 0.527
+        },
+        "basic": {
+          "frame": "basic",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "basic",
+              "basic_2",
+              "basic_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.49
+        },
+        "active": {
+          "frame": "active",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "active",
+              "active_2",
+              "active_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.519
+        },
+        "ultimate": {
+          "frame": "ultimate",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "ultimate",
+              "ultimate_2",
+              "ultimate_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.447
+        },
+        "hit": {
+          "frame": "hit",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit"
+            ],
+            "fps": 8,
+            "loop": false
+          },
+          "pivot_x": 0.53
+        },
+        "defeat": {
+          "frame": "defeat",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit",
+              "defeat"
+            ],
+            "fps": 6,
+            "loop": false
+          },
+          "pivot_x": 0.53
+        },
+        "victory": {
+          "frame": "victory",
+          "scale": 1,
+          "foot_y": 0.996,
+          "animation": {
+            "frames": [
+              "victory"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.525
+        }
+      }
+    },
+    "sol_bellbound_dead": {
+      "atlas": "atlas_sol_bellbound_dead",
+      "facing": "left",
+      "height_px": 196,
+      "states": {
+        "idle": {
+          "frame": "idle",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "idle",
+              "idle_2",
+              "idle_3",
+              "idle_2"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.585
+        },
+        "walk": {
+          "frame": "walk",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "walk",
+              "idle_2",
+              "walk",
+              "idle_3"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "pivot_x": 0.516
+        },
+        "basic": {
+          "frame": "basic",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "basic",
+              "basic_2",
+              "basic_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.567
+        },
+        "active": {
+          "frame": "active",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "active",
+              "active_2",
+              "active_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.723
+        },
+        "ultimate": {
+          "frame": "ultimate",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "ultimate",
+              "ultimate_2",
+              "ultimate_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.612
+        },
+        "hit": {
+          "frame": "hit",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit"
+            ],
+            "fps": 8,
+            "loop": false
+          },
+          "pivot_x": 0.524
+        },
+        "defeat": {
+          "frame": "defeat",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit",
+              "defeat"
+            ],
+            "fps": 6,
+            "loop": false
+          },
+          "pivot_x": 0.524
+        },
+        "victory": {
+          "frame": "victory",
+          "scale": 1,
+          "foot_y": 0.995,
+          "animation": {
+            "frames": [
+              "victory"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.526
+        }
+      }
+    },
+    "sol_hollow_pilgrim": {
+      "atlas": "atlas_sol_hollow_pilgrim",
+      "facing": "left",
+      "height_px": 236,
+      "states": {
+        "idle": {
+          "frame": "idle",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "idle",
+              "idle_2",
+              "idle_3",
+              "idle_2"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.514
+        },
+        "walk": {
+          "frame": "walk",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "walk",
+              "idle_2",
+              "walk",
+              "idle_3"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "pivot_x": 0.543
+        },
+        "basic": {
+          "frame": "basic",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "basic",
+              "basic_2",
+              "basic_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.565
+        },
+        "active": {
+          "frame": "active",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "active",
+              "active_2",
+              "active_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.521
+        },
+        "ultimate": {
+          "frame": "ultimate",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "ultimate",
+              "ultimate_2",
+              "ultimate_3"
+            ],
+            "fps": 9,
+            "loop": false
+          },
+          "pivot_x": 0.552
+        },
+        "hit": {
+          "frame": "hit",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit"
+            ],
+            "fps": 8,
+            "loop": false
+          },
+          "pivot_x": 0.474
+        },
+        "defeat": {
+          "frame": "defeat",
+          "scale": 1,
+          "foot_y": 1,
+          "animation": {
+            "frames": [
+              "hit",
+              "defeat"
+            ],
+            "fps": 6,
+            "loop": false
+          },
+          "pivot_x": 0.474
+        },
+        "victory": {
+          "frame": "victory",
+          "scale": 1,
+          "foot_y": 0.996,
+          "animation": {
+            "frames": [
+              "victory"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "pivot_x": 0.522
+        }
+      }
+    }
+  },
+  "portraits": {
+    "mahmut": {
+      "emotions": {
+        "composed": "sol_composed",
+        "dry_humor": "sol_dry_humor",
+        "protective_resolve": "sol_protective_resolve",
+        "protective": "sol_protective_resolve",
+        "watchful": "sol_watchful",
+        "sol_alarmed": "sol_alarmed",
+        "sol_alert": "sol_alert",
+        "sol_anger": "sol_anger",
+        "sol_angry": "sol_angry",
+        "sol_approving": "sol_approving",
+        "sol_ashamed": "sol_ashamed",
+        "sol_calm": "sol_calm",
+        "sol_careful": "sol_careful",
+        "sol_casual": "sol_casual",
+        "sol_certain": "sol_certain",
+        "sol_command": "sol_command",
+        "sol_composed": "sol_composed",
+        "sol_concern": "sol_concern",
+        "sol_curious": "sol_curious",
+        "sol_deadpan": "sol_deadpan",
+        "sol_decisive": "sol_decisive",
+        "sol_defiant": "sol_defiant",
+        "sol_direct": "sol_direct",
+        "sol_dry": "sol_dry",
+        "sol_dry_humor": "sol_dry_humor",
+        "sol_fear": "sol_fear",
+        "sol_flat": "sol_flat",
+        "sol_frustrated": "sol_frustrated",
+        "sol_gentle": "sol_gentle",
+        "sol_grateful": "sol_grateful",
+        "sol_grief_to_anger": "sol_grief_to_anger",
+        "sol_grim": "sol_grim",
+        "sol_guarded": "sol_guarded",
+        "sol_hard": "sol_hard",
+        "sol_hollow": "sol_hollow",
+        "sol_hopeful": "sol_hopeful",
+        "sol_hurt": "sol_hurt",
+        "sol_low": "sol_low",
+        "sol_measured": "sol_measured",
+        "sol_observant": "sol_observant",
+        "sol_polite": "sol_polite",
+        "sol_promise": "sol_promise",
+        "sol_protective": "sol_protective",
+        "sol_protective_resolve": "sol_protective_resolve",
+        "sol_questioning": "sol_questioning",
+        "sol_quiet": "sol_quiet",
+        "sol_raw": "sol_raw",
+        "sol_remorseful": "sol_remorseful",
+        "sol_resolved": "sol_resolved",
+        "sol_respectful": "sol_respectful",
+        "sol_searching": "sol_searching",
+        "sol_shaken": "sol_shaken",
+        "sol_skeptical": "sol_skeptical",
+        "sol_steady": "sol_steady",
+        "sol_strained": "sol_strained",
+        "sol_stunned": "sol_stunned",
+        "sol_surprised": "sol_surprised",
+        "sol_tender": "sol_tender",
+        "sol_tense": "sol_tense",
+        "sol_thoughtful": "sol_thoughtful",
+        "sol_tight": "sol_tight",
+        "sol_tired": "sol_tired",
+        "sol_too_quick": "sol_too_quick",
+        "sol_troubled": "sol_troubled",
+        "sol_urgent": "sol_urgent",
+        "sol_warm": "sol_warm",
+        "sol_warning": "sol_warning",
+        "sol_wary": "sol_wary",
+        "sol_watchful": "sol_watchful",
+        "sol_wry": "sol_wry"
+      },
+      "images": {
+        "sol_alarmed": "art/portrait_mahmut_sol_alarmed.webp",
+        "sol_alert": "art/portrait_mahmut_sol_alert.webp",
+        "sol_anger": "art/portrait_mahmut_sol_anger.webp",
+        "sol_angry": "art/portrait_mahmut_sol_angry.webp",
+        "sol_approving": "art/portrait_mahmut_sol_approving.webp",
+        "sol_ashamed": "art/portrait_mahmut_sol_ashamed.webp",
+        "sol_calm": "art/portrait_mahmut_sol_calm.webp",
+        "sol_careful": "art/portrait_mahmut_sol_careful.webp",
+        "sol_casual": "art/portrait_mahmut_sol_casual.webp",
+        "sol_certain": "art/portrait_mahmut_sol_certain.webp",
+        "sol_command": "art/portrait_mahmut_sol_command.webp",
+        "sol_composed": "art/portrait_mahmut_sol_composed.webp",
+        "sol_concern": "art/portrait_mahmut_sol_concern.webp",
+        "sol_curious": "art/portrait_mahmut_sol_curious.webp",
+        "sol_deadpan": "art/portrait_mahmut_sol_deadpan.webp",
+        "sol_decisive": "art/portrait_mahmut_sol_decisive.webp",
+        "sol_defiant": "art/portrait_mahmut_sol_defiant.webp",
+        "sol_direct": "art/portrait_mahmut_sol_direct.webp",
+        "sol_dry": "art/portrait_mahmut_sol_dry.webp",
+        "sol_dry_humor": "art/portrait_mahmut_sol_dry_humor.webp",
+        "sol_fear": "art/portrait_mahmut_sol_fear.webp",
+        "sol_flat": "art/portrait_mahmut_sol_flat.webp",
+        "sol_frustrated": "art/portrait_mahmut_sol_frustrated.webp",
+        "sol_gentle": "art/portrait_mahmut_sol_gentle.webp",
+        "sol_grateful": "art/portrait_mahmut_sol_grateful.webp",
+        "sol_grief_to_anger": "art/portrait_mahmut_sol_grief_to_anger.webp",
+        "sol_grim": "art/portrait_mahmut_sol_grim.webp",
+        "sol_guarded": "art/portrait_mahmut_sol_guarded.webp",
+        "sol_hard": "art/portrait_mahmut_sol_hard.webp",
+        "sol_hollow": "art/portrait_mahmut_sol_hollow.webp",
+        "sol_hopeful": "art/portrait_mahmut_sol_hopeful.webp",
+        "sol_hurt": "art/portrait_mahmut_sol_hurt.webp",
+        "sol_low": "art/portrait_mahmut_sol_low.webp",
+        "sol_measured": "art/portrait_mahmut_sol_measured.webp",
+        "sol_observant": "art/portrait_mahmut_sol_observant.webp",
+        "sol_polite": "art/portrait_mahmut_sol_polite.webp",
+        "sol_promise": "art/portrait_mahmut_sol_promise.webp",
+        "sol_protective": "art/portrait_mahmut_sol_protective.webp",
+        "sol_protective_resolve": "art/portrait_mahmut_sol_protective_resolve.webp",
+        "sol_questioning": "art/portrait_mahmut_sol_questioning.webp",
+        "sol_quiet": "art/portrait_mahmut_sol_quiet.webp",
+        "sol_raw": "art/portrait_mahmut_sol_raw.webp",
+        "sol_remorseful": "art/portrait_mahmut_sol_remorseful.webp",
+        "sol_resolved": "art/portrait_mahmut_sol_resolved.webp",
+        "sol_respectful": "art/portrait_mahmut_sol_respectful.webp",
+        "sol_searching": "art/portrait_mahmut_sol_searching.webp",
+        "sol_shaken": "art/portrait_mahmut_sol_shaken.webp",
+        "sol_skeptical": "art/portrait_mahmut_sol_skeptical.webp",
+        "sol_steady": "art/portrait_mahmut_sol_steady.webp",
+        "sol_strained": "art/portrait_mahmut_sol_strained.webp",
+        "sol_stunned": "art/portrait_mahmut_sol_stunned.webp",
+        "sol_surprised": "art/portrait_mahmut_sol_surprised.webp",
+        "sol_tender": "art/portrait_mahmut_sol_tender.webp",
+        "sol_tense": "art/portrait_mahmut_sol_tense.webp",
+        "sol_thoughtful": "art/portrait_mahmut_sol_thoughtful.webp",
+        "sol_tight": "art/portrait_mahmut_sol_tight.webp",
+        "sol_tired": "art/portrait_mahmut_sol_tired.webp",
+        "sol_too_quick": "art/portrait_mahmut_sol_too_quick.webp",
+        "sol_troubled": "art/portrait_mahmut_sol_troubled.webp",
+        "sol_urgent": "art/portrait_mahmut_sol_urgent.webp",
+        "sol_warm": "art/portrait_mahmut_sol_warm.webp",
+        "sol_warning": "art/portrait_mahmut_sol_warning.webp",
+        "sol_wary": "art/portrait_mahmut_sol_wary.webp",
+        "sol_watchful": "art/portrait_mahmut_sol_watchful.webp",
+        "sol_wry": "art/portrait_mahmut_sol_wry.webp"
+      }
+    },
+    "fadyme": {
+      "emotions": {
+        "composed": "sol_composed",
+        "calm": "sol_composed",
+        "resolve": "sol_resolve",
+        "determined": "sol_resolve",
+        "warm": "sol_warm",
+        "soft_smile": "sol_warm",
+        "wry": "sol_wry",
+        "dry_amusement": "sol_wry",
+        "sol_afraid": "sol_afraid",
+        "sol_amused": "sol_amused",
+        "sol_breaking": "sol_breaking",
+        "sol_breathless": "sol_breathless",
+        "sol_careful": "sol_careful",
+        "sol_cold": "sol_cold",
+        "sol_composed": "sol_composed",
+        "sol_controlled": "sol_controlled",
+        "sol_curious": "sol_curious",
+        "sol_defiant": "sol_defiant",
+        "sol_deflecting": "sol_deflecting",
+        "sol_disbelief": "sol_disbelief",
+        "sol_dry": "sol_dry",
+        "sol_dry_amusement": "sol_dry_amusement",
+        "sol_encouraging": "sol_encouraging",
+        "sol_false_calm": "sol_false_calm",
+        "sol_false_reassurance": "sol_false_reassurance",
+        "sol_firm": "sol_firm",
+        "sol_focused": "sol_focused",
+        "sol_fragile": "sol_fragile",
+        "sol_gentle": "sol_gentle",
+        "sol_guarded": "sol_guarded",
+        "sol_honest": "sol_honest",
+        "sol_hopeful": "sol_hopeful",
+        "sol_kind": "sol_kind",
+        "sol_knowing": "sol_knowing",
+        "sol_laughing": "sol_laughing",
+        "sol_light": "sol_light",
+        "sol_low": "sol_low",
+        "sol_observant": "sol_observant",
+        "sol_pained_smile": "sol_pained_smile",
+        "sol_perceptive": "sol_perceptive",
+        "sol_pleading": "sol_pleading",
+        "sol_quiet": "sol_quiet",
+        "sol_relieved": "sol_relieved",
+        "sol_resolve": "sol_resolve",
+        "sol_sad": "sol_sad",
+        "sol_serious": "sol_serious",
+        "sol_sharp": "sol_sharp",
+        "sol_small_smile": "sol_small_smile",
+        "sol_smile": "sol_smile",
+        "sol_smiling": "sol_smiling",
+        "sol_soft": "sol_soft",
+        "sol_soft_smile": "sol_soft_smile",
+        "sol_steady": "sol_steady",
+        "sol_strained": "sol_strained",
+        "sol_stunned": "sol_stunned",
+        "sol_tearful": "sol_tearful",
+        "sol_touched": "sol_touched",
+        "sol_uneasy": "sol_uneasy",
+        "sol_vulnerable": "sol_vulnerable",
+        "sol_warm": "sol_warm",
+        "sol_wary": "sol_wary",
+        "sol_weak_laugh": "sol_weak_laugh",
+        "sol_weak_smile": "sol_weak_smile",
+        "sol_wistful": "sol_wistful",
+        "sol_wry": "sol_wry"
+      },
+      "images": {
+        "sol_afraid": "art/portrait_fadyme_sol_afraid.webp",
+        "sol_amused": "art/portrait_fadyme_sol_amused.webp",
+        "sol_breaking": "art/portrait_fadyme_sol_breaking.webp",
+        "sol_breathless": "art/portrait_fadyme_sol_breathless.webp",
+        "sol_careful": "art/portrait_fadyme_sol_careful.webp",
+        "sol_cold": "art/portrait_fadyme_sol_cold.webp",
+        "sol_composed": "art/portrait_fadyme_sol_composed.webp",
+        "sol_controlled": "art/portrait_fadyme_sol_controlled.webp",
+        "sol_curious": "art/portrait_fadyme_sol_curious.webp",
+        "sol_defiant": "art/portrait_fadyme_sol_defiant.webp",
+        "sol_deflecting": "art/portrait_fadyme_sol_deflecting.webp",
+        "sol_disbelief": "art/portrait_fadyme_sol_disbelief.webp",
+        "sol_dry": "art/portrait_fadyme_sol_dry.webp",
+        "sol_dry_amusement": "art/portrait_fadyme_sol_dry_amusement.webp",
+        "sol_encouraging": "art/portrait_fadyme_sol_encouraging.webp",
+        "sol_false_calm": "art/portrait_fadyme_sol_false_calm.webp",
+        "sol_false_reassurance": "art/portrait_fadyme_sol_false_reassurance.webp",
+        "sol_firm": "art/portrait_fadyme_sol_firm.webp",
+        "sol_focused": "art/portrait_fadyme_sol_focused.webp",
+        "sol_fragile": "art/portrait_fadyme_sol_fragile.webp",
+        "sol_gentle": "art/portrait_fadyme_sol_gentle.webp",
+        "sol_guarded": "art/portrait_fadyme_sol_guarded.webp",
+        "sol_honest": "art/portrait_fadyme_sol_honest.webp",
+        "sol_hopeful": "art/portrait_fadyme_sol_hopeful.webp",
+        "sol_kind": "art/portrait_fadyme_sol_kind.webp",
+        "sol_knowing": "art/portrait_fadyme_sol_knowing.webp",
+        "sol_laughing": "art/portrait_fadyme_sol_laughing.webp",
+        "sol_light": "art/portrait_fadyme_sol_light.webp",
+        "sol_low": "art/portrait_fadyme_sol_low.webp",
+        "sol_observant": "art/portrait_fadyme_sol_observant.webp",
+        "sol_pained_smile": "art/portrait_fadyme_sol_pained_smile.webp",
+        "sol_perceptive": "art/portrait_fadyme_sol_perceptive.webp",
+        "sol_pleading": "art/portrait_fadyme_sol_pleading.webp",
+        "sol_quiet": "art/portrait_fadyme_sol_quiet.webp",
+        "sol_relieved": "art/portrait_fadyme_sol_relieved.webp",
+        "sol_resolve": "art/portrait_fadyme_sol_resolve.webp",
+        "sol_sad": "art/portrait_fadyme_sol_sad.webp",
+        "sol_serious": "art/portrait_fadyme_sol_serious.webp",
+        "sol_sharp": "art/portrait_fadyme_sol_sharp.webp",
+        "sol_small_smile": "art/portrait_fadyme_sol_small_smile.webp",
+        "sol_smile": "art/portrait_fadyme_sol_smile.webp",
+        "sol_smiling": "art/portrait_fadyme_sol_smiling.webp",
+        "sol_soft": "art/portrait_fadyme_sol_soft.webp",
+        "sol_soft_smile": "art/portrait_fadyme_sol_soft_smile.webp",
+        "sol_steady": "art/portrait_fadyme_sol_steady.webp",
+        "sol_strained": "art/portrait_fadyme_sol_strained.webp",
+        "sol_stunned": "art/portrait_fadyme_sol_stunned.webp",
+        "sol_tearful": "art/portrait_fadyme_sol_tearful.webp",
+        "sol_touched": "art/portrait_fadyme_sol_touched.webp",
+        "sol_uneasy": "art/portrait_fadyme_sol_uneasy.webp",
+        "sol_vulnerable": "art/portrait_fadyme_sol_vulnerable.webp",
+        "sol_warm": "art/portrait_fadyme_sol_warm.webp",
+        "sol_wary": "art/portrait_fadyme_sol_wary.webp",
+        "sol_weak_laugh": "art/portrait_fadyme_sol_weak_laugh.webp",
+        "sol_weak_smile": "art/portrait_fadyme_sol_weak_smile.webp",
+        "sol_wistful": "art/portrait_fadyme_sol_wistful.webp",
+        "sol_wry": "art/portrait_fadyme_sol_wry.webp"
+      }
+    }
+  },
+  "backgrounds": {
+    "forest_whispering_ash": "art/bg_sol_forest_whispering_ash.webp",
+    "forgotten_stone_crossing": "art/bg_sol_forgotten_stone_crossing.webp",
+    "shelter_courtyard_dusk": "art/bg_sol_shelter_courtyard_dusk.webp",
+    "sol_forest_whispering_ash": "art/bg_sol_forest_whispering_ash.webp",
+    "sol_forgotten_stone_crossing": "art/bg_sol_forgotten_stone_crossing.webp",
+    "sol_shelter_courtyard_dusk": "art/bg_sol_shelter_courtyard_dusk.webp",
+    "sol_hub_shelter": "art/bg_sol_hub_shelter.webp"
+  },
+  "music": {
+    "bgm_main_theme": {
+      "file": "audio/bgm_main_theme.ogg",
+      "loop_start_s": 17.5,
+      "duration_s": 166.45
+    },
+    "bgm_prologue_before_the_road": {
+      "file": "audio/bgm_prologue_before_the_road.ogg",
+      "loop_start_s": 82,
+      "duration_s": 120
+    },
+    "bgm_fadyme_theme": {
+      "file": "audio/bgm_fadyme_theme.ogg",
+      "loop_start_s": 25.232,
+      "duration_s": 86.052
+    },
+    "bgm_ch1_ash_forest_calm": {
+      "file": "audio/bgm_ch1_ash_forest_calm.ogg",
+      "loop_start_s": 24.011,
+      "duration_s": 100.371
+    },
+    "bgm_ch1_ash_forest_uneasy": {
+      "file": "audio/bgm_ch1_ash_forest_uneasy.ogg",
+      "loop_start_s": 25.16,
+      "duration_s": 101.26
+    },
+    "bgm_ch1_ash_forest_chaotic": {
+      "file": "audio/bgm_ch1_ash_forest_chaotic.ogg",
+      "loop_start_s": 19.9575,
+      "duration_s": 101.777
+    },
+    "bgm_battle_field": {
+      "file": "audio/bgm_battle_field.ogg",
+      "loop_start_s": 16.7,
+      "duration_s": 79.93
+    }
+  },
+  "ui": {
+    "logo": "art/ui_logo.webp",
+    "key_art": "art/ui_sol_title_bg.webp",
+    "banner_hall_of_ancestors": "art/ui_sol_title_bg.webp",
+    "banner_hall_of_armaments_weapons": "art/ui_sol_title_bg.webp",
+    "banner_oath_01_sister": "art/ui_sol_title_bg.webp",
+    "banner_oath_01_weapon": "art/ui_sol_title_bg.webp",
+    "banner_oath_02_sable": "art/ui_sol_title_bg.webp",
+    "banner_oath_02_weapon": "art/ui_sol_title_bg.webp",
+    "banner_oath_03_nara": "art/ui_sol_title_bg.webp",
+    "banner_oath_03_weapon": "art/ui_sol_title_bg.webp",
+    "banner_oath_04_mirel": "art/ui_sol_title_bg.webp",
+    "banner_oath_04_weapon": "art/ui_sol_title_bg.webp",
+    "banner_oath_05_vespera": "art/ui_sol_title_bg.webp",
+    "banner_oath_05_weapon": "art/ui_sol_title_bg.webp",
+    "banner_oath_06_garrick": "art/ui_sol_title_bg.webp",
+    "banner_oath_06_weapon": "art/ui_sol_title_bg.webp",
+    "banner_oath_07_corbin": "art/ui_sol_title_bg.webp",
+    "banner_oath_07_weapon": "art/ui_sol_title_bg.webp",
+    "sol_studio_mark": "art/ui_sol_studio_mark.webp",
+    "sol_title_bg": "art/ui_sol_title_bg.webp",
+    "studio_mark": "art/ui_sol_studio_mark.webp",
+    "title_bg": "art/ui_sol_title_bg.webp",
+    "banner_beginner_first_vigil": "art/ui_sol_title_bg.webp"
+  },
+  "stills": {
+    "roadside_rest": "art/bg_sol_shelter_courtyard_dusk.webp",
+    "shelter_evening": "art/bg_sol_shelter_courtyard_dusk.webp",
+    "prologue_crownfall": "art/still_sol_prologue_crownfall.webp",
+    "prologue_roads": "art/still_sol_prologue_roads.webp",
+    "prologue_throne_wars": "art/still_sol_prologue_throne_wars.webp",
+    "prologue_beginning": "art/still_sol_prologue_beginning.webp",
+    "prologue_reunion": "art/still_sol_prologue_reunion.webp",
+    "prologue_hours": "art/still_sol_prologue_hours.webp",
+    "prologue_names": "art/still_sol_prologue_names.webp",
+    "prologue_ordinary_days": "art/still_sol_prologue_ordinary_days.webp",
+    "prologue_search": "art/still_sol_prologue_search.webp",
+    "sol_prologue_beginning": "art/still_sol_prologue_beginning.webp",
+    "sol_prologue_crownfall": "art/still_sol_prologue_crownfall.webp",
+    "sol_prologue_hours": "art/still_sol_prologue_hours.webp",
+    "sol_prologue_names": "art/still_sol_prologue_names.webp",
+    "sol_prologue_ordinary_days": "art/still_sol_prologue_ordinary_days.webp",
+    "sol_prologue_reunion": "art/still_sol_prologue_reunion.webp",
+    "sol_prologue_roads": "art/still_sol_prologue_roads.webp",
+    "sol_prologue_search": "art/still_sol_prologue_search.webp",
+    "sol_prologue_throne_wars": "art/still_sol_prologue_throne_wars.webp"
+  }
+}

@@ -1,0 +1,1749 @@
+{
+ "version": 1,
+ "assets": {
+  "8a218fe75e234ca780815be837ebf924": {
+   "path": "audio/bgm_battle_field.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "357de9837a877c3b9ccc",
+   "size": 1719905,
+   "mtime": 1793955838
+  },
+  "4d3160a096394123abb401c04c15e1b1": {
+   "path": "audio/bgm_boss_beast.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ceb21f10449acdadd89c",
+   "size": 3039397,
+   "mtime": 1794393033
+  },
+  "3920a2f264a74083ae66da2e154fdceb": {
+   "path": "audio/bgm_boss_bell_widow.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "179362bb7a49e4ef013f",
+   "size": 3648527,
+   "mtime": 1794393033
+  },
+  "78ffc58be27d47609230ac190c05e713": {
+   "path": "audio/bgm_boss_eclipse_construct.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "daa65a2a1b857e082c1e",
+   "size": 3593337,
+   "mtime": 1794393034
+  },
+  "9e734bb7546e4852bbfd1e225cb36995": {
+   "path": "audio/bgm_boss_human.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "77e7db8a29bc69a07d27",
+   "size": 3696329,
+   "mtime": 1794393034
+  },
+  "f519362497984d49a98f8f683f673dd4": {
+   "path": "audio/bgm_boss_wraith.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c20c131011ca1f1e05f2",
+   "size": 2466954,
+   "mtime": 1794393034
+  },
+  "9b66be413c45443ebc3c563c22b75fab": {
+   "path": "audio/bgm_ch1_ash_forest_calm.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "bb62b95897d79d383cba",
+   "size": 2222818,
+   "mtime": 1794081535
+  },
+  "7858f2a9750349b6b8d524aca5626c84": {
+   "path": "audio/bgm_ch1_ash_forest_uneasy.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "bd692a3ddea15ce46f37",
+   "size": 2010959,
+   "mtime": 1793955838
+  },
+  "4c39e6c14c924db0b292efc23e3f3f4e": {
+   "path": "audio/bgm_fadyme_theme.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "06751432b7106b1909e5",
+   "size": 1628819,
+   "mtime": 1794081535
+  },
+  "8af4a3dba87c4cec936932c1e76de97e": {
+   "path": "audio/bgm_main_theme.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b72b04856317d6001d1d",
+   "size": 3506515,
+   "mtime": 1793955838
+  },
+  "a6d5f199286f4aeabaa75119179b70ce": {
+   "path": "audio/bgm_prologue_before_the_road.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "2089ea4a7a045baf2361",
+   "size": 1669440,
+   "mtime": 1794081535
+  },
+  "1df7c029d39a4d5d8c505b90996e075a": {
+   "path": "audio/entry_past_001.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b30d2e7dfda0b3ab9979",
+   "size": 116632,
+   "mtime": 1794757627
+  },
+  "4991c921ce1f41a68f659797936ca7b1": {
+   "path": "audio/entry_past_002.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b2b99b5f15cb27aaf5f2",
+   "size": 125970,
+   "mtime": 1794757627
+  },
+  "4b602e9991e14c7cbdf1ecb7ef901e84": {
+   "path": "audio/entry_past_003.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "a1b6d6600c9bb74d76ff",
+   "size": 119373,
+   "mtime": 1794757627
+  },
+  "10395b5c04e74963a1a2f4d005cd4f5c": {
+   "path": "audio/entry_past_004.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "34fa62900583b9e9f9e8",
+   "size": 117213,
+   "mtime": 1794757628
+  },
+  "d219205f4a68402fa4cb96eb2e51afd1": {
+   "path": "audio/entry_past_005.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "24908ae14917b5a5062d",
+   "size": 115986,
+   "mtime": 1794757628
+  },
+  "c059e75e10f54104a032805be4787ea2": {
+   "path": "audio/entry_past_006.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ba9198a7d7ae98409a5f",
+   "size": 125510,
+   "mtime": 1794757628
+  },
+  "56a9bf9cee264edfb13d465d2a1a20f3": {
+   "path": "audio/entry_past_007.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c1c8f44f314c10d0965d",
+   "size": 96720,
+   "mtime": 1794757628
+  },
+  "4427b75fa788438a9b9bac747f67ee73": {
+   "path": "audio/entry_past_008.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b8c335063a7c91366361",
+   "size": 127119,
+   "mtime": 1794757629
+  },
+  "70bee529bc47450399bbba2226a6c2c2": {
+   "path": "audio/entry_past_009.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "1c1e6a7b34b3884fbc6e",
+   "size": 106800,
+   "mtime": 1794757629
+  },
+  "f07b0dd3c5944d71adc3e5362ed8fef9": {
+   "path": "audio/sfx_bell_sanctuary.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "4b098b1747704367ef95",
+   "size": 14502,
+   "mtime": 1793955838
+  },
+  "41445746763441e7905e738d4a22d04c": {
+   "path": "audio/sfx_blade_slash.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ccc5f29707ef42632cc7",
+   "size": 9003,
+   "mtime": 1793955838
+  },
+  "0065ef8e69394b3cac84b183db423141": {
+   "path": "audio/sfx_hit_stone.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b02d9395bce4134394bd",
+   "size": 7047,
+   "mtime": 1793955838
+  },
+  "049fb81ad6ef4268b20fe9a2f29e24b0": {
+   "path": "audio/sfx_hit_veil.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "98c4486027d331ca2405",
+   "size": 14544,
+   "mtime": 1793955838
+  },
+  "c45f903614414b05a3fece696aeeed1d": {
+   "path": "audio/sfx_shield_bash.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "125880dbb9cb7f341c25",
+   "size": 6578,
+   "mtime": 1793955838
+  },
+  "ba2d95c32adf466284081bac5f4542e5": {
+   "path": "audio/sfx_summon_burst.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "25a197fc65328f0c8447",
+   "size": 20181,
+   "mtime": 1793955838
+  },
+  "023f5f93f8ce4e3da4531f7a926e95e7": {
+   "path": "audio/sfx_ui_confirm.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "01efe9f1d31f057bcd30",
+   "size": 5669,
+   "mtime": 1793955838
+  },
+  "9b2badc140e7424b85684adb660ae010": {
+   "path": "audio/sfx_ui_tap.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "f5492a706752f7dee60a",
+   "size": 4499,
+   "mtime": 1793955838
+  },
+  "b675092f3dea461a99d19b00e16c061c": {
+   "path": "audio/sfx_ultimate_cast.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "51f76923294633b5f271",
+   "size": 12355,
+   "mtime": 1793955838
+  },
+  "c471a65edc0b44bfaade29e15b7faf52": {
+   "path": "audio/sfx_ultimate_cutin.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "d3417b8cddc42f4ec552",
+   "size": 11869,
+   "mtime": 1793955838
+  },
+  "4db4f659ef14463682b005e1392f877d": {
+   "path": "audio/sfx_ultimate_release.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "2fc225bafdbfdd866cf9",
+   "size": 14311,
+   "mtime": 1793955838
+  },
+  "baa2e5f53a674ca49d161f1e8021f92b": {
+   "path": "audio/tutorial_t1_after_001.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "34e7f9004da9f47f64fb",
+   "size": 91836,
+   "mtime": 1793955838
+  },
+  "b337b63291b24b99925141dc623cf8ca": {
+   "path": "audio/tutorial_t1_after_002.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "72cf4eb2d9abf8501667",
+   "size": 12117,
+   "mtime": 1794757629
+  },
+  "2ec7841a4851499e8c9c44e0746c0c3c": {
+   "path": "audio/tutorial_t1_after_003.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "42d783fbb24da75f2978",
+   "size": 21182,
+   "mtime": 1794757629
+  },
+  "e9e19eafe2b24c82a783e311b4e7c5f6": {
+   "path": "audio/tutorial_t1_after_004.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "d03ee58735869fb99c6d",
+   "size": 11058,
+   "mtime": 1794757629
+  },
+  "df4d4800e88244829228107906a067e4": {
+   "path": "audio/tutorial_t1_after_005.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "5c3acf9e0e86664f2b4a",
+   "size": 27043,
+   "mtime": 1794757629
+  },
+  "e4a2da7fbc924066b80bfbea1da15aef": {
+   "path": "audio/tutorial_t1_after_006.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "10d39a5138f95fc8a1e2",
+   "size": 69420,
+   "mtime": 1793955838
+  },
+  "d4496325f2004556827b20d8d1d32d36": {
+   "path": "audio/tutorial_t1_after_007.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ae94c9591788cd5dc863",
+   "size": 13538,
+   "mtime": 1794757629
+  },
+  "2ade713ebbf347be86801f09fa6430b5": {
+   "path": "audio/tutorial_t1_after_008.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "3f666093d15cf7c8e5b2",
+   "size": 38257,
+   "mtime": 1794757629
+  },
+  "cb0f0a73eceb4302825866012ef98061": {
+   "path": "audio/tutorial_t1_after_009.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "6fdf05b12ca65e1bf13b",
+   "size": 16740,
+   "mtime": 1794757629
+  },
+  "72843189f6034a78996ffe3cadbc81e0": {
+   "path": "audio/tutorial_t1_after_010.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b3f3aec910626eb171c6",
+   "size": 29388,
+   "mtime": 1794757629
+  },
+  "59c5cc48e6004d798d4cb1f12d696efa": {
+   "path": "audio/tutorial_t1_after_011.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "2254a2eb7125512608ee",
+   "size": 56463,
+   "mtime": 1794757629
+  },
+  "1fcbb41a2fe247b8b491dc93bfbe7524": {
+   "path": "audio/tutorial_t1_after_012.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c477f4ea1770b8dbb1cb",
+   "size": 26470,
+   "mtime": 1794757629
+  },
+  "ba5e740443e24432bd1a4c2a482ec11b": {
+   "path": "audio/tutorial_t1_after_013.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "a9264ebf0910035c6bec",
+   "size": 12839,
+   "mtime": 1794757629
+  },
+  "0c7ac5268580491b816d13604c929532": {
+   "path": "audio/tutorial_t1_after_014.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "035cc3c4d4118cf64e7f",
+   "size": 60058,
+   "mtime": 1793955838
+  },
+  "902bd96c308144d68566c773bbbb53af": {
+   "path": "audio/tutorial_t1_before_001.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "eb5ec097c0f32072e996",
+   "size": 100032,
+   "mtime": 1793955838
+  },
+  "8900d37d775b409f80122eda032befcd": {
+   "path": "audio/tutorial_t1_before_002.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "5f356f2324e0fd406cf4",
+   "size": 29045,
+   "mtime": 1794757629
+  },
+  "66c123b8dfb44fd7843b410adf34ff13": {
+   "path": "audio/tutorial_t1_before_003.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b9963ac98649c07595c3",
+   "size": 27415,
+   "mtime": 1794757629
+  },
+  "ad26a6a87d6d40c1b2be36a9e00f1cc5": {
+   "path": "audio/tutorial_t1_before_004.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "dffb8c6156619b15402a",
+   "size": 37440,
+   "mtime": 1794757629
+  },
+  "b0e27f24d7404f059764a6b947ec71af": {
+   "path": "audio/tutorial_t1_before_005.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "493dd089ca309da42222",
+   "size": 34137,
+   "mtime": 1794757634
+  },
+  "8ae7372d9b914b4298d05bfe8456b974": {
+   "path": "audio/tutorial_t1_before_006.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "616d67d88a4a3c50da2b",
+   "size": 19341,
+   "mtime": 1794757640
+  },
+  "3d9e76a50fd74aa6b2d4ad6841300377": {
+   "path": "audio/tutorial_t1_before_007.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "a6f1a12f3c33480348ec",
+   "size": 36691,
+   "mtime": 1794757648
+  },
+  "43a4ad2be95047cd9e803aa5fd684373": {
+   "path": "audio/tutorial_t1_before_008.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "61d8a85426aa9d5404c3",
+   "size": 17185,
+   "mtime": 1794757652
+  },
+  "e1ac1bea149e480cb2b6b0aa7b6e1cac": {
+   "path": "audio/tutorial_t1_before_009.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "a264f2d2db549a2c77f8",
+   "size": 92851,
+   "mtime": 1793955838
+  },
+  "1ab5e14b82554adbb1d7cd3072138c2e": {
+   "path": "audio/tutorial_t1_before_010.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ca593423db5d8f00e6c4",
+   "size": 62728,
+   "mtime": 1793955838
+  },
+  "30964022913f41719ae57c5f527f660e": {
+   "path": "audio/tutorial_t1_before_011.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "a949f2e1b02401b6f113",
+   "size": 25521,
+   "mtime": 1793955838
+  },
+  "438c1552f58b4947b5e0425f4829af8e": {
+   "path": "audio/tutorial_t1_before_012.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "baa24a7366d7703bc356",
+   "size": 62172,
+   "mtime": 1793955838
+  },
+  "04a583445ca3485ba38676f545150380": {
+   "path": "audio/tutorial_t1_before_013.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "0576a09fbd16b6d3de6c",
+   "size": 25475,
+   "mtime": 1793955838
+  },
+  "422e7d52887142e3bd50310ef8be8f9b": {
+   "path": "audio/tutorial_t1_before_014.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "1ec1af1dcfd7bf3b3cf6",
+   "size": 51239,
+   "mtime": 1793955838
+  },
+  "847c98f9f87d4ed1b024408c31455860": {
+   "path": "audio/tutorial_t2_after_001.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c74d926ded3f90600d9e",
+   "size": 89722,
+   "mtime": 1793955838
+  },
+  "cd9fafb25eb149b18beaca948aa3ede7": {
+   "path": "audio/tutorial_t2_after_002.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "9946a7513d5414d721d8",
+   "size": 61738,
+   "mtime": 1793955838
+  },
+  "ad276f9dee6243278244fd94d705a28c": {
+   "path": "audio/tutorial_t2_after_003.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "3ee91b18c8fb0570b52b",
+   "size": 24303,
+   "mtime": 1793955838
+  },
+  "a76018c671664320b60fdf14df8fb138": {
+   "path": "audio/tutorial_t2_after_004.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "6b3b635c2e8a76e16104",
+   "size": 50419,
+   "mtime": 1793955838
+  },
+  "859d318f3276496ca290ad996b97d65b": {
+   "path": "audio/tutorial_t2_after_005.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b4cb99944ccc7a675483",
+   "size": 50634,
+   "mtime": 1793955838
+  },
+  "6686de2a440b4fbea3d0578496f90d1d": {
+   "path": "audio/tutorial_t2_after_006.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "0c044563582131bab5c2",
+   "size": 19025,
+   "mtime": 1793955838
+  },
+  "f2f5595f224b4adeb3f610063479798d": {
+   "path": "audio/tutorial_t2_after_007.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "bd06f7c5b8f3e7c2f2f5",
+   "size": 40863,
+   "mtime": 1793955838
+  },
+  "9053b0b3eb0049c586eb6d50dec24522": {
+   "path": "audio/tutorial_t2_after_008.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "6146f8b10845bd82c813",
+   "size": 106463,
+   "mtime": 1793955838
+  },
+  "79ae84ea46e34f10a23f3e6040e10867": {
+   "path": "audio/tutorial_t2_after_009.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "8f50065a96c08a846aa0",
+   "size": 15336,
+   "mtime": 1793955838
+  },
+  "fa940b311a224a1fb0eef1d93ff71d3c": {
+   "path": "audio/tutorial_t2_after_010.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "5af0fdb31af181b05ea3",
+   "size": 40775,
+   "mtime": 1793955838
+  },
+  "33d89c15d8d8484091fe32afd7cc9c9f": {
+   "path": "audio/tutorial_t2_after_011.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "9b5e25816f2b744e0ff4",
+   "size": 10307,
+   "mtime": 1793955838
+  },
+  "78bc5c10748b4a51ac6b865e539e4465": {
+   "path": "audio/tutorial_t2_after_012.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "39feaa1dd2ef824b5a57",
+   "size": 26053,
+   "mtime": 1793955838
+  },
+  "26e6b9cc2a3848b187ac8e17ccefe60a": {
+   "path": "audio/tutorial_t2_after_013.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c379d7917e474617efcb",
+   "size": 30301,
+   "mtime": 1793955838
+  },
+  "dea19570e43f4018aa9d591471023970": {
+   "path": "audio/tutorial_t2_after_014.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ccd65779691ea4ebf566",
+   "size": 60984,
+   "mtime": 1793955838
+  },
+  "009cbf9913a148e0b388e387a637ac3a": {
+   "path": "audio/tutorial_t2_after_015.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "95995ef5f825e5185cd2",
+   "size": 12715,
+   "mtime": 1793955838
+  },
+  "5ab596ba998f4054818c182cca99ea25": {
+   "path": "audio/tutorial_t2_after_016.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "855cae53b81ad8bf6f4e",
+   "size": 92608,
+   "mtime": 1793955838
+  },
+  "1f6fc672e71541bbac5c76ede1f6f869": {
+   "path": "audio/tutorial_t2_after_017.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "45115240381ff5f6acbd",
+   "size": 34678,
+   "mtime": 1793955838
+  },
+  "6fa86c48ddf24237a4c205dfef2409d4": {
+   "path": "audio/tutorial_t2_after_018.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ad048781829cfb683a85",
+   "size": 33330,
+   "mtime": 1793955838
+  },
+  "7fbf30ca44594a0b9463c0b0a02cc1fb": {
+   "path": "audio/tutorial_t2_before_001.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "bd50363cc50d8c6597c5",
+   "size": 92578,
+   "mtime": 1793955838
+  },
+  "5ef6512b707a493eb7a2f24574bb0d2c": {
+   "path": "audio/tutorial_t2_before_002.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "8636e1dba72395b34011",
+   "size": 34746,
+   "mtime": 1793955838
+  },
+  "db2366da81264230bc168a8fa1421b1c": {
+   "path": "audio/tutorial_t2_before_003.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "dfa4e5ee09cc4bb736e9",
+   "size": 40866,
+   "mtime": 1793955838
+  },
+  "bb52b437715c47088eaa96fc805dd887": {
+   "path": "audio/tutorial_t2_before_004.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c025e85c7a4cf8026899",
+   "size": 25672,
+   "mtime": 1793955838
+  },
+  "5ab9b99b5f544a5eb566f7f20f3c94bb": {
+   "path": "audio/tutorial_t2_before_005.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "40f64233b21529f664d9",
+   "size": 30569,
+   "mtime": 1793955838
+  },
+  "64b75e2a6b694ced9cf7a1010625b46c": {
+   "path": "audio/tutorial_t2_before_006.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "af06e80dab12af2f8378",
+   "size": 82111,
+   "mtime": 1793955838
+  },
+  "24385c70bd2a43a1b22f4723d44684ec": {
+   "path": "audio/tutorial_t2_before_007.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b377bfacb9af3191c3db",
+   "size": 77247,
+   "mtime": 1793955838
+  },
+  "6d600156c2db46f48c0e6d0955084363": {
+   "path": "audio/tutorial_t2_before_008.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "459b0fbaeb4011f9f523",
+   "size": 11586,
+   "mtime": 1793955838
+  },
+  "d8db2e64922b478fb98a3dc3c0cb5f2a": {
+   "path": "audio/tutorial_t2_before_009.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "3fcd5da6f4cdce351132",
+   "size": 69696,
+   "mtime": 1793955838
+  },
+  "94d25eb8a29447459f8d5246bf34e8ae": {
+   "path": "audio/tutorial_t2_before_010.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "32040548bf5d4d5eea80",
+   "size": 20784,
+   "mtime": 1793955838
+  },
+  "788a6cf228304215bfc3e03c20f18666": {
+   "path": "audio/tutorial_t2_before_011.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "868068c23d4ea891882b",
+   "size": 50019,
+   "mtime": 1793955838
+  },
+  "2585715c0977400f8b08104640ed627b": {
+   "path": "audio/tutorial_t2_before_012.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "f43bf25e08dfbe456667",
+   "size": 27996,
+   "mtime": 1793955838
+  },
+  "4f8c4f2a13aa4a0f9d98cf050577d41f": {
+   "path": "audio/tutorial_t2_before_013.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "6408a6b25d2758cbb75d",
+   "size": 28695,
+   "mtime": 1793955838
+  },
+  "59e98c416c6a4d919506cc2e3b5ebe71": {
+   "path": "audio/tutorial_t3_after_001.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "6bd47f02fbfbb5d6e6ed",
+   "size": 87654,
+   "mtime": 1793955838
+  },
+  "59ac0fdd5ad34f1ba2268f7779db890c": {
+   "path": "audio/tutorial_t3_after_002.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "6ffb42683a7803f01707",
+   "size": 38291,
+   "mtime": 1793955838
+  },
+  "c774f0b5f3d64f5dbf36e733bee782a8": {
+   "path": "audio/tutorial_t3_after_003.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b9a399cdd2fc9717c91e",
+   "size": 38632,
+   "mtime": 1793955838
+  },
+  "a5289529b32247ecb4c2bcb935cd3f6d": {
+   "path": "audio/tutorial_t3_after_004.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "bd861bf365f05c44cd88",
+   "size": 31002,
+   "mtime": 1793955838
+  },
+  "4f7038a16cac4611b3385616e183a3c3": {
+   "path": "audio/tutorial_t3_after_005.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "8f1e1f880c42d810144f",
+   "size": 102215,
+   "mtime": 1793955838
+  },
+  "c494383b39744c1cb6b725de1d2ed91c": {
+   "path": "audio/tutorial_t3_after_006.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "1fb649256f70596f3eb4",
+   "size": 28176,
+   "mtime": 1793955838
+  },
+  "1a84147443394691bc6ec46cbd7b8d05": {
+   "path": "audio/tutorial_t3_after_007.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ab4e1bb20a465ee35d90",
+   "size": 19772,
+   "mtime": 1793955838
+  },
+  "f8082da1fd964a8fb2cc36b87f1fe5fc": {
+   "path": "audio/tutorial_t3_after_008.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "8c73c76f8af74734c582",
+   "size": 30336,
+   "mtime": 1793955838
+  },
+  "b1ccdbcd27d14599a82b47f7c91557c1": {
+   "path": "audio/tutorial_t3_after_009.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b895262d98b7ab18e32e",
+   "size": 19993,
+   "mtime": 1793955838
+  },
+  "bad21c4f7d3c4205b7e2bc3fb35553fb": {
+   "path": "audio/tutorial_t3_after_010.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c0ed7fc8433a1b83dd8f",
+   "size": 59941,
+   "mtime": 1793955838
+  },
+  "86d236ad137e4689adbe5b9704103168": {
+   "path": "audio/tutorial_t3_after_011.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "a1e226a0b30052cfa8e6",
+   "size": 88500,
+   "mtime": 1793955838
+  },
+  "e5a876fba4824c53994c6725c782210d": {
+   "path": "audio/tutorial_t3_after_012.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "4e6d648523766943971b",
+   "size": 22226,
+   "mtime": 1793955838
+  },
+  "41396ad69d5e4920955e683ef20c5ecf": {
+   "path": "audio/tutorial_t3_after_013.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "6ebca472874507f98867",
+   "size": 46738,
+   "mtime": 1793955838
+  },
+  "df574ade88514c62a0e2afb1d9c60af4": {
+   "path": "audio/tutorial_t3_after_014.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "70d6f155bba9daf42ed2",
+   "size": 19752,
+   "mtime": 1793955838
+  },
+  "dd8f4c2e070b41e5bccd3fe8f2583db7": {
+   "path": "audio/tutorial_t3_after_015.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "24748e88df220b14f9e3",
+   "size": 45726,
+   "mtime": 1793955838
+  },
+  "a272e2058a0743feb28eb69173d829ad": {
+   "path": "audio/tutorial_t3_after_016.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "af8ebd0c712ed713f5b1",
+   "size": 80031,
+   "mtime": 1793955838
+  },
+  "4875b14287064fa4948f216c37c6fc5f": {
+   "path": "audio/tutorial_t3_after_017.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "4658f4b73cb2064e9bd6",
+   "size": 20982,
+   "mtime": 1793955838
+  },
+  "3062d1173b9c415b9adf53586e908852": {
+   "path": "audio/tutorial_t3_after_018.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "f4f0b3f5e800b8b6d43d",
+   "size": 52599,
+   "mtime": 1793955838
+  },
+  "a7b56c4abc994a1887d2e961f07b179d": {
+   "path": "audio/tutorial_t3_after_019.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "2dca783027938b4299e3",
+   "size": 34157,
+   "mtime": 1793955838
+  },
+  "968fe118e59841f1a6763fe17317bd57": {
+   "path": "audio/tutorial_t3_after_020.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "d2c1bdd5e210ae6feecf",
+   "size": 64856,
+   "mtime": 1793955838
+  },
+  "6d3b456972554a78b07252209168e823": {
+   "path": "audio/tutorial_t3_after_021.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "adc553c17d59bb52b511",
+   "size": 26938,
+   "mtime": 1793955838
+  },
+  "a4b31d689668442db0dd7a6f8e0be251": {
+   "path": "audio/tutorial_t3_after_022.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c2501017e7f15f0c61c3",
+   "size": 10377,
+   "mtime": 1793955838
+  },
+  "ee8cf63c5c9f42f2b7bac26be26d122b": {
+   "path": "audio/tutorial_t3_after_023.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "5f895ace97343d6d6f08",
+   "size": 30100,
+   "mtime": 1793955838
+  },
+  "1b1dd57db32b44918033978cdada16fc": {
+   "path": "audio/tutorial_t3_after_024.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "98e2782c7cb934b6c533",
+   "size": 38632,
+   "mtime": 1793955838
+  },
+  "2be4add622a54394bd2a6b7fd312f0ab": {
+   "path": "audio/tutorial_t3_after_025.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "89f103d2143993fa3e71",
+   "size": 73254,
+   "mtime": 1793955838
+  },
+  "49d0504e9e3d4684a4369a0f65a92b2c": {
+   "path": "audio/tutorial_t3_after_026.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "60eb60f3a93168ed9499",
+   "size": 40249,
+   "mtime": 1793955838
+  },
+  "5f05b4f9481a4564920d9e91001774ef": {
+   "path": "audio/tutorial_t3_after_027.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "21d633a81598cd31e53f",
+   "size": 13854,
+   "mtime": 1793955838
+  },
+  "ec51b25d355f4fda84cc904ad0c0d89f": {
+   "path": "audio/tutorial_t3_after_028.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "016d80541ed15120a248",
+   "size": 34734,
+   "mtime": 1793955838
+  },
+  "ac2c97288e2d4a819dcb6a98dd46f231": {
+   "path": "audio/tutorial_t3_after_029.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "304b2db3993243f88cdb",
+   "size": 100125,
+   "mtime": 1793955838
+  },
+  "970b498f34d54964a5ed8fc3a897580e": {
+   "path": "audio/tutorial_t3_after_030.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "3e0de2ce4fc3dfa5ced4",
+   "size": 36365,
+   "mtime": 1793955838
+  },
+  "2cec4571c7ad4a1bb1a8420b254e1392": {
+   "path": "audio/tutorial_t3_after_031.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ff48de6fea1d60049cb9",
+   "size": 23144,
+   "mtime": 1793955838
+  },
+  "0beee119d1d94cba9925b3224465cd9d": {
+   "path": "audio/tutorial_t3_after_032.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "4d8aa109353bf9114008",
+   "size": 22274,
+   "mtime": 1793955838
+  },
+  "36aee5fd40b84d0189ecfaef836e2667": {
+   "path": "audio/tutorial_t3_after_033.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "923f8808ee23afa7d3ea",
+   "size": 17545,
+   "mtime": 1793955838
+  },
+  "496cce09f8ba459dba00d44df705666b": {
+   "path": "audio/tutorial_t3_after_034.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "8f750bff943468e2a639",
+   "size": 82860,
+   "mtime": 1793955838
+  },
+  "21af7814dbee480a9f9745f2737b961b": {
+   "path": "audio/tutorial_t3_before_001.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ba67bdfe3d4271496495",
+   "size": 82910,
+   "mtime": 1793955838
+  },
+  "d5de686403be4ee99307ecdf6878e7bc": {
+   "path": "audio/tutorial_t3_before_002.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "0a68fc449886adec275a",
+   "size": 31025,
+   "mtime": 1793955838
+  },
+  "5c153a3a1896435ea030ce31f6389c8b": {
+   "path": "audio/tutorial_t3_before_003.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "ed4a9159597372732098",
+   "size": 43396,
+   "mtime": 1793955838
+  },
+  "ff9665b593ea476287fc26e6ad1ee30c": {
+   "path": "audio/tutorial_t3_before_004.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "da84bc6cfedc67beb32c",
+   "size": 44896,
+   "mtime": 1793955838
+  },
+  "f0a4595ea0b948e4973c81f43341707d": {
+   "path": "audio/tutorial_t3_before_005.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "8c5080a1676c7cf845f9",
+   "size": 45469,
+   "mtime": 1793955838
+  },
+  "f30565a46a8a4eff91ec760dee156839": {
+   "path": "audio/tutorial_t3_before_006.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "c6557a5cb6b18e79616b",
+   "size": 49130,
+   "mtime": 1793955838
+  },
+  "1245468301d646b8b8584fd47cb2ce16": {
+   "path": "audio/tutorial_t3_before_007.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "195b357f3c98ebde60dd",
+   "size": 62390,
+   "mtime": 1793955838
+  },
+  "f123b91619aa4003b8520f5c96775c4c": {
+   "path": "audio/tutorial_t3_before_008.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "339b8d6c544bbb850b87",
+   "size": 28376,
+   "mtime": 1793955838
+  },
+  "21b68e4125d34043984342882b66de0a": {
+   "path": "audio/tutorial_t3_before_009.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b022e319a54000295a31",
+   "size": 34675,
+   "mtime": 1793955838
+  },
+  "fd4ca6cb3e7c4e60a6666afba29db6e8": {
+   "path": "audio/tutorial_t3_before_010.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "d8d6ef54660efd0be94b",
+   "size": 40271,
+   "mtime": 1793955838
+  },
+  "9a47ee189ae444398440b9707e875565": {
+   "path": "audio/tutorial_t3_before_011.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "b869253e26e05dcb2119",
+   "size": 39912,
+   "mtime": 1793955838
+  },
+  "c505d13d58e44064b35ec51a658b6b21": {
+   "path": "audio/tutorial_t3_before_012.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "e711a6203bfea0948523",
+   "size": 29741,
+   "mtime": 1793955838
+  },
+  "17710733bc704655b6b74d3ec74a83e1": {
+   "path": "audio/tutorial_t3_before_013.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "1384305e9c897ec9c840",
+   "size": 56941,
+   "mtime": 1793955838
+  },
+  "1470e43b47994bafaf70bc5da1a6a591": {
+   "path": "audio/tutorial_t3_before_014.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "6bfee7124425c8c03438",
+   "size": 31665,
+   "mtime": 1793955838
+  },
+  "6f630af56d9c4d39b51f466995b9ffe7": {
+   "path": "audio/vo_fadyme_first_meeting.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "8943b508048ac9bcca6b",
+   "size": 43205,
+   "mtime": 1794747272
+  },
+  "4d8e8212a0834bcf9037eb681c46aded": {
+   "path": "audio/vo_mahmut_first_meeting.ogg",
+   "type": "audio",
+   "import": {},
+   "hash": "af5aae37d0efe0ef0a60",
+   "size": 59721,
+   "mtime": 1794747266
+  },
+  "93823e35ef714bf0a9e77d9b4b07c60c": {
+   "path": "banners/beginner_first_vigil.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "0893e9ba5e782150ff63",
+   "size": 284072,
+   "mtime": 1794734927
+  },
+  "44fd03aea2ac4642b364d31f144cec68": {
+   "path": "banners/hall_of_ancestors.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "3facf9f10ebc57db40eb",
+   "size": 261906,
+   "mtime": 1794754858
+  },
+  "2ec1b0c8889e40188568f65fc3673f02": {
+   "path": "banners/hall_of_armaments_weapons.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "5493cc7bc2fdd1b1539f",
+   "size": 289038,
+   "mtime": 1794735323
+  },
+  "440f90c34f09444490a02ee04b42b58d": {
+   "path": "banners/oath_01_sister.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "df691d0d0b070de8d7cc",
+   "size": 205914,
+   "mtime": 1794747247
+  },
+  "843e4843a801407e95bed009532e6509": {
+   "path": "banners/oath_01_weapon.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "19cc3effbd42d9b976f3",
+   "size": 205048,
+   "mtime": 1794747649
+  },
+  "e9a0655e8e5d436ab35463af3b9c2286": {
+   "path": "banners/oath_02_sable.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "7074195e6913ecd06dd7",
+   "size": 225064,
+   "mtime": 1794748010
+  },
+  "7ab11d0e233f4a6fa8af1ff064ff930a": {
+   "path": "banners/oath_02_weapon.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "6fe444869fb49c400888",
+   "size": 180140,
+   "mtime": 1794748346
+  },
+  "727de0fe59014ee8b1ba630d155cb528": {
+   "path": "banners/oath_03_nara.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "28f8594e0381884986be",
+   "size": 184044,
+   "mtime": 1794748680
+  },
+  "9313ad4e0e2c47c8adc3c87f2c9293ed": {
+   "path": "banners/oath_03_weapon.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "5646b001666557fcf0be",
+   "size": 185144,
+   "mtime": 1794749105
+  },
+  "eae15ce38b0649f98a1e60b2597ad134": {
+   "path": "banners/oath_04_mirel.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "02d4b89bfe554ece961e",
+   "size": 186340,
+   "mtime": 1794749768
+  },
+  "6199c717c20744ceb74b18bddb6032cd": {
+   "path": "banners/oath_04_weapon.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "d286bf17d29d50c43747",
+   "size": 203068,
+   "mtime": 1794750194
+  },
+  "84ff97c6e7754d7a842e6da3d0516b11": {
+   "path": "banners/oath_05_vespera.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "786a755ed052fa05bf26",
+   "size": 232024,
+   "mtime": 1794750618
+  },
+  "378077a355944d0caa7cd98c2110a06c": {
+   "path": "banners/oath_05_weapon.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "76049c08cde32e53b2b8",
+   "size": 220390,
+   "mtime": 1794751023
+  },
+  "e25c921aaaf54b899594e80d3553c28f": {
+   "path": "banners/oath_06_garrick.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "5c726a9101fcb7bfdf22",
+   "size": 161704,
+   "mtime": 1794751700
+  },
+  "4c4a3a467a524e809e6dd23e86fe34a1": {
+   "path": "banners/oath_06_weapon.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "d0ba80986258450ba031",
+   "size": 123430,
+   "mtime": 1794752440
+  },
+  "f57f85b319fc4ca48d4e704447e11678": {
+   "path": "banners/oath_07_corbin.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "62323fedf11711a4e9cd",
+   "size": 209788,
+   "mtime": 1794752955
+  },
+  "5b634e4054cf442ca71b0a29fb40b9cb": {
+   "path": "banners/oath_07_weapon.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "da088fb70039d9b94eb1",
+   "size": 222446,
+   "mtime": 1794754072
+  },
+  "2d9a42a0468f4d07bf1b593869e5d3b2": {
+   "path": "bg_sol_world_map_part1.webp",
+   "type": "texture",
+   "import": {},
+   "hash": "e0335fdd806178376be7",
+   "size": 540430,
+   "mtime": 1794691488
+  },
+  "7ecc3075e2174b07ad543aa1064c6315": {
+   "path": "bg_title_cathedral.png",
+   "type": "texture",
+   "import": {},
+   "hash": "7b0072d93a0a3e5dd2fc",
+   "size": 3010658,
+   "mtime": 1794691127
+  },
+  "c50dbab16d34481d983dd402d24974a3": {
+   "path": "bg_ui_gacha_summon_altar.png",
+   "type": "texture",
+   "import": {},
+   "hash": "afc61e5661157fdd8279",
+   "size": 3311484,
+   "mtime": 1794691128
+  },
+  "bb02948880f544889db196cc25652f9a": {
+   "path": "bg_ui_hub_sanctuary.png",
+   "type": "texture",
+   "import": {},
+   "hash": "3471bd81b4b688770196",
+   "size": 2976696,
+   "mtime": 1794691128
+  },
+  "82721e61beb54148bbc55252fb8c5fcd": {
+   "path": "icons/ui/auto.png",
+   "type": "texture",
+   "import": {},
+   "hash": "cc307c6f1605480860f8",
+   "size": 51563,
+   "mtime": 1794733749
+  },
+  "f3e60a6b62f5465b9b70db0523ac689c": {
+   "path": "icons/ui/back.png",
+   "type": "texture",
+   "import": {},
+   "hash": "9ac6979cdae390ef5428",
+   "size": 30310,
+   "mtime": 1794733419
+  },
+  "d4ddba055f3a4dff911c02ebd365d8f0": {
+   "path": "icons/ui/check.png",
+   "type": "texture",
+   "import": {},
+   "hash": "f42c2b76ff0cedb7fc89",
+   "size": 35526,
+   "mtime": 1794732573
+  },
+  "7e8cb387f8d44385919d94c2389b4ad1": {
+   "path": "icons/ui/clock.png",
+   "type": "texture",
+   "import": {},
+   "hash": "023533c65e037c5da44e",
+   "size": 76081,
+   "mtime": 1794733596
+  },
+  "7561f9f164cc41db9a85cf07f8af21de": {
+   "path": "icons/ui/close.png",
+   "type": "texture",
+   "import": {},
+   "hash": "1f5bee42eb90d84dca1a",
+   "size": 75514,
+   "mtime": 1794733326
+  },
+  "becb7d2fefc6465ab21481c1e6ac56ec": {
+   "path": "icons/ui/gift.png",
+   "type": "texture",
+   "import": {},
+   "hash": "39ec7fc616687ccb6cdb",
+   "size": 81653,
+   "mtime": 1794734214
+  },
+  "d7d73441333944419fd33305f4e12e6c": {
+   "path": "icons/ui/heart.png",
+   "type": "texture",
+   "import": {},
+   "hash": "77462e923f9593184836",
+   "size": 58008,
+   "mtime": 1794732782
+  },
+  "cd97c66716714b9ab30126c2649c0069": {
+   "path": "icons/ui/info.png",
+   "type": "texture",
+   "import": {},
+   "hash": "30b7b086efd237b670a7",
+   "size": 32410,
+   "mtime": 1794733501
+  },
+  "0b2175b97a064175a7252800988f27ca": {
+   "path": "icons/ui/lightning.png",
+   "type": "texture",
+   "import": {},
+   "hash": "70c4787319afb061be7e",
+   "size": 26423,
+   "mtime": 1794732845
+  },
+  "b3c47ef5eb5e4d27b0c29cd98f1c449b": {
+   "path": "icons/ui/lock.png",
+   "type": "texture",
+   "import": {},
+   "hash": "2838c933394a9827069f",
+   "size": 61456,
+   "mtime": 1794732519
+  },
+  "ecb29a5ccc2f4b1fb72bc4741ff05cff": {
+   "path": "icons/ui/minus.png",
+   "type": "texture",
+   "import": {},
+   "hash": "9eed76d14d2bd23cbcf8",
+   "size": 23187,
+   "mtime": 1794733244
+  },
+  "b0b2c54a541c460099b5ce56a34ef63a": {
+   "path": "icons/ui/new.png",
+   "type": "texture",
+   "import": {},
+   "hash": "15f5011df5048968c914",
+   "size": 54644,
+   "mtime": 1794734328
+  },
+  "4feb0818848c4af5b3e71d89b57af32a": {
+   "path": "icons/ui/plus.png",
+   "type": "texture",
+   "import": {},
+   "hash": "3602cdf052f7f677c087",
+   "size": 56065,
+   "mtime": 1794733159
+  },
+  "79542d5f31214d0d8a740bef0996c0af": {
+   "path": "icons/ui/red_dot.png",
+   "type": "texture",
+   "import": {},
+   "hash": "502b93b8193fbce0144e",
+   "size": 58176,
+   "mtime": 1794733087
+  },
+  "13ecf055b1c84b858858e6688ba46f7e": {
+   "path": "icons/ui/speed_2x.png",
+   "type": "texture",
+   "import": {},
+   "hash": "f3e494a707653ab5620b",
+   "size": 41326,
+   "mtime": 1794733840
+  },
+  "b2a64f2907b941678b534a6bde349721": {
+   "path": "icons/ui/star_empty.png",
+   "type": "texture",
+   "import": {},
+   "hash": "35f339dcda5de18c07b8",
+   "size": 35917,
+   "mtime": 1794732368
+  },
+  "385c6072c8db4f4bbea341ac8b3c5454": {
+   "path": "icons/ui/star_filled.png",
+   "type": "texture",
+   "import": {},
+   "hash": "32a4ff40ffdca55f3a5d",
+   "size": 48839,
+   "mtime": 1794732152
+  },
+  "be4ccc4947fb466aafa4d0bcadf0277f": {
+   "path": "icons/ui/swap.png",
+   "type": "texture",
+   "import": {},
+   "hash": "949628d92c1beee29873",
+   "size": 40125,
+   "mtime": 1794732925
+  },
+  "a3423aaced764d07ac4bfa01521afee7": {
+   "path": "icons/ui/target.png",
+   "type": "texture",
+   "import": {},
+   "hash": "528f3c19bdcee5cfa36a",
+   "size": 45251,
+   "mtime": 1794733940
+  },
+  "82929e710c024a4d814ebe5b779281e5": {
+   "path": "icons/ui/warning.png",
+   "type": "texture",
+   "import": {},
+   "hash": "9b236037843e681d1d45",
+   "size": 59141,
+   "mtime": 1794732714
+  },
+  "adfef1d6e67d4cd7a1d0e26951edce62": {
+   "path": "ui_kit/badge_pill.png",
+   "type": "texture",
+   "import": {},
+   "hash": "c39499fc7ca311cec9f5",
+   "size": 10541,
+   "mtime": 1794688409
+  },
+  "0fcc50000c30429c980bbdd88bdf4dec": {
+   "path": "ui_kit/button_primary.png",
+   "type": "texture",
+   "import": {},
+   "hash": "bfd0c79ed91a1154ae60",
+   "size": 31411,
+   "mtime": 1794687869
+  },
+  "fac53fb3607c496cb31d52666ae2f2b0": {
+   "path": "ui_kit/button_secondary.png",
+   "type": "texture",
+   "import": {},
+   "hash": "958115bd62d7e73bf176",
+   "size": 26400,
+   "mtime": 1794687928
+  },
+  "b05c9202be5249dfbb626803528bf1d3": {
+   "path": "ui_kit/button_tab_active.png",
+   "type": "texture",
+   "import": {},
+   "hash": "709734cad8850fae2985",
+   "size": 21914,
+   "mtime": 1794687978
+  },
+  "1a5d95c793194e4fa3f85cc1c0c166f3": {
+   "path": "ui_kit/button_tab_inactive.png",
+   "type": "texture",
+   "import": {},
+   "hash": "3c0fd254be878df23fdd",
+   "size": 20769,
+   "mtime": 1794688052
+  },
+  "059e777db5f741ccabee22b80ec779cb": {
+   "path": "ui_kit/divider_bell.png",
+   "type": "texture",
+   "import": {},
+   "hash": "a8b8dbf50d19ecf63cea",
+   "size": 22960,
+   "mtime": 1794688579
+  },
+  "874b3a84afe44762ad55f6b958939977": {
+   "path": "ui_kit/frame_card_3star.png",
+   "type": "texture",
+   "import": {},
+   "hash": "903878516fc2a81f5127",
+   "size": 33329,
+   "mtime": 1794688126
+  },
+  "5ea1d8bdad884a03b289e5f46482e9cd": {
+   "path": "ui_kit/frame_card_4star.png",
+   "type": "texture",
+   "import": {},
+   "hash": "c5de790f865e31b2d6a9",
+   "size": 34964,
+   "mtime": 1794688364
+  },
+  "288949e9a8c5475289e59078c1cfa6b3": {
+   "path": "ui_kit/frame_card_5star.png",
+   "type": "texture",
+   "import": {},
+   "hash": "609860382dc9ed9da581",
+   "size": 36363,
+   "mtime": 1794688248
+  },
+  "e7082540e4d64a88aaab1eff8c2c6842": {
+   "path": "ui_kit/icon_bell.png",
+   "type": "texture",
+   "import": {},
+   "hash": "319f70f80e4c59521753",
+   "size": 12383,
+   "mtime": 1794690211
+  },
+  "95ac20a28ac04bc28df30e7cacc4b13e": {
+   "path": "ui_kit/icon_el_dawn.png",
+   "type": "texture",
+   "import": {},
+   "hash": "822fb1eadba0887e531e",
+   "size": 13374,
+   "mtime": 1794689374
+  },
+  "ca26852bfa714c67aafb573d78e8193e": {
+   "path": "ui_kit/icon_el_ember.png",
+   "type": "texture",
+   "import": {},
+   "hash": "23b57e97afefe688a781",
+   "size": 9839,
+   "mtime": 1794689018
+  },
+  "803081c8f07f415e8e529651041cc549": {
+   "path": "ui_kit/icon_el_gale.png",
+   "type": "texture",
+   "import": {},
+   "hash": "2367eae03ec1df115261",
+   "size": 15028,
+   "mtime": 1794689144
+  },
+  "54e804da64464c678f9e257f3a0cb43e": {
+   "path": "ui_kit/icon_el_stone.png",
+   "type": "texture",
+   "import": {},
+   "hash": "eb371998a21bb82f6f9c",
+   "size": 12514,
+   "mtime": 1794689222
+  },
+  "7807965995074ccabb8042a58a509101": {
+   "path": "ui_kit/icon_el_tide.png",
+   "type": "texture",
+   "import": {},
+   "hash": "fae400f64dc21e1102a8",
+   "size": 14597,
+   "mtime": 1794689078
+  },
+  "c1b451c7ca8d4fd783edf6108996efe3": {
+   "path": "ui_kit/icon_el_veil.png",
+   "type": "texture",
+   "import": {},
+   "hash": "6fbd22155105ea62242d",
+   "size": 11206,
+   "mtime": 1794689302
+  },
+  "76aa8b19db6b4d18bcf36bd733158270": {
+   "path": "ui_kit/icon_nav_companions.png",
+   "type": "texture",
+   "import": {},
+   "hash": "84cc06c2752f5410ba72",
+   "size": 13283,
+   "mtime": 1794689625
+  },
+  "da81629025214b40bec5bac8b6fe528a": {
+   "path": "ui_kit/icon_nav_journey.png",
+   "type": "texture",
+   "import": {},
+   "hash": "5e75d6287e1f7a374c10",
+   "size": 13075,
+   "mtime": 1794689553
+  },
+  "6a353925530e4b2fbb0f6a127582e86c": {
+   "path": "ui_kit/icon_nav_records.png",
+   "type": "texture",
+   "import": {},
+   "hash": "a1cdbecd8793423b6976",
+   "size": 14976,
+   "mtime": 1794689775
+  },
+  "1201eca31e8745b3bc1670986f45899b": {
+   "path": "ui_kit/icon_nav_sanctuary.png",
+   "type": "texture",
+   "import": {},
+   "hash": "329653a972a6763b3485",
+   "size": 11445,
+   "mtime": 1794689484
+  },
+  "2adf71c3f1e448f4bea610a537ce8454": {
+   "path": "ui_kit/icon_nav_settings.png",
+   "type": "texture",
+   "import": {},
+   "hash": "e760ff2110a94500e698",
+   "size": 15961,
+   "mtime": 1794689853
+  },
+  "d99e6e2d61d044b09852ae8be04980c7": {
+   "path": "ui_kit/icon_nav_summon.png",
+   "type": "texture",
+   "import": {},
+   "hash": "ac289163ff1dabfdeff6",
+   "size": 10515,
+   "mtime": 1794689704
+  },
+  "c9c3d7d9cc024ff18f64de0618112c8e": {
+   "path": "ui_kit/icon_seal.png",
+   "type": "texture",
+   "import": {},
+   "hash": "a089aaac1a0c82f464ec",
+   "size": 14502,
+   "mtime": 1794690284
+  },
+  "e41e8375972d45cb87809d0893efcb81": {
+   "path": "ui_kit/icon_skill_active.png",
+   "type": "texture",
+   "import": {},
+   "hash": "886531c164202948c459",
+   "size": 12511,
+   "mtime": 1794690058
+  },
+  "8c9dc7a5cf814b6895871efe1b407697": {
+   "path": "ui_kit/icon_skill_basic.png",
+   "type": "texture",
+   "import": {},
+   "hash": "2ed5a7648b5367752e87",
+   "size": 9617,
+   "mtime": 1794689975
+  },
+  "427012c71c8441bb8b1ce2befeeb5f40": {
+   "path": "ui_kit/icon_skill_ultimate.png",
+   "type": "texture",
+   "import": {},
+   "hash": "ed1b6b4687423024d91d",
+   "size": 12812,
+   "mtime": 1794690144
+  },
+  "8d4f58cf22f747f19a3266acd196f858": {
+   "path": "ui_kit/icon_token.png",
+   "type": "texture",
+   "import": {},
+   "hash": "105b4c3513008373050b",
+   "size": 16492,
+   "mtime": 1794690369
+  },
+  "04749ce30a5143f3898b4710ba5bd53b": {
+   "path": "ui_kit/logo_master.png",
+   "type": "texture",
+   "import": {},
+   "hash": "60bc762988996ea20d24",
+   "size": 71371,
+   "mtime": 1794688649
+  },
+  "5d807a32667143098bc958c5825c8b00": {
+   "path": "ui_kit/notice_dot.png",
+   "type": "texture",
+   "import": {},
+   "hash": "b1b1610820969d721ae3",
+   "size": 5789,
+   "mtime": 1794688932
+  },
+  "4b56050dc1074b2f96a2b2c18f3c6015": {
+   "path": "ui_kit/panel_active.png",
+   "type": "texture",
+   "import": {},
+   "hash": "7a5bbdaac9d26f860521",
+   "size": 66015,
+   "mtime": 1794687712
+  },
+  "a0cb60430153423e94fed0c5fd01bda4": {
+   "path": "ui_kit/panel_dim.png",
+   "type": "texture",
+   "import": {},
+   "hash": "590d8e1112a8124522b8",
+   "size": 51863,
+   "mtime": 1794687823
+  },
+  "ce4987e9f00a443299071e3bc14d264e": {
+   "path": "ui_kit/panel_hot.png",
+   "type": "texture",
+   "import": {},
+   "hash": "acec7e2fc16da51cb07a",
+   "size": 65470,
+   "mtime": 1794687712
+  },
+  "d07868fa5b5546f1b91601ab3e4aab24": {
+   "path": "ui_kit/panel_normal.png",
+   "type": "texture",
+   "import": {},
+   "hash": "53be2ddec8ab51df3ec3",
+   "size": 63496,
+   "mtime": 1794687711
+  },
+  "14d7933192944739beac58a279a139c8": {
+   "path": "ui_kit/progress_frame.png",
+   "type": "texture",
+   "import": {},
+   "hash": "db5a2cea0db4e1e0eece",
+   "size": 7726,
+   "mtime": 1794688493
+  },
+  "a937e98ebbec4f0b80a6bbd12059fefd": {
+   "path": "ui_kit/theme.json",
+   "type": "data",
+   "import": {},
+   "hash": "5a0de4a10508a42f60c8",
+   "size": 4400,
+   "mtime": 1794315915
+  },
+  "40731c739bd04947b3e3953eb5f31920": {
+   "path": "ui_kit/uikit_corner_bell_chain.png",
+   "type": "texture",
+   "import": {},
+   "hash": "abed1cf2e98cb693b8e1",
+   "size": 77869,
+   "mtime": 1794688792
+  },
+  "e23f7f8dbc2848e490adba455941ab53": {
+   "path": "ui_kit/uikit_corner_bell_chain_right.png",
+   "type": "texture",
+   "import": {},
+   "hash": "d0ba93eed28e1e78a93c",
+   "size": 78693,
+   "mtime": 1794688814
+  }
+ }
+}

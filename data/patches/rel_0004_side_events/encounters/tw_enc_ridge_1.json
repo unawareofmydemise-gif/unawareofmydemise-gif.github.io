@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "encounter_id": "tw_enc_ridge_1",
+  "stage_id": "TW-490A",
+  "title_en": "The Watchers Road",
+  "location_id": "tw_upper_turn",
+  "seed": 1225409953,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 18,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 18,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "inkbound_dead",
+      "level": 18,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "inkbound_dead",
+      "level": 18,
+      "slot": 3,
+      "row": "rear"
+    },
+    {
+      "unit_id": "hollow_cleric",
+      "level": 18,
+      "slot": 4,
+      "row": "rear"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/those_who_watch/authoring/encounters.json#tw_enc_ridge_1"
+  }
+}

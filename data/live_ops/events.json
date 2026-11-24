@@ -1,0 +1,2778 @@
+[
+  {
+    "id": "ev_ashen_vigil_s1",
+    "title_en": "Ashen Vigil — Season I",
+    "subtitle_en": "Hold the bell-tower road and gather chronicle remnants.",
+    "art_key": "event_ashen_vigil_s1",
+    "starts_at": "2026-11-13T00:00:00.000Z",
+    "ends_at": "2026-11-30T00:00:00.000Z",
+    "claimGraceDays": 3,
+    "objectives": [
+      {
+        "id": "login_3",
+        "title_en": "Check in on 3 days",
+        "objective": {
+          "type": "logins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "id": "win_5",
+        "title_en": "Win 5 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "win_15",
+        "title_en": "Win 15 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 150
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 50
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "id": "three_star_5",
+        "title_en": "Win 5 battles with three stars",
+        "objective": {
+          "type": "three_star_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "sweep_10",
+        "title_en": "Sweep 10 times",
+        "objective": {
+          "type": "sweeps",
+          "count": 10
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 50
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "id": "boss_3",
+        "title_en": "Defeat 3 bosses",
+        "objective": {
+          "type": "boss_wins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "stars_15",
+        "title_en": "Earn 15 new stars",
+        "objective": {
+          "type": "stars",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "id": "level_5",
+        "title_en": "Level up heroes 5 times",
+        "objective": {
+          "type": "level_ups",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "tactical_notes",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "shop": {
+      "currency": "sun_eclipse_token",
+      "goods": [
+        {
+          "id": "memory",
+          "title_en": "Universal Memory Shard",
+          "price": 120,
+          "limit": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "universal_memory_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "chronicle",
+          "title_en": "Bound Chronicle ×5",
+          "price": 60,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "bound_chronicle",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "title_en": "Iron Oath Seal ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "iron_oath_seal",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title_en": "Alchemy Core ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "alchemy_core",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title_en": "Tactical Notes ×5",
+          "price": 40,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "tactical_notes",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "dust",
+          "title_en": "Forge Dust ×10",
+          "price": 20,
+          "limit": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "forge_dust",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    "calendar": {
+      "days": [
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 5
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 200
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 60
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ev_last_traveler",
+    "title_en": "For the Last Traveler",
+    "subtitle_en": "Leave the pass ready for whoever comes next.",
+    "art_key": "event_last_traveler",
+    "starts_at": "2026-11-30T00:00:00.000Z",
+    "ends_at": "2026-12-14T00:00:00.000Z",
+    "claimGraceDays": 3,
+    "objectives": [
+      {
+        "id": "login_3",
+        "title_en": "Check in on 3 days",
+        "objective": {
+          "type": "logins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "id": "win_5",
+        "title_en": "Win 5 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "win_15",
+        "title_en": "Win 15 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 150
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 50
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "id": "three_star_5",
+        "title_en": "Win 5 battles with three stars",
+        "objective": {
+          "type": "three_star_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "sweep_10",
+        "title_en": "Sweep 10 times",
+        "objective": {
+          "type": "sweeps",
+          "count": 10
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 50
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "id": "boss_3",
+        "title_en": "Defeat 3 bosses",
+        "objective": {
+          "type": "boss_wins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "stars_15",
+        "title_en": "Earn 15 new stars",
+        "objective": {
+          "type": "stars",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "id": "level_5",
+        "title_en": "Level up heroes 5 times",
+        "objective": {
+          "type": "level_ups",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "tactical_notes",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "shop": {
+      "currency": "sun_eclipse_token",
+      "goods": [
+        {
+          "id": "memory",
+          "title_en": "Universal Memory Shard",
+          "price": 120,
+          "limit": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "universal_memory_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "chronicle",
+          "title_en": "Bound Chronicle ×5",
+          "price": 60,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "bound_chronicle",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "title_en": "Iron Oath Seal ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "iron_oath_seal",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title_en": "Alchemy Core ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "alchemy_core",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title_en": "Tactical Notes ×5",
+          "price": 40,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "tactical_notes",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "dust",
+          "title_en": "Forge Dust ×10",
+          "price": 20,
+          "limit": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "forge_dust",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    "calendar": {
+      "days": [
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 5
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 200
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 60
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ev_somewhere_dry",
+    "title_en": "Somewhere Dry",
+    "subtitle_en": "Read the wet record honestly and find its owner.",
+    "art_key": "event_somewhere_dry",
+    "starts_at": "2026-12-14T00:00:00.000Z",
+    "ends_at": "2026-12-28T00:00:00.000Z",
+    "claimGraceDays": 3,
+    "objectives": [
+      {
+        "id": "login_3",
+        "title_en": "Check in on 3 days",
+        "objective": {
+          "type": "logins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "id": "win_5",
+        "title_en": "Win 5 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "win_15",
+        "title_en": "Win 15 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 150
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 50
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "id": "three_star_5",
+        "title_en": "Win 5 battles with three stars",
+        "objective": {
+          "type": "three_star_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "sweep_10",
+        "title_en": "Sweep 10 times",
+        "objective": {
+          "type": "sweeps",
+          "count": 10
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 50
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "id": "boss_3",
+        "title_en": "Defeat 3 bosses",
+        "objective": {
+          "type": "boss_wins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "stars_15",
+        "title_en": "Earn 15 new stars",
+        "objective": {
+          "type": "stars",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "id": "level_5",
+        "title_en": "Level up heroes 5 times",
+        "objective": {
+          "type": "level_ups",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "tactical_notes",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "shop": {
+      "currency": "sun_eclipse_token",
+      "goods": [
+        {
+          "id": "memory",
+          "title_en": "Universal Memory Shard",
+          "price": 120,
+          "limit": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "universal_memory_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "chronicle",
+          "title_en": "Bound Chronicle ×5",
+          "price": 60,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "bound_chronicle",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "title_en": "Iron Oath Seal ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "iron_oath_seal",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title_en": "Alchemy Core ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "alchemy_core",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title_en": "Tactical Notes ×5",
+          "price": 40,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "tactical_notes",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "dust",
+          "title_en": "Forge Dust ×10",
+          "price": 20,
+          "limit": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "forge_dust",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    "calendar": {
+      "days": [
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 5
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 200
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 60
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ev_one_dish_one_name",
+    "title_en": "One Dish, One Name",
+    "subtitle_en": "Bring a dish, say a name, and keep a seat for everyone.",
+    "art_key": "event_one_dish_one_name",
+    "starts_at": "2026-12-28T00:00:00.000Z",
+    "ends_at": "2027-01-11T00:00:00.000Z",
+    "claimGraceDays": 3,
+    "objectives": [
+      {
+        "id": "login_3",
+        "title_en": "Check in on 3 days",
+        "objective": {
+          "type": "logins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "id": "win_5",
+        "title_en": "Win 5 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "win_15",
+        "title_en": "Win 15 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 150
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 50
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "id": "three_star_5",
+        "title_en": "Win 5 battles with three stars",
+        "objective": {
+          "type": "three_star_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "sweep_10",
+        "title_en": "Sweep 10 times",
+        "objective": {
+          "type": "sweeps",
+          "count": 10
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 50
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "id": "boss_3",
+        "title_en": "Defeat 3 bosses",
+        "objective": {
+          "type": "boss_wins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "stars_15",
+        "title_en": "Earn 15 new stars",
+        "objective": {
+          "type": "stars",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "id": "level_5",
+        "title_en": "Level up heroes 5 times",
+        "objective": {
+          "type": "level_ups",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "tactical_notes",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "shop": {
+      "currency": "sun_eclipse_token",
+      "goods": [
+        {
+          "id": "memory",
+          "title_en": "Universal Memory Shard",
+          "price": 120,
+          "limit": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "universal_memory_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "chronicle",
+          "title_en": "Bound Chronicle ×5",
+          "price": 60,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "bound_chronicle",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "title_en": "Iron Oath Seal ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "iron_oath_seal",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title_en": "Alchemy Core ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "alchemy_core",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title_en": "Tactical Notes ×5",
+          "price": 40,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "tactical_notes",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "dust",
+          "title_en": "Forge Dust ×10",
+          "price": 20,
+          "limit": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "forge_dust",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    "calendar": {
+      "days": [
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 5
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 200
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 60
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ev_archive_watch",
+    "title_en": "Archive Watch",
+    "subtitle_en": "Three cases, four approaches: learn what the first move protects.",
+    "art_key": "event_archive_watch",
+    "starts_at": "2027-01-11T00:00:00.000Z",
+    "ends_at": "2027-01-25T00:00:00.000Z",
+    "claimGraceDays": 3,
+    "objectives": [
+      {
+        "id": "login_3",
+        "title_en": "Check in on 3 days",
+        "objective": {
+          "type": "logins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "id": "win_5",
+        "title_en": "Win 5 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "win_15",
+        "title_en": "Win 15 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 150
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 50
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "id": "three_star_5",
+        "title_en": "Win 5 battles with three stars",
+        "objective": {
+          "type": "three_star_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "sweep_10",
+        "title_en": "Sweep 10 times",
+        "objective": {
+          "type": "sweeps",
+          "count": 10
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 50
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "id": "boss_3",
+        "title_en": "Defeat 3 bosses",
+        "objective": {
+          "type": "boss_wins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "stars_15",
+        "title_en": "Earn 15 new stars",
+        "objective": {
+          "type": "stars",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "id": "level_5",
+        "title_en": "Level up heroes 5 times",
+        "objective": {
+          "type": "level_ups",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "tactical_notes",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "shop": {
+      "currency": "sun_eclipse_token",
+      "goods": [
+        {
+          "id": "memory",
+          "title_en": "Universal Memory Shard",
+          "price": 120,
+          "limit": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "universal_memory_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "chronicle",
+          "title_en": "Bound Chronicle ×5",
+          "price": 60,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "bound_chronicle",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "title_en": "Iron Oath Seal ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "iron_oath_seal",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title_en": "Alchemy Core ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "alchemy_core",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title_en": "Tactical Notes ×5",
+          "price": 40,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "tactical_notes",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "dust",
+          "title_en": "Forge Dust ×10",
+          "price": 20,
+          "limit": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "forge_dust",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    "calendar": {
+      "days": [
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 5
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 200
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 60
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ev_two_labels",
+    "title_en": "Two Labels",
+    "subtitle_en": "Carry the medicine down the salt road and tell the truth about it.",
+    "art_key": "event_two_labels",
+    "starts_at": "2027-01-25T00:00:00.000Z",
+    "ends_at": "2027-02-08T00:00:00.000Z",
+    "claimGraceDays": 3,
+    "objectives": [
+      {
+        "id": "login_3",
+        "title_en": "Check in on 3 days",
+        "objective": {
+          "type": "logins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "id": "win_5",
+        "title_en": "Win 5 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "win_15",
+        "title_en": "Win 15 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 150
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 50
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "id": "three_star_5",
+        "title_en": "Win 5 battles with three stars",
+        "objective": {
+          "type": "three_star_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "sweep_10",
+        "title_en": "Sweep 10 times",
+        "objective": {
+          "type": "sweeps",
+          "count": 10
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 50
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "id": "boss_3",
+        "title_en": "Defeat 3 bosses",
+        "objective": {
+          "type": "boss_wins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "stars_15",
+        "title_en": "Earn 15 new stars",
+        "objective": {
+          "type": "stars",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "id": "level_5",
+        "title_en": "Level up heroes 5 times",
+        "objective": {
+          "type": "level_ups",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "tactical_notes",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "shop": {
+      "currency": "sun_eclipse_token",
+      "goods": [
+        {
+          "id": "memory",
+          "title_en": "Universal Memory Shard",
+          "price": 120,
+          "limit": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "universal_memory_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "chronicle",
+          "title_en": "Bound Chronicle ×5",
+          "price": 60,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "bound_chronicle",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "title_en": "Iron Oath Seal ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "iron_oath_seal",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title_en": "Alchemy Core ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "alchemy_core",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title_en": "Tactical Notes ×5",
+          "price": 40,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "tactical_notes",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "dust",
+          "title_en": "Forge Dust ×10",
+          "price": 20,
+          "limit": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "forge_dust",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    "calendar": {
+      "days": [
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 5
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 200
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 60
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ev_open_road",
+    "title_en": "An Open Road",
+    "subtitle_en": "Teach the relief stop to run without you.",
+    "art_key": "event_open_road",
+    "starts_at": "2027-02-08T00:00:00.000Z",
+    "ends_at": "2027-02-22T00:00:00.000Z",
+    "claimGraceDays": 3,
+    "objectives": [
+      {
+        "id": "login_3",
+        "title_en": "Check in on 3 days",
+        "objective": {
+          "type": "logins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "id": "win_5",
+        "title_en": "Win 5 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "win_15",
+        "title_en": "Win 15 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 150
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 50
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "id": "three_star_5",
+        "title_en": "Win 5 battles with three stars",
+        "objective": {
+          "type": "three_star_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "sweep_10",
+        "title_en": "Sweep 10 times",
+        "objective": {
+          "type": "sweeps",
+          "count": 10
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 50
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "id": "boss_3",
+        "title_en": "Defeat 3 bosses",
+        "objective": {
+          "type": "boss_wins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "stars_15",
+        "title_en": "Earn 15 new stars",
+        "objective": {
+          "type": "stars",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "id": "level_5",
+        "title_en": "Level up heroes 5 times",
+        "objective": {
+          "type": "level_ups",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "tactical_notes",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "shop": {
+      "currency": "sun_eclipse_token",
+      "goods": [
+        {
+          "id": "memory",
+          "title_en": "Universal Memory Shard",
+          "price": 120,
+          "limit": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "universal_memory_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "chronicle",
+          "title_en": "Bound Chronicle ×5",
+          "price": 60,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "bound_chronicle",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "title_en": "Iron Oath Seal ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "iron_oath_seal",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title_en": "Alchemy Core ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "alchemy_core",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title_en": "Tactical Notes ×5",
+          "price": 40,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "tactical_notes",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "dust",
+          "title_en": "Forge Dust ×10",
+          "price": 20,
+          "limit": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "forge_dust",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    "calendar": {
+      "days": [
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 5
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 200
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 60
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ev_those_who_watch",
+    "title_en": "Those Who Watch",
+    "subtitle_en": "Witness the eclipse from the ridge and the terrace, and keep what you saw.",
+    "art_key": "event_those_who_watch",
+    "starts_at": "2027-02-22T00:00:00.000Z",
+    "ends_at": "2027-03-08T00:00:00.000Z",
+    "claimGraceDays": 3,
+    "objectives": [
+      {
+        "id": "login_3",
+        "title_en": "Check in on 3 days",
+        "objective": {
+          "type": "logins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "id": "win_5",
+        "title_en": "Win 5 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "win_15",
+        "title_en": "Win 15 battles",
+        "objective": {
+          "type": "eligible_wins",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 150
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 50
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "id": "three_star_5",
+        "title_en": "Win 5 battles with three stars",
+        "objective": {
+          "type": "three_star_wins",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "id": "sweep_10",
+        "title_en": "Sweep 10 times",
+        "objective": {
+          "type": "sweeps",
+          "count": 10
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 50
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "id": "boss_3",
+        "title_en": "Defeat 3 bosses",
+        "objective": {
+          "type": "boss_wins",
+          "count": 3
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "stars_15",
+        "title_en": "Earn 15 new stars",
+        "objective": {
+          "type": "stars",
+          "count": 15
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "id": "level_5",
+        "title_en": "Level up heroes 5 times",
+        "objective": {
+          "type": "level_ups",
+          "count": 5
+        },
+        "rewards": [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 30
+          },
+          {
+            "type": "item",
+            "itemId": "tactical_notes",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "shop": {
+      "currency": "sun_eclipse_token",
+      "goods": [
+        {
+          "id": "memory",
+          "title_en": "Universal Memory Shard",
+          "price": 120,
+          "limit": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "universal_memory_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "chronicle",
+          "title_en": "Bound Chronicle ×5",
+          "price": 60,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "bound_chronicle",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "title_en": "Iron Oath Seal ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "iron_oath_seal",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title_en": "Alchemy Core ×3",
+          "price": 50,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "alchemy_core",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title_en": "Tactical Notes ×5",
+          "price": 40,
+          "limit": 3,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "tactical_notes",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "dust",
+          "title_en": "Forge Dust ×10",
+          "price": 20,
+          "limit": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "itemId": "forge_dust",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    "calendar": {
+      "days": [
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "forge_dust",
+            "quantity": 5
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "bound_chronicle",
+            "quantity": 3
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 100
+          }
+        ],
+        [
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 40
+          },
+          {
+            "type": "item",
+            "itemId": "iron_oath_seal",
+            "quantity": 2
+          }
+        ],
+        [
+          {
+            "type": "currency",
+            "currency": "eclipse_token",
+            "amount": 200
+          },
+          {
+            "type": "item",
+            "itemId": "sun_eclipse_token",
+            "quantity": 60
+          }
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "encounter_id": "stage_4_3",
+  "stage_id": "4-3",
+  "title_en": "The Measure of a Life",
+  "location_id": "undercity_subterranean",
+  "seed": 1630188085,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "guests": [
+    "clem_marr",
+    "thistle_roe"
+  ],
+  "enemies": [
+    {
+      "unit_id": "chain_cultist",
+      "level": 10,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "chain_cultist",
+      "level": 10,
+      "slot": 1,
+      "row": "rear"
+    },
+    {
+      "unit_id": "glass_viper",
+      "level": 10,
+      "slot": 2,
+      "row": "rear"
+    }
+  ],
+  "pre_story": "story/vn_4_3_pre.json",
+  "post_story": "story/vn_4_3_post.json",
+  "provenance": {
+    "source": "narrative/09_VN_Scripts/Runtime_Snapshot/game/data/content/stages_part1.json#4-3"
+  }
+}

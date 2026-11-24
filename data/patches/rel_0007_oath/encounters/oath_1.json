@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "encounter_id": "oath_1",
+  "stage_id": "OH-1",
+  "title_en": "Oath Hunt: The Ash-Maw",
+  "location_id": "forest_whispering_ash",
+  "seed": 4121559176,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "boss_ash_maw",
+      "level": 6,
+      "slot": 0,
+      "row": "front"
+    }
+  ],
+  "enemy_stat_multiplier": {
+    "value": 1.3,
+    "applies_to": [
+      "hp"
+    ]
+  },
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (Oath Hunt over stage_1_5)"
+  }
+}

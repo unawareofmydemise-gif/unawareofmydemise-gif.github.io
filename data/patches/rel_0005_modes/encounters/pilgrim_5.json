@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "encounter_id": "pilgrim_5",
+  "stage_id": "PT-5",
+  "title_en": "Pilgrim's Trial 5: Endless Line",
+  "location_id": "estate_ashen_lord",
+  "seed": 3909185086,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "inkbound_dead",
+      "level": 20,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "inkbound_dead",
+      "level": 20,
+      "slot": 1,
+      "row": "rear"
+    },
+    {
+      "unit_id": "estate_wraith",
+      "level": 20,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "estate_wraith",
+      "level": 20,
+      "slot": 3,
+      "row": "rear"
+    }
+  ],
+  "waves": [
+    [
+      {
+        "unit_id": "estate_wraith",
+        "level": 20,
+        "slot": 0,
+        "row": "front"
+      },
+      {
+        "unit_id": "estate_wraith",
+        "level": 20,
+        "slot": 1,
+        "row": "rear"
+      },
+      {
+        "unit_id": "noble_retainer",
+        "level": 20,
+        "slot": 2,
+        "row": "rear"
+      }
+    ],
+    [
+      {
+        "unit_id": "red_vial_alchemist",
+        "level": 20,
+        "slot": 0,
+        "row": "front"
+      },
+      {
+        "unit_id": "red_vial_alchemist",
+        "level": 20,
+        "slot": 1,
+        "row": "rear"
+      },
+      {
+        "unit_id": "chain_cultist",
+        "level": 20,
+        "slot": 2,
+        "row": "rear"
+      }
+    ]
+  ],
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (Pilgrim's Trial; line-ups of stage_6_3, stage_6_2, stage_4_2)"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "name": "Unaware of My Demise \u2014 Gothic Cathedral & Reliquary UI Kit",
+  "version": 1,
+  "logical_size": [
+    1920,
+    1080
+  ],
+  "colors": {
+    "void": [
+      10,
+      6,
+      16,
+      255
+    ],
+    "obsidian": [
+      18,
+      13,
+      28,
+      238
+    ],
+    "ash_panel": [
+      29,
+      22,
+      41,
+      240
+    ],
+    "bone": [
+      244,
+      236,
+      222,
+      255
+    ],
+    "text_primary": [
+      240,
+      232,
+      218,
+      255
+    ],
+    "silver": [
+      202,
+      192,
+      214,
+      255
+    ],
+    "text_dim": [
+      168,
+      156,
+      182,
+      255
+    ],
+    "gold_hi": [
+      227,
+      195,
+      125,
+      255
+    ],
+    "gold_bright": [
+      246,
+      223,
+      158,
+      255
+    ],
+    "gold_dim": [
+      168,
+      139,
+      82,
+      210
+    ],
+    "crimson": [
+      142,
+      26,
+      56,
+      255
+    ],
+    "crimson_hi": [
+      212,
+      50,
+      92,
+      255
+    ],
+    "veil": [
+      180,
+      140,
+      255,
+      255
+    ],
+    "hp_green": [
+      92,
+      206,
+      128,
+      255
+    ],
+    "shield_cyan": [
+      130,
+      216,
+      255,
+      255
+    ],
+    "ember": [
+      255,
+      168,
+      76,
+      255
+    ]
+  },
+  "font_roles": {
+    "scene_title": {
+      "face": "scene_title",
+      "font_file": "Cinzel-Bold.ttf",
+      "default_size": 52
+    },
+    "title": {
+      "face": "title",
+      "font_file": "Cinzel-SemiBold.ttf",
+      "default_size": 28
+    },
+    "subtitle": {
+      "face": "subtitle",
+      "font_file": "Spectral-Italic.ttf",
+      "default_size": 24
+    },
+    "body": {
+      "face": "body",
+      "font_file": "Spectral-Regular.ttf",
+      "default_size": 22
+    },
+    "numbers": {
+      "face": "numbers",
+      "font_file": "Oswald-SemiBold.ttf",
+      "default_size": 24
+    },
+    "ui": {
+      "face": "ui",
+      "font_file": "AlegreyaSans-Medium.ttf",
+      "default_size": 20
+    },
+    "combat": {
+      "face": "combat",
+      "font_file": "GrenzeGotisch-Bold.ttf",
+      "default_size": 44
+    }
+  },
+  "sprites": {
+    "panel_normal": {
+      "texture": "assets/ui_kit/panel_normal.png",
+      "border": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    "panel_hot": {
+      "texture": "assets/ui_kit/panel_hot.png",
+      "border": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    "panel_active": {
+      "texture": "assets/ui_kit/panel_active.png",
+      "border": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    "panel_dim": {
+      "texture": "assets/ui_kit/panel_dim.png",
+      "border": [
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    "button_primary": {
+      "texture": "assets/ui_kit/button_primary.png",
+      "border": [
+        28,
+        18,
+        28,
+        18
+      ]
+    },
+    "button_secondary": {
+      "texture": "assets/ui_kit/button_secondary.png",
+      "border": [
+        28,
+        18,
+        28,
+        18
+      ]
+    },
+    "button_tab_active": {
+      "texture": "assets/ui_kit/button_tab_active.png",
+      "border": [
+        28,
+        18,
+        28,
+        18
+      ]
+    },
+    "button_tab_inactive": {
+      "texture": "assets/ui_kit/button_tab_inactive.png",
+      "border": [
+        28,
+        18,
+        28,
+        18
+      ]
+    },
+    "frame_card_3star": {
+      "texture": "assets/ui_kit/frame_card_3star.png",
+      "border": [
+        48,
+        56,
+        48,
+        56
+      ]
+    },
+    "frame_card_4star": {
+      "texture": "assets/ui_kit/frame_card_4star.png",
+      "border": [
+        48,
+        56,
+        48,
+        56
+      ]
+    },
+    "frame_card_5star": {
+      "texture": "assets/ui_kit/frame_card_5star.png",
+      "border": [
+        48,
+        56,
+        48,
+        56
+      ]
+    },
+    "badge_pill": {
+      "texture": "assets/ui_kit/badge_pill.png",
+      "border": [
+        24,
+        18,
+        24,
+        18
+      ]
+    },
+    "progress_frame": {
+      "texture": "assets/ui_kit/progress_frame.png",
+      "border": [
+        24,
+        10,
+        24,
+        10
+      ]
+    },
+    "divider_bell": {
+      "texture": "assets/ui_kit/divider_bell.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "logo_master": {
+      "texture": "assets/ui_kit/logo_master.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

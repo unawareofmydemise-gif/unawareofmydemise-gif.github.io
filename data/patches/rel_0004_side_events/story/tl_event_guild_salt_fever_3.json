@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "scene_id": "tl_event_guild_salt_fever_3",
+  "title_en": "Two Labels",
+  "location_id": "salt_road_coast",
+  "commands": [
+    {
+      "op": "background",
+      "location_id": "salt_road_coast"
+    },
+    {
+      "op": "music",
+      "cue_id": "tl_market"
+    },
+    {
+      "op": "fade",
+      "direction": "in",
+      "seconds": 0.35
+    },
+    {
+      "op": "say",
+      "line_id": "tl_event_guild_salt_fever_3_001",
+      "speaker": "red_vial_agent",
+      "speaker_display": "Ledger Agent",
+      "text": "You are ruining a market, alchemist.",
+      "emotion": "cold"
+    },
+    {
+      "op": "show",
+      "character": "kera_voss",
+      "side": "left"
+    },
+    {
+      "op": "say",
+      "line_id": "tl_event_guild_salt_fever_3_002",
+      "speaker": "kera_voss",
+      "speaker_display": "Kera",
+      "text": "I am labeling it correctly. Yours says \"cure\". Mine says \"cure, free, and the name of who made it\".",
+      "emotion": "fierce"
+    },
+    {
+      "op": "narrate",
+      "line_id": "tl_event_guild_salt_fever_3_003",
+      "text": "The villagers took Kera's bottles. The agent left with a full crate and an empty road."
+    },
+    {
+      "op": "checkpoint",
+      "checkpoint_id": "tl_event_guild_salt_fever_3_done"
+    },
+    {
+      "op": "end"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/two_labels/story_json/event_guild_salt_fever_3.json",
+    "source_sha256": "8749647eab07a6ae7dd9c23bb6d025792de13c7720c2c924d2cd9390a303b75e",
+    "note": "Verbatim source lines."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "encounter_id": "lt_enc_brace_bank",
+  "stage_id": "LT-9A81",
+  "title_en": "Hold the Bank",
+  "location_id": "lt_forest_passage",
+  "seed": 2592203235,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "ash_wolf",
+      "level": 2,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "ash_wolf",
+      "level": 2,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 2,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "bellbound_dead",
+      "level": 2,
+      "slot": 3,
+      "row": "rear"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 2,
+      "slot": 4,
+      "row": "rear"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/last_traveler/authoring/encounters.json#lt_enc_brace_bank"
+  }
+}

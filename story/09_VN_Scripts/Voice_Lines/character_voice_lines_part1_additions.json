@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "pack_id": "character_voice_lines_part1_additions",
+  "content_language": "en",
+  "voice_language": "ja",
+  "canon_status": "draft_for_owner_review",
+  "rules_tr": "M17 G8 (Claude, 2026-11-14): eski katalogda olmayan 5 kahramanın aynı 11 tetikli satırları; karakter tarifleri (docs/art_bible/heroes) ve E9 yan hikâyelerinden. Kanon: Fadyme'nin sırrı açılmaz, Garrick şansölyenin adını söylemez, Dorian mührün sahibini adlandırmaz. Sahip onayına açık. 2026-11-15 (G9): ilişki satırlarının kilidi kahramanın ana hikâyedeki ilk görünmesinden sonraya alındı.",
+  "characters": [
+    {
+      "character_id": "cassian_thorne",
+      "lines": [
+        {
+          "line_id": "vo_cassian_thorne_first_meeting",
+          "trigger": "first_meeting",
+          "voice_track": "jp",
+          "text_en": "Cassian Thorne. The sword was the cathedral's. The ring I took myself. I carry both until the names are safe."
+        },
+        {
+          "line_id": "vo_cassian_thorne_team_join",
+          "trigger": "team_join",
+          "voice_track": "jp",
+          "text_en": "Put me where the doors are. I am good at standing in them."
+        },
+        {
+          "line_id": "vo_cassian_thorne_idle",
+          "trigger": "idle",
+          "voice_track": "jp",
+          "text_en": "Count with me. Someone should always be counting."
+        },
+        {
+          "line_id": "vo_cassian_thorne_basic_attack",
+          "trigger": "basic_attack",
+          "voice_track": "jp",
+          "text_en": "Down."
+        },
+        {
+          "line_id": "vo_cassian_thorne_active_skill",
+          "trigger": "active_skill",
+          "voice_track": "jp",
+          "text_en": "Stay behind the iron."
+        },
+        {
+          "line_id": "vo_cassian_thorne_ultimate",
+          "trigger": "ultimate",
+          "voice_track": "jp",
+          "text_en": "No tongue, no toll. Ring for me!"
+        },
+        {
+          "line_id": "vo_cassian_thorne_victory",
+          "trigger": "victory",
+          "voice_track": "jp",
+          "text_en": "Everyone accounted for. Write it down."
+        },
+        {
+          "line_id": "vo_cassian_thorne_defeat",
+          "trigger": "defeat",
+          "voice_track": "jp",
+          "text_en": "...Not one more name. Not like this."
+        },
+        {
+          "line_id": "vo_cassian_thorne_low_hp",
+          "trigger": "low_hp",
+          "voice_track": "jp",
+          "text_en": "Still standing. Still counting."
+        },
+        {
+          "line_id": "vo_cassian_thorne_relationship_1",
+          "trigger": "relationship_1",
+          "voice_track": "jp",
+          "text_en": "Mirel shouts at floods. I carry people out of them. Between us, the nave stayed empty of the dead.",
+          "about_character_id": "mirel_quill",
+          "about": "mirel_quill",
+          "unlock": {
+            "after_stage": "2-5"
+          }
+        },
+        {
+          "line_id": "vo_cassian_thorne_relationship_2",
+          "trigger": "relationship_2",
+          "voice_track": "jp",
+          "text_en": "Mahmut walks into a room first, looking for everyone else's way out. I know that walk. I learned it on a stair.",
+          "about_character_id": "mahmut",
+          "about": "mahmut",
+          "unlock": {
+            "after_stage": "5-3"
+          }
+        }
+      ]
+    },
+    {
+      "character_id": "corbin_locke",
+      "lines": [
+        {
+          "line_id": "vo_corbin_locke_first_meeting",
+          "trigger": "first_meeting",
+          "voice_track": "jp",
+          "text_en": "Corbin Locke, sluice warden. I read water. People are harder."
+        },
+        {
+          "line_id": "vo_corbin_locke_team_join",
+          "trigger": "team_join",
+          "voice_track": "jp",
+          "text_en": "Front. Water hits the front first."
+        },
+        {
+          "line_id": "vo_corbin_locke_idle",
+          "trigger": "idle",
+          "voice_track": "jp",
+          "text_en": "Seventeen a minute. It is still rising somewhere."
+        },
+        {
+          "line_id": "vo_corbin_locke_basic_attack",
+          "trigger": "basic_attack",
+          "voice_track": "jp",
+          "text_en": "Hook."
+        },
+        {
+          "line_id": "vo_corbin_locke_active_skill",
+          "trigger": "active_skill",
+          "voice_track": "jp",
+          "text_en": "Hold. Let it come to us."
+        },
+        {
+          "line_id": "vo_corbin_locke_ultimate",
+          "trigger": "ultimate",
+          "voice_track": "jp",
+          "text_en": "Open the low gate. All of it!"
+        },
+        {
+          "line_id": "vo_corbin_locke_victory",
+          "trigger": "victory",
+          "voice_track": "jp",
+          "text_en": "Level's down. We can breathe."
+        },
+        {
+          "line_id": "vo_corbin_locke_defeat",
+          "trigger": "defeat",
+          "voice_track": "jp",
+          "text_en": "...Should have read the current."
+        },
+        {
+          "line_id": "vo_corbin_locke_low_hp",
+          "trigger": "low_hp",
+          "voice_track": "jp",
+          "text_en": "Taking water. Not sinking."
+        },
+        {
+          "line_id": "vo_corbin_locke_relationship_1",
+          "trigger": "relationship_1",
+          "voice_track": "jp",
+          "text_en": "Nara holds a line like a good dam. No cracks, no speeches.",
+          "about_character_id": "nara_vell",
+          "about": "nara_vell",
+          "unlock": {
+            "after_stage": "5-2"
+          }
+        },
+        {
+          "line_id": "vo_corbin_locke_relationship_2",
+          "trigger": "relationship_2",
+          "voice_track": "jp",
+          "text_en": "Mahmut asks where the exits are before he asks anything else. Sensible man.",
+          "about_character_id": "mahmut",
+          "about": "mahmut",
+          "unlock": {
+            "after_stage": "4-4"
+          }
+        }
+      ]
+    },
+    {
+      "character_id": "dorian_kesk",
+      "lines": [
+        {
+          "line_id": "vo_dorian_kesk_first_meeting",
+          "trigger": "first_meeting",
+          "voice_track": "jp",
+          "text_en": "Dorian Kesk. I make papers that open doors. Some of them are even true."
+        },
+        {
+          "line_id": "vo_dorian_kesk_team_join",
+          "trigger": "team_join",
+          "voice_track": "jp",
+          "text_en": "Somewhere at the back. I do my best work unseen."
+        },
+        {
+          "line_id": "vo_dorian_kesk_idle",
+          "trigger": "idle",
+          "voice_track": "jp",
+          "text_en": "Every gate guard smells of onions. Remember that; it is worth a pass."
+        },
+        {
+          "line_id": "vo_dorian_kesk_basic_attack",
+          "trigger": "basic_attack",
+          "voice_track": "jp",
+          "text_en": "Signed."
+        },
+        {
+          "line_id": "vo_dorian_kesk_active_skill",
+          "trigger": "active_skill",
+          "voice_track": "jp",
+          "text_en": "Read the small print."
+        },
+        {
+          "line_id": "vo_dorian_kesk_ultimate",
+          "trigger": "ultimate",
+          "voice_track": "jp",
+          "text_en": "Seventh notch. Sealed and void!"
+        },
+        {
+          "line_id": "vo_dorian_kesk_victory",
+          "trigger": "victory",
+          "voice_track": "jp",
+          "text_en": "Clean work. No one will file a complaint."
+        },
+        {
+          "line_id": "vo_dorian_kesk_defeat",
+          "trigger": "defeat",
+          "voice_track": "jp",
+          "text_en": "...Forged a bad hand."
+        },
+        {
+          "line_id": "vo_dorian_kesk_low_hp",
+          "trigger": "low_hp",
+          "voice_track": "jp",
+          "text_en": "Ah. That one was real."
+        },
+        {
+          "line_id": "vo_dorian_kesk_relationship_1",
+          "trigger": "relationship_1",
+          "voice_track": "jp",
+          "text_en": "Fadyme lies kindly. I lie for a living. We have an understanding, and neither of us mentions it.",
+          "about_character_id": "fadyme",
+          "about": "fadyme",
+          "unlock": {
+            "after_stage": "4-4"
+          }
+        },
+        {
+          "line_id": "vo_dorian_kesk_relationship_2",
+          "trigger": "relationship_2",
+          "voice_track": "jp",
+          "text_en": "Mahmut never asks how I got us through a gate. I think he prefers not to know. Wise man.",
+          "about_character_id": "mahmut",
+          "about": "mahmut",
+          "unlock": {
+            "after_stage": "5-3"
+          }
+        }
+      ]
+    },
+    {
+      "character_id": "garrick_cinder",
+      "lines": [
+        {
+          "line_id": "vo_garrick_cinder_first_meeting",
+          "trigger": "first_meeting",
+          "voice_track": "jp",
+          "text_en": "Garrick Cinder. I held a gate once until a clock said it was too late. Do not hand me a schedule."
+        },
+        {
+          "line_id": "vo_garrick_cinder_team_join",
+          "trigger": "team_join",
+          "voice_track": "jp",
+          "text_en": "Front. Give me the gate."
+        },
+        {
+          "line_id": "vo_garrick_cinder_idle",
+          "trigger": "idle",
+          "voice_track": "jp",
+          "text_en": "Make the firebreak four spades wide. Fire jumps two."
+        },
+        {
+          "line_id": "vo_garrick_cinder_basic_attack",
+          "trigger": "basic_attack",
+          "voice_track": "jp",
+          "text_en": "Break."
+        },
+        {
+          "line_id": "vo_garrick_cinder_active_skill",
+          "trigger": "active_skill",
+          "voice_track": "jp",
+          "text_en": "Hold. The relief is us."
+        },
+        {
+          "line_id": "vo_garrick_cinder_ultimate",
+          "trigger": "ultimate",
+          "voice_track": "jp",
+          "text_en": "Sixty-first minute. Not this time!"
+        },
+        {
+          "line_id": "vo_garrick_cinder_victory",
+          "trigger": "victory",
+          "voice_track": "jp",
+          "text_en": "The wall held. That is the only clock I trust."
+        },
+        {
+          "line_id": "vo_garrick_cinder_defeat",
+          "trigger": "defeat",
+          "voice_track": "jp",
+          "text_en": "...Late again."
+        },
+        {
+          "line_id": "vo_garrick_cinder_low_hp",
+          "trigger": "low_hp",
+          "voice_track": "jp",
+          "text_en": "I have burned worse. Still here."
+        },
+        {
+          "line_id": "vo_garrick_cinder_relationship_1",
+          "trigger": "relationship_1",
+          "voice_track": "jp",
+          "text_en": "Mahmut does not wait for an order to hold a line. I could have used him eight years ago.",
+          "about_character_id": "mahmut",
+          "about": "mahmut",
+          "unlock": {
+            "after_stage": "3-2"
+          }
+        },
+        {
+          "line_id": "vo_garrick_cinder_relationship_2",
+          "trigger": "relationship_2",
+          "voice_track": "jp",
+          "text_en": "Brin builds walls out of people. Good walls. I would know.",
+          "about_character_id": "brin_alder",
+          "about": "brin_alder",
+          "unlock": {
+            "after_stage": "7-2"
+          }
+        }
+      ]
+    },
+    {
+      "character_id": "rowan_reed",
+      "lines": [
+        {
+          "line_id": "vo_rowan_reed_first_meeting",
+          "trigger": "first_meeting",
+          "voice_track": "jp",
+          "text_en": "Rowan Reed. I keep the wayshrine and the names on it. Tell me yours, and I will remember it."
+        },
+        {
+          "line_id": "vo_rowan_reed_team_join",
+          "trigger": "team_join",
+          "voice_track": "jp",
+          "text_en": "I will keep the light going at the back."
+        },
+        {
+          "line_id": "vo_rowan_reed_idle",
+          "trigger": "idle",
+          "voice_track": "jp",
+          "text_en": "The bell rang twice. I should check the letters again."
+        },
+        {
+          "line_id": "vo_rowan_reed_basic_attack",
+          "trigger": "basic_attack",
+          "voice_track": "jp",
+          "text_en": "Easy now."
+        },
+        {
+          "line_id": "vo_rowan_reed_active_skill",
+          "trigger": "active_skill",
+          "voice_track": "jp",
+          "text_en": "Stay in the light!"
+        },
+        {
+          "line_id": "vo_rowan_reed_ultimate",
+          "trigger": "ultimate",
+          "voice_track": "jp",
+          "text_en": "Every name, remembered. Burn bright!"
+        },
+        {
+          "line_id": "vo_rowan_reed_victory",
+          "trigger": "victory",
+          "voice_track": "jp",
+          "text_en": "Everyone is still here. Good."
+        },
+        {
+          "line_id": "vo_rowan_reed_defeat",
+          "trigger": "defeat",
+          "voice_track": "jp",
+          "text_en": "...I will remember you. I promise."
+        },
+        {
+          "line_id": "vo_rowan_reed_low_hp",
+          "trigger": "low_hp",
+          "voice_track": "jp",
+          "text_en": "Oak holds a letter longer. So can I."
+        },
+        {
+          "line_id": "vo_rowan_reed_relationship_1",
+          "trigger": "relationship_1",
+          "voice_track": "jp",
+          "text_en": "Mahmut carried the oak for the markers and would not let me thank him. So I carved him a small one, and hid it.",
+          "about_character_id": "mahmut",
+          "about": "mahmut",
+          "unlock": {
+            "after_stage": "1-5"
+          }
+        },
+        {
+          "line_id": "vo_rowan_reed_relationship_2",
+          "trigger": "relationship_2",
+          "voice_track": "jp",
+          "text_en": "Pippa sings while I carve. The letters come out straighter.",
+          "about_character_id": "pippa_bell",
+          "about": "pippa_bell",
+          "unlock": {
+            "after_stage": "3-4"
+          }
+        }
+      ]
+    }
+  ]
+}

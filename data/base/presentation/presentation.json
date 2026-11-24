@@ -1,0 +1,934 @@
+{
+  "schema_version": 1,
+  "voices": {
+    "entry_past_001": {
+      "file": "voices/entry_past_001.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.82
+    },
+    "entry_past_002": {
+      "file": "voices/entry_past_002.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 13.54
+    },
+    "entry_past_003": {
+      "file": "voices/entry_past_003.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.56
+    },
+    "entry_past_004": {
+      "file": "voices/entry_past_004.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.56
+    },
+    "entry_past_005": {
+      "file": "voices/entry_past_005.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.62
+    },
+    "entry_past_006": {
+      "file": "voices/entry_past_006.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.98
+    },
+    "entry_past_007": {
+      "file": "voices/entry_past_007.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.56
+    },
+    "entry_past_008": {
+      "file": "voices/entry_past_008.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 10.93
+    },
+    "entry_past_009": {
+      "file": "voices/entry_past_009.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 10.4
+    },
+    "tutorial_t1_before_001": {
+      "file": "voices/tutorial_t1_before_001.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 13.1
+    },
+    "tutorial_t1_before_002": {
+      "file": "voices/tutorial_t1_before_002.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.82
+    },
+    "tutorial_t1_before_003": {
+      "file": "voices/tutorial_t1_before_003.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 5.21
+    },
+    "tutorial_t1_before_004": {
+      "file": "voices/tutorial_t1_before_004.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.55
+    },
+    "tutorial_t1_before_005": {
+      "file": "voices/tutorial_t1_before_005.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 6.45
+    },
+    "tutorial_t1_before_006": {
+      "file": "voices/tutorial_t1_before_006.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.1
+    },
+    "tutorial_t1_before_007": {
+      "file": "voices/tutorial_t1_before_007.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 6.1
+    },
+    "tutorial_t1_before_008": {
+      "file": "voices/tutorial_t1_before_008.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.71
+    },
+    "tutorial_t1_before_009": {
+      "file": "voices/tutorial_t1_before_009.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 12.43
+    },
+    "tutorial_t1_before_010": {
+      "file": "voices/tutorial_t1_before_010.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 7.1
+    },
+    "tutorial_t1_before_011": {
+      "file": "voices/tutorial_t1_before_011.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.71
+    },
+    "tutorial_t1_before_012": {
+      "file": "voices/tutorial_t1_before_012.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 7.72
+    },
+    "tutorial_t1_before_013": {
+      "file": "voices/tutorial_t1_before_013.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.75
+    },
+    "tutorial_t1_before_014": {
+      "file": "voices/tutorial_t1_before_014.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 5.92
+    },
+    "tutorial_t1_after_001": {
+      "file": "voices/tutorial_t1_after_001.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 12.3
+    },
+    "tutorial_t1_after_002": {
+      "file": "voices/tutorial_t1_after_002.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 1.31
+    },
+    "tutorial_t1_after_003": {
+      "file": "voices/tutorial_t1_after_003.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.71
+    },
+    "tutorial_t1_after_004": {
+      "file": "voices/tutorial_t1_after_004.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 1.15
+    },
+    "tutorial_t1_after_005": {
+      "file": "voices/tutorial_t1_after_005.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.38
+    },
+    "tutorial_t1_after_006": {
+      "file": "voices/tutorial_t1_after_006.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 8.65
+    },
+    "tutorial_t1_after_007": {
+      "file": "voices/tutorial_t1_after_007.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.17
+    },
+    "tutorial_t1_after_008": {
+      "file": "voices/tutorial_t1_after_008.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 7.14
+    },
+    "tutorial_t1_after_009": {
+      "file": "voices/tutorial_t1_after_009.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.12
+    },
+    "tutorial_t1_after_010": {
+      "file": "voices/tutorial_t1_after_010.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.64
+    },
+    "tutorial_t1_after_011": {
+      "file": "voices/tutorial_t1_after_011.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 8.04
+    },
+    "tutorial_t1_after_012": {
+      "file": "voices/tutorial_t1_after_012.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.08
+    },
+    "tutorial_t1_after_013": {
+      "file": "voices/tutorial_t1_after_013.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.34
+    },
+    "tutorial_t1_after_014": {
+      "file": "voices/tutorial_t1_after_014.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 7.68
+    },
+    "tutorial_t2_before_001": {
+      "file": "voices/tutorial_t2_before_001.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.77
+    },
+    "tutorial_t2_before_002": {
+      "file": "voices/tutorial_t2_before_002.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.79
+    },
+    "tutorial_t2_before_003": {
+      "file": "voices/tutorial_t2_before_003.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.79
+    },
+    "tutorial_t2_before_004": {
+      "file": "voices/tutorial_t2_before_004.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.71
+    },
+    "tutorial_t2_before_005": {
+      "file": "voices/tutorial_t2_before_005.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.57
+    },
+    "tutorial_t2_before_006": {
+      "file": "voices/tutorial_t2_before_006.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 10.64
+    },
+    "tutorial_t2_before_007": {
+      "file": "voices/tutorial_t2_before_007.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 9.14
+    },
+    "tutorial_t2_before_008": {
+      "file": "voices/tutorial_t2_before_008.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 1.06
+    },
+    "tutorial_t2_before_009": {
+      "file": "voices/tutorial_t2_before_009.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 8.16
+    },
+    "tutorial_t2_before_010": {
+      "file": "voices/tutorial_t2_before_010.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.11
+    },
+    "tutorial_t2_before_011": {
+      "file": "voices/tutorial_t2_before_011.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 6.58
+    },
+    "tutorial_t2_before_012": {
+      "file": "voices/tutorial_t2_before_012.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.02
+    },
+    "tutorial_t2_before_013": {
+      "file": "voices/tutorial_t2_before_013.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.15
+    },
+    "tutorial_t2_after_001": {
+      "file": "voices/tutorial_t2_after_001.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.7
+    },
+    "tutorial_t2_after_002": {
+      "file": "voices/tutorial_t2_after_002.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 7.24
+    },
+    "tutorial_t2_after_003": {
+      "file": "voices/tutorial_t2_after_003.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.31
+    },
+    "tutorial_t2_after_004": {
+      "file": "voices/tutorial_t2_after_004.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 5.96
+    },
+    "tutorial_t2_after_005": {
+      "file": "voices/tutorial_t2_after_005.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 6.25
+    },
+    "tutorial_t2_after_006": {
+      "file": "voices/tutorial_t2_after_006.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.03
+    },
+    "tutorial_t2_after_007": {
+      "file": "voices/tutorial_t2_after_007.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.53
+    },
+    "tutorial_t2_after_008": {
+      "file": "voices/tutorial_t2_after_008.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 14.12
+    },
+    "tutorial_t2_after_009": {
+      "file": "voices/tutorial_t2_after_009.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 1.61
+    },
+    "tutorial_t2_after_010": {
+      "file": "voices/tutorial_t2_after_010.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.5
+    },
+    "tutorial_t2_after_011": {
+      "file": "voices/tutorial_t2_after_011.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 1.11
+    },
+    "tutorial_t2_after_012": {
+      "file": "voices/tutorial_t2_after_012.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.92
+    },
+    "tutorial_t2_after_013": {
+      "file": "voices/tutorial_t2_after_013.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.43
+    },
+    "tutorial_t2_after_014": {
+      "file": "voices/tutorial_t2_after_014.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 6.69
+    },
+    "tutorial_t2_after_015": {
+      "file": "voices/tutorial_t2_after_015.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 1.19
+    },
+    "tutorial_t2_after_016": {
+      "file": "voices/tutorial_t2_after_016.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 12.01
+    },
+    "tutorial_t2_after_017": {
+      "file": "voices/tutorial_t2_after_017.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.97
+    },
+    "tutorial_t2_after_018": {
+      "file": "voices/tutorial_t2_after_018.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.44
+    },
+    "tutorial_t3_before_001": {
+      "file": "voices/tutorial_t3_before_001.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 10.67
+    },
+    "tutorial_t3_before_002": {
+      "file": "voices/tutorial_t3_before_002.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.65
+    },
+    "tutorial_t3_before_003": {
+      "file": "voices/tutorial_t3_before_003.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.84
+    },
+    "tutorial_t3_before_004": {
+      "file": "voices/tutorial_t3_before_004.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.98
+    },
+    "tutorial_t3_before_005": {
+      "file": "voices/tutorial_t3_before_005.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 5.33
+    },
+    "tutorial_t3_before_006": {
+      "file": "voices/tutorial_t3_before_006.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 5.44
+    },
+    "tutorial_t3_before_007": {
+      "file": "voices/tutorial_t3_before_007.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 8.28
+    },
+    "tutorial_t3_before_008": {
+      "file": "voices/tutorial_t3_before_008.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.99
+    },
+    "tutorial_t3_before_009": {
+      "file": "voices/tutorial_t3_before_009.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.91
+    },
+    "tutorial_t3_before_010": {
+      "file": "voices/tutorial_t3_before_010.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.27
+    },
+    "tutorial_t3_before_011": {
+      "file": "voices/tutorial_t3_before_011.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.35
+    },
+    "tutorial_t3_before_012": {
+      "file": "voices/tutorial_t3_before_012.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.19
+    },
+    "tutorial_t3_before_013": {
+      "file": "voices/tutorial_t3_before_013.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 6.56
+    },
+    "tutorial_t3_before_014": {
+      "file": "voices/tutorial_t3_before_014.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.08
+    },
+    "tutorial_t3_after_001": {
+      "file": "voices/tutorial_t3_after_001.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.22
+    },
+    "tutorial_t3_after_002": {
+      "file": "voices/tutorial_t3_after_002.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.49
+    },
+    "tutorial_t3_after_003": {
+      "file": "voices/tutorial_t3_after_003.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.42
+    },
+    "tutorial_t3_after_004": {
+      "file": "voices/tutorial_t3_after_004.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.17
+    },
+    "tutorial_t3_after_005": {
+      "file": "voices/tutorial_t3_after_005.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 13.46
+    },
+    "tutorial_t3_after_006": {
+      "file": "voices/tutorial_t3_after_006.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.02
+    },
+    "tutorial_t3_after_007": {
+      "file": "voices/tutorial_t3_after_007.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.04
+    },
+    "tutorial_t3_after_008": {
+      "file": "voices/tutorial_t3_after_008.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.27
+    },
+    "tutorial_t3_after_009": {
+      "file": "voices/tutorial_t3_after_009.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.01
+    },
+    "tutorial_t3_after_010": {
+      "file": "voices/tutorial_t3_after_010.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 7.15
+    },
+    "tutorial_t3_after_011": {
+      "file": "voices/tutorial_t3_after_011.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 11.39
+    },
+    "tutorial_t3_after_012": {
+      "file": "voices/tutorial_t3_after_012.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.37
+    },
+    "tutorial_t3_after_013": {
+      "file": "voices/tutorial_t3_after_013.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 5.32
+    },
+    "tutorial_t3_after_014": {
+      "file": "voices/tutorial_t3_after_014.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.06
+    },
+    "tutorial_t3_after_015": {
+      "file": "voices/tutorial_t3_after_015.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 5.23
+    },
+    "tutorial_t3_after_016": {
+      "file": "voices/tutorial_t3_after_016.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 9.53
+    },
+    "tutorial_t3_after_017": {
+      "file": "voices/tutorial_t3_after_017.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.31
+    },
+    "tutorial_t3_after_018": {
+      "file": "voices/tutorial_t3_after_018.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 6.15
+    },
+    "tutorial_t3_after_019": {
+      "file": "voices/tutorial_t3_after_019.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.58
+    },
+    "tutorial_t3_after_020": {
+      "file": "voices/tutorial_t3_after_020.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 8.59
+    },
+    "tutorial_t3_after_021": {
+      "file": "voices/tutorial_t3_after_021.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.14
+    },
+    "tutorial_t3_after_022": {
+      "file": "voices/tutorial_t3_after_022.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 0.91
+    },
+    "tutorial_t3_after_023": {
+      "file": "voices/tutorial_t3_after_023.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.34
+    },
+    "tutorial_t3_after_024": {
+      "file": "voices/tutorial_t3_after_024.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.18
+    },
+    "tutorial_t3_after_025": {
+      "file": "voices/tutorial_t3_after_025.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 9.87
+    },
+    "tutorial_t3_after_026": {
+      "file": "voices/tutorial_t3_after_026.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.51
+    },
+    "tutorial_t3_after_027": {
+      "file": "voices/tutorial_t3_after_027.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 1.44
+    },
+    "tutorial_t3_after_028": {
+      "file": "voices/tutorial_t3_after_028.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 4.08
+    },
+    "tutorial_t3_after_029": {
+      "file": "voices/tutorial_t3_after_029.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 13.2
+    },
+    "tutorial_t3_after_030": {
+      "file": "voices/tutorial_t3_after_030.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 3.99
+    },
+    "tutorial_t3_after_031": {
+      "file": "voices/tutorial_t3_after_031.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.5
+    },
+    "tutorial_t3_after_032": {
+      "file": "voices/tutorial_t3_after_032.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 2.47
+    },
+    "tutorial_t3_after_033": {
+      "file": "voices/tutorial_t3_after_033.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 1.93
+    },
+    "tutorial_t3_after_034": {
+      "file": "voices/tutorial_t3_after_034.ogg",
+      "language": "ja",
+      "reviewed_transcript_sha256": "52db16723bc0a89b3ac649dd5121e15b037cde38bf6e3c0b1a0a9054d0d0d14a",
+      "duration_s": 10.31
+    }
+  },
+  "sounds": {
+    "sfx_ui_tap": {
+      "file": "sfx/sfx_ui_tap.ogg",
+      "duration_s": 0.1,
+      "loop": false,
+      "volume": 0.6
+    },
+    "sfx_ui_confirm": {
+      "file": "sfx/sfx_ui_confirm.ogg",
+      "duration_s": 0.32,
+      "loop": false,
+      "volume": 0.7
+    },
+    "sfx_ui_wax_seal": {
+      "file": "sfx/sfx_ui_wax_seal.ogg",
+      "duration_s": 0.42,
+      "loop": false,
+      "volume": 0.78
+    },
+    "sfx_footstep_ash": {
+      "file": "sfx/sfx_footstep_ash.ogg",
+      "duration_s": 0.5,
+      "loop": false,
+      "volume": 0.5
+    },
+    "sfx_footstep_march": {
+      "file": "sfx/sfx_footstep_march.ogg",
+      "duration_s": 0.1,
+      "loop": false,
+      "volume": 0.55
+    },
+    "sfx_blade_slash": {
+      "file": "sfx/sfx_blade_slash.ogg",
+      "duration_s": 0.56,
+      "loop": false,
+      "volume": 0.8
+    },
+    "sfx_blade_heavy": {
+      "file": "sfx/sfx_blade_heavy.ogg",
+      "duration_s": 0.24,
+      "loop": false,
+      "volume": 0.85
+    },
+    "sfx_shield_bash": {
+      "file": "sfx/sfx_shield_bash.ogg",
+      "duration_s": 0.35,
+      "loop": false,
+      "volume": 0.85
+    },
+    "sfx_shield_guard": {
+      "file": "sfx/sfx_shield_guard.ogg",
+      "duration_s": 0.27,
+      "loop": false,
+      "volume": 0.75
+    },
+    "sfx_bell_sanctuary": {
+      "file": "sfx/sfx_bell_sanctuary.ogg",
+      "duration_s": 2.07,
+      "loop": false,
+      "volume": 0.82
+    },
+    "sfx_bell_silver": {
+      "file": "sfx/sfx_bell_silver.ogg",
+      "duration_s": 1.48,
+      "loop": false,
+      "volume": 0.78
+    },
+    "sfx_status_buff": {
+      "file": "sfx/sfx_status_buff.ogg",
+      "duration_s": 1,
+      "loop": false,
+      "volume": 0.6
+    },
+    "sfx_status_debuff": {
+      "file": "sfx/sfx_status_debuff.ogg",
+      "duration_s": 0.95,
+      "loop": false,
+      "volume": 0.6
+    },
+    "sfx_ultimate_cast": {
+      "file": "sfx/sfx_ultimate_cast.ogg",
+      "duration_s": 1.65,
+      "loop": false,
+      "volume": 0.8
+    },
+    "sfx_ultimate_cutin": {
+      "file": "sfx/sfx_ultimate_cutin.ogg",
+      "duration_s": 0.86,
+      "loop": false,
+      "volume": 0.85
+    },
+    "sfx_ultimate_release": {
+      "file": "sfx/sfx_ultimate_release.ogg",
+      "duration_s": 1.2,
+      "loop": false,
+      "volume": 0.9
+    },
+    "sfx_summon_burst": {
+      "file": "sfx/sfx_summon_burst.ogg",
+      "duration_s": 1.9,
+      "loop": false,
+      "volume": 0.85
+    },
+    "sfx_hit_ember": {
+      "file": "sfx/sfx_hit_ember.ogg",
+      "duration_s": 0.8,
+      "loop": false,
+      "volume": 0.55
+    },
+    "sfx_hit_gale": {
+      "file": "sfx/sfx_hit_gale.ogg",
+      "duration_s": 0.7,
+      "loop": false,
+      "volume": 0.55
+    },
+    "sfx_hit_stone": {
+      "file": "sfx/sfx_hit_stone.ogg",
+      "duration_s": 0.6,
+      "loop": false,
+      "volume": 0.55
+    },
+    "sfx_hit_tide": {
+      "file": "sfx/sfx_hit_tide.ogg",
+      "duration_s": 0.9,
+      "loop": false,
+      "volume": 0.55
+    },
+    "sfx_hit_dawn": {
+      "file": "sfx/sfx_hit_dawn.ogg",
+      "duration_s": 0.65,
+      "loop": false,
+      "volume": 0.55
+    },
+    "sfx_hit_veil": {
+      "file": "sfx/sfx_hit_veil.ogg",
+      "duration_s": 0.85,
+      "loop": false,
+      "volume": 0.55
+    },
+    "vo_fadyme_basic_attack": {
+      "file": "voices/vo_fadyme_basic_attack.ogg",
+      "duration_s": 0.85,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_fadyme_active_skill": {
+      "file": "voices/vo_fadyme_active_skill.ogg",
+      "duration_s": 2.36,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_fadyme_ultimate": {
+      "file": "voices/vo_fadyme_ultimate.ogg",
+      "duration_s": 3.11,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_fadyme_low_hp": {
+      "file": "voices/vo_fadyme_low_hp.ogg",
+      "duration_s": 1.93,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_fadyme_defeat": {
+      "file": "voices/vo_fadyme_defeat.ogg",
+      "duration_s": 2.13,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_fadyme_victory": {
+      "file": "voices/vo_fadyme_victory.ogg",
+      "duration_s": 5.23,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_mahmut_basic_attack": {
+      "file": "voices/vo_mahmut_basic_attack.ogg",
+      "duration_s": 1.31,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_mahmut_active_skill": {
+      "file": "voices/vo_mahmut_active_skill.ogg",
+      "duration_s": 1.19,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_mahmut_ultimate": {
+      "file": "voices/vo_mahmut_ultimate.ogg",
+      "duration_s": 2.75,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_mahmut_low_hp": {
+      "file": "voices/vo_mahmut_low_hp.ogg",
+      "duration_s": 4.26,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_mahmut_defeat": {
+      "file": "voices/vo_mahmut_defeat.ogg",
+      "duration_s": 2.47,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_mahmut_victory": {
+      "file": "voices/vo_mahmut_victory.ogg",
+      "duration_s": 3.1,
+      "loop": false,
+      "volume": 1.0
+    },
+    "vo_enemy_hollow_attack": {
+      "file": "voices/vo_enemy_hollow_attack.ogg",
+      "duration_s": 1.11,
+      "loop": false,
+      "volume": 0.92
+    },
+    "vo_enemy_hollow_hit": {
+      "file": "voices/vo_enemy_hollow_hit.ogg",
+      "duration_s": 0.71,
+      "loop": false,
+      "volume": 0.92
+    },
+    "vo_enemy_hollow_defeat": {
+      "file": "voices/vo_enemy_hollow_defeat.ogg",
+      "duration_s": 0.84,
+      "loop": false,
+      "volume": 0.92
+    }
+  },
+  "videos": {},
+  "locales": [],
+  "panels": {}
+}

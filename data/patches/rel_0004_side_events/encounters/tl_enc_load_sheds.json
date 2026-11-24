@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "encounter_id": "tl_enc_load_sheds",
+  "stage_id": "TL-546F",
+  "title_en": "Between the Salt Sheds",
+  "location_id": "tl_load_road",
+  "seed": 1416611887,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "bellbound_dead",
+      "level": 12,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 3,
+      "row": "rear"
+    },
+    {
+      "unit_id": "bellbound_dead",
+      "level": 12,
+      "slot": 4,
+      "row": "rear"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/two_labels/authoring/encounters.json#tl_enc_load_sheds"
+  }
+}

@@ -1,0 +1,2266 @@
+{
+  "schema_version": 1,
+  "release": {
+    "id": "rel_0001",
+    "generation": 1,
+    "channel": "staging",
+    "created_at": "2026-10-10T00:00:00.000Z",
+    "notes": "Base content shipped inside the app: first-install flow (prologue + tutorials T-1..T-3)"
+  },
+  "compat": {
+    "min_client": "0.1.2",
+    "required_capabilities": [
+      "attributes_v1",
+      "presentation_v1",
+      "sprite_animation_v1",
+      "vfx_v1"
+    ],
+    "content_schema": 1
+  },
+  "rollout": {
+    "percent": 100,
+    "kill_switch": false
+  },
+  "files": [
+    {
+      "path": "art/art_manifest.json",
+      "sha256": "b8b6243652b8ef3b8ae3832612c464293fb9ad8ec7d21d6ae779c8339b071b31",
+      "bytes": 45093,
+      "media_type": "application/json",
+      "kind": "art_manifest"
+    },
+    {
+      "path": "art/atlas_sol_bellbound_dead.webp",
+      "sha256": "083ff18e06b50656c83b47be550a2482ca52ef158a5d98fe0f4573fbc9184ae0",
+      "bytes": 277306,
+      "media_type": "image/webp",
+      "kind": "atlas_image"
+    },
+    {
+      "path": "art/atlas_sol_fadyme.webp",
+      "sha256": "57e608fa73d0fbab8c12bf2d8eef19360e3a139ea73f8c50083d0639d83d3a09",
+      "bytes": 379812,
+      "media_type": "image/webp",
+      "kind": "atlas_image"
+    },
+    {
+      "path": "art/atlas_sol_hollow_pilgrim.webp",
+      "sha256": "f7d913f91e5c0b34d5eabe4e55fed54d20378d3dec9602f1068eca88374f5e8a",
+      "bytes": 307348,
+      "media_type": "image/webp",
+      "kind": "atlas_image"
+    },
+    {
+      "path": "art/atlas_sol_mahmut.webp",
+      "sha256": "8a2745ef36049af9c8b9c449840c46fd0092cf1acc2af3c2e85d90d82b0dec29",
+      "bytes": 303220,
+      "media_type": "image/webp",
+      "kind": "atlas_image"
+    },
+    {
+      "path": "art/bg_sol_forest_whispering_ash.webp",
+      "sha256": "cda3f17d4a11e739dfc01219b4cb22df85a8467ae3083ab0e954d011ab9b406f",
+      "bytes": 325058,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/bg_sol_forgotten_stone_crossing.webp",
+      "sha256": "3e6ca24a8f8485ccbf68479f4ab89a853098dc0a2253306e20e77c8e8b82d319",
+      "bytes": 310250,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/bg_sol_hub_shelter.webp",
+      "sha256": "2eee870341227cbbac59aedcae31e169041bc398160ee12adcdf6517116b16d0",
+      "bytes": 358268,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/bg_sol_shelter_courtyard_dusk.webp",
+      "sha256": "76171170ee48d5bc0b7bf910e092a156f87a091166a49493a02c0ab119c9b748",
+      "bytes": 317150,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_afraid.webp",
+      "sha256": "9c0b97386da361d4989010977ca7e0ad99f17b1baf4cc0c01e222651a7ceb0ba",
+      "bytes": 209172,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_amused.webp",
+      "sha256": "5329ad8acdbbf229f0199f1b7871419430cfd22df6edba35b9c05e8169c57e69",
+      "bytes": 209892,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_breaking.webp",
+      "sha256": "ac869dce2db860149b53d0f4781bff3c0bd036243940678b1d4422e942e68dd1",
+      "bytes": 209568,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_breathless.webp",
+      "sha256": "2b62493a28bbe6dfddbc6fd2889f33a441fdf882b025c27cfb96f3ba247fcdf7",
+      "bytes": 211876,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_careful.webp",
+      "sha256": "76b0c821c252e348bbdcf11e337b0e3f73d55c0a4ba448405c1d398000025b2b",
+      "bytes": 208236,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_cold.webp",
+      "sha256": "4bf65cbf3e81694031adb6443fbf8b3a45c5c4d06f188d7556451a122897cb7c",
+      "bytes": 211506,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_composed.webp",
+      "sha256": "e6e178c1d546419a5efeb3219446560f7e5359a160176730658471cbb94dda3d",
+      "bytes": 227028,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_controlled.webp",
+      "sha256": "84bc996129bc49bb9e292bda5893640e166cb606f365134ee6eb753c0c9a52d8",
+      "bytes": 209158,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_curious.webp",
+      "sha256": "b20d33337d080400f62f1bff23766a2d615c5651c22dff6b266938b41a4ab3d2",
+      "bytes": 210148,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_defiant.webp",
+      "sha256": "23299a6ae9b18fcfc56de0239631b6a39c5ddea6beeb23408e72ac742815f0d8",
+      "bytes": 210340,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_deflecting.webp",
+      "sha256": "b2ce8368baef9f9fb87556fe3888a933f969a351a5d5f5233c7ea29953ff126f",
+      "bytes": 208990,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_disbelief.webp",
+      "sha256": "a4a667f9f1d9ee6c1347662c911b474bf16907f3b99373e842133833737464ae",
+      "bytes": 207566,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_dry.webp",
+      "sha256": "f50be393cbbd011d596e1bf80740a5a4eafc5ceef31a67b11927c94aea954117",
+      "bytes": 205162,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_dry_amusement.webp",
+      "sha256": "9d8d25953074a16c3bd39d6118708b6ce7dd5e10cca0fde870ddd0fca6b68733",
+      "bytes": 207550,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_encouraging.webp",
+      "sha256": "3235bf13db27550ac9c07893151798d2500b65a7dab3af1dc9264077eb48a23b",
+      "bytes": 213804,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_false_calm.webp",
+      "sha256": "587cefe59843b1e3c66abe804dab9b18a60db2babc7714a08582def32bfc8da9",
+      "bytes": 213778,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_false_reassurance.webp",
+      "sha256": "0a0c7d2508efc6706db7c1b12ba433e800a4c7e45224fd56f0e833ebc3394e6e",
+      "bytes": 211394,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_firm.webp",
+      "sha256": "a299ac60d5f5797e34e27719a1ac42a828977c59575162fbf3679cb1b7a6c080",
+      "bytes": 209312,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_focused.webp",
+      "sha256": "291b7de0d819a223f27fc5816536b6ebcca7192d9987e6702f27b69cdd142b27",
+      "bytes": 204956,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_fragile.webp",
+      "sha256": "80d7c69001c88a4e2df9ea44335528734afafb8fb8041d93467d59759c48560a",
+      "bytes": 202560,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_gentle.webp",
+      "sha256": "ffcda1377b1fcd5a60c030fb00b98a3a4954d350efe59ccf8ed58b170058f641",
+      "bytes": 215816,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_guarded.webp",
+      "sha256": "22f0e696b7cb9cfe04776cc6d577c6e710aaa3879fe03c3cb89edd729c7288fd",
+      "bytes": 209234,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_honest.webp",
+      "sha256": "294725d766a9a242872bbaeab677db03d92418fd1f635395b752539b2ffc23af",
+      "bytes": 208884,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_hopeful.webp",
+      "sha256": "e70f3b2c7a10addb857d9999ca2d425d5460f953c365068462828fb7b8a4b723",
+      "bytes": 213188,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_kind.webp",
+      "sha256": "cbd9d6b5d3474fd567f1e45edf5d43d2b7331da4af8ab2b36f9f532e8412fd61",
+      "bytes": 213488,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_knowing.webp",
+      "sha256": "007069e1f2c1b1c2048a1cf65427c5bf0935537f08f8a13ea974902af075da87",
+      "bytes": 212804,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_laughing.webp",
+      "sha256": "70792c04ff17069f892b4c8b5bf23ec0789a91a5b76992a1be6aabacde435a54",
+      "bytes": 210762,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_light.webp",
+      "sha256": "6107995730f5dba7021a46dae3d4e7156e1c16af74ff012aedd3bc8f9f0775e0",
+      "bytes": 215572,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_low.webp",
+      "sha256": "d86da79bcc65f47e4781b150ec925862ad6314fbbc97059223c430b8051fed51",
+      "bytes": 209672,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_observant.webp",
+      "sha256": "be9f96e6ff30bc6fff481ca26b37449e3315b28d9e7dee4cd7f70646367630c3",
+      "bytes": 206810,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_pained_smile.webp",
+      "sha256": "fc0e4d19a9bf89ef8669ee5412012cd6c1ae2aa5b0ac249e4815c08259bc6225",
+      "bytes": 212124,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_perceptive.webp",
+      "sha256": "bba973679b407d1052e037580909bdae7038b28907a78ddeb54318e03d11723f",
+      "bytes": 208384,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_pleading.webp",
+      "sha256": "c6681c5288006b6ff7e8ff331c238dcd86105231773815bc81e531c72ee2e162",
+      "bytes": 211986,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_quiet.webp",
+      "sha256": "2c43e6a89934a001ce5dbeb5511f3914b5955d84d80ee93f8748d0aaeae58405",
+      "bytes": 206716,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_relieved.webp",
+      "sha256": "e9c0dca11e227dffdb2ed4008d6a2a77e093f803baa250dfca66e244135a1394",
+      "bytes": 211708,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_resolve.webp",
+      "sha256": "28bfed8e80efb7bed9118be180ed999831aa3f4f5c9436aea401438487d8e205",
+      "bytes": 208700,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_sad.webp",
+      "sha256": "b02648b54ee82405c22f0ae78e7eaef4700bd0bf2f6d67ed605ed55752784f82",
+      "bytes": 209562,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_serious.webp",
+      "sha256": "d66b67b621bbe9ca63ed03fb737e63c4879294cb2e2fb03ab15a115296a18c8c",
+      "bytes": 213016,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_sharp.webp",
+      "sha256": "1d2d1f5d4472de20dcf2864075ab9901c737b7db7bb6eb2390f7d342c2e221cd",
+      "bytes": 207874,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_small_smile.webp",
+      "sha256": "d65fdbed2a99f40d84ce2e92f84752ec9cde4de145d116fa170a37667ee15bd3",
+      "bytes": 205896,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_smile.webp",
+      "sha256": "e73be26568f7f261870874eee8ab0e4c874e67e05ca7d3b6f9e54fb38af88001",
+      "bytes": 209016,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_smiling.webp",
+      "sha256": "cc4f78d3586092518c14942c48977b631dda637e6fab75ec4832636cd6e2ae62",
+      "bytes": 210564,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_soft.webp",
+      "sha256": "f46ebcbfdaa1bab4ce61c1068bbd9b1dbd284e3b15a5198d856567ce16b15251",
+      "bytes": 207222,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_soft_smile.webp",
+      "sha256": "9cd9bec569cb5b7641622d3c0d02b91a2c81f5f4fde9ad56d338f28f025d1ae3",
+      "bytes": 210318,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_steady.webp",
+      "sha256": "0e3c5df1776c2d2b951d24594258204143e83af3ec6d9455795bf28baa4a484a",
+      "bytes": 210218,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_strained.webp",
+      "sha256": "2d0e33541e4056bc997a95be3fcb39a1c1ed1e3dfbd5038092752721ec82ab7c",
+      "bytes": 208016,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_stunned.webp",
+      "sha256": "64ade8fc054a9904cfbd8eb75bc18a55f6d30973b0dedfba44a097911c7868a4",
+      "bytes": 210600,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_tearful.webp",
+      "sha256": "cc4c37c9e45979cfaccdef0a1c18e00fdb2315790f8a031295510e32086370e6",
+      "bytes": 210676,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_touched.webp",
+      "sha256": "94c86ad7d8ddf790aec7e6043ad2f89517a765bf4cd36add0c5961869e90a6ac",
+      "bytes": 211106,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_uneasy.webp",
+      "sha256": "4b365aa5ae677a4d3996835e2424e7908212e9ad960738f5c7f4dabdb9f6d3d4",
+      "bytes": 208094,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_vulnerable.webp",
+      "sha256": "9f41638999fb081982d343afbc9e1c2dc6a4f9cb2cdee250c66e9fa645b8300e",
+      "bytes": 208602,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_warm.webp",
+      "sha256": "1e2430f28e6d676d24450df13a4582d61fab4a744c86db7840a9a61e19fcc483",
+      "bytes": 223792,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_wary.webp",
+      "sha256": "bb41a55c7e23f175040b6c518d932f9e33898c95bdebfc08542a2db09224deb4",
+      "bytes": 209818,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_weak_laugh.webp",
+      "sha256": "dedba3e118fae2db9229cec8cad2c6756c3057a2ad02e7f99e2cea45c15e158a",
+      "bytes": 216880,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_weak_smile.webp",
+      "sha256": "136a5276068447fc6c256ee445e3383610a0a9479cd2a4eea6c7409b9a372a33",
+      "bytes": 209584,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_wistful.webp",
+      "sha256": "b4a8f22abfba03460b1ae2e542f4c6286da061edb15aa85c08e53049a6bf9a9c",
+      "bytes": 207214,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_fadyme_sol_wry.webp",
+      "sha256": "a4814e146ad8567ccb02e40715d704b5dcd547046282a21b172c6bbd57e2b69c",
+      "bytes": 212014,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_alarmed.webp",
+      "sha256": "03ef9b2a90aad6b6bab915d293aa4612b9ec6fae71bec3117580ccf4558925db",
+      "bytes": 207854,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_alert.webp",
+      "sha256": "edf300856d55bfbe98090fe40534fb76af5544eff90e72adc75cfd360258db1a",
+      "bytes": 213688,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_anger.webp",
+      "sha256": "9477684e992c612407ad7808233b1bd8e813cbcb3e4c386123dadcdd9b33ed5b",
+      "bytes": 210260,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_angry.webp",
+      "sha256": "04d08daecddb281e73c6a9a2738885d11b538b964f477c7089511daa1ab43a34",
+      "bytes": 214408,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_approving.webp",
+      "sha256": "25e361475814543a953238913254c0764757350fd6edd31a4ce7f7837a70ab5f",
+      "bytes": 219456,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_ashamed.webp",
+      "sha256": "0ff7b708ae95f56289a6ee48da5f86ae35c2860cc3c4f476396190e3da110a5a",
+      "bytes": 212300,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_calm.webp",
+      "sha256": "7864f96dd1143d492bca8e42f71b77c14b7940c4904b767815b51301b7733464",
+      "bytes": 214112,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_careful.webp",
+      "sha256": "0691350e26bde0cec46529f4efe7f54585d2b4c3447aae78b0d35b78d75759e8",
+      "bytes": 209290,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_casual.webp",
+      "sha256": "ae7571f98c635ca8836630ab7182673fc514383b41ac5b7cad028f56ee93e6c5",
+      "bytes": 217594,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_certain.webp",
+      "sha256": "ff7faa1e12fa34a44973ab721b867aadbb44423547ac039ac45313dee0a0b6a1",
+      "bytes": 210158,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_command.webp",
+      "sha256": "6beeba736b9f54b985618554bb059a800a8f459a38a0f1889b6d9dc5ec5c99fd",
+      "bytes": 228396,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_composed.webp",
+      "sha256": "d1579b0c9951f8ff60676e6403e7e659a9932a3ce041ea44720048089ae16534",
+      "bytes": 263010,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_concern.webp",
+      "sha256": "70952f6d3faf3c55418486fe73f5bce4918a208cf967ece83df7073ef8a76f02",
+      "bytes": 210864,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_curious.webp",
+      "sha256": "5d8504a07a826e881aedac093655e8883a1b0cfd98c9e190cef59cff34e06bdd",
+      "bytes": 217526,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_deadpan.webp",
+      "sha256": "faeb81f981509d748b0e8a124a4eba29ee686172eb3c283e9a25573f437ffedc",
+      "bytes": 210002,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_decisive.webp",
+      "sha256": "8fa37178eaa033a8c80c055b8737a8d461d4c4f90104c7c19a08d43f7c11f6a3",
+      "bytes": 210372,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_defiant.webp",
+      "sha256": "fc64f141132a3074460229430ca68500af4dba48b7553479ac59b6907b46d022",
+      "bytes": 214918,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_direct.webp",
+      "sha256": "28ecb738a4918538d49cdc44f3f546914fcf794e619ed48c15d2979092ea006a",
+      "bytes": 212470,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_dry.webp",
+      "sha256": "5411f42430e23c0ee9b5cd4c4593f2eb6c2177d502e747f8b9e250e500d68402",
+      "bytes": 212092,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_dry_humor.webp",
+      "sha256": "4d618edd07b317ce3eab259ec4ae1799028f25f0d6016a70b0445502a9ec9c12",
+      "bytes": 229064,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_fear.webp",
+      "sha256": "aac67886efd0e7517b7c66f3d8fc959b87ce64bf3f1ecd6c2b7de613da639525",
+      "bytes": 218590,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_flat.webp",
+      "sha256": "65ef6d6b85fd693b80271ba94c6f7c9e9a72c698738fcfa8e965702ff75f93e3",
+      "bytes": 212360,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_frustrated.webp",
+      "sha256": "ef551dabd5cc67fcd73e283eaf594d760b2fb4a153f83f80e47ff58de49aed41",
+      "bytes": 216014,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_gentle.webp",
+      "sha256": "de6fdcd944886efe4482cc8e56dc833500db20072541fcc0084d833388fa0f28",
+      "bytes": 212752,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_grateful.webp",
+      "sha256": "e79ccbf57dc36b8a6243d66847cc30f3cfb4d5af62440516d90ebd0ca212c466",
+      "bytes": 213740,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_grief_to_anger.webp",
+      "sha256": "a41940136aac7de67761edb9408fcc3346eefacc2447e04502f0b71391a92ea1",
+      "bytes": 205030,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_grim.webp",
+      "sha256": "84ef32ca8a773b3b390bbc89b67244dcc6b850a91c1c7bc826b95069786872bc",
+      "bytes": 214390,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_guarded.webp",
+      "sha256": "67afd92e0a2bd616c5f694b316bb829f51975c57e44640264dacf33ecc68119e",
+      "bytes": 208930,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_hard.webp",
+      "sha256": "eceade6f56ee08387da00fa5fd3cbb9a03015f085f4c9afaf01d17fe0c22115a",
+      "bytes": 213860,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_hollow.webp",
+      "sha256": "9bae1eec4758b67a65f0d4a4ced75800d105ddc7a862a8f44e4ee3f3633011be",
+      "bytes": 212380,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_hopeful.webp",
+      "sha256": "e1468622a66005475013b8d0f4bf873de134157e489c71e8d289ca6706ee1806",
+      "bytes": 218046,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_hurt.webp",
+      "sha256": "20058208c87b9f690d4a75835ebeb980556503e8edcbcaf58f913c30b64cf085",
+      "bytes": 208030,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_low.webp",
+      "sha256": "27296ac4f5ea23f8024198ea5e17054cd7c5780ea7e6651669220ddffb18d369",
+      "bytes": 218810,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_measured.webp",
+      "sha256": "5c52a00542c5e94650b0d1b108b283a8afb6eeab046f95f4288d429b23afd3ff",
+      "bytes": 210796,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_observant.webp",
+      "sha256": "0b944fa9bfd2811516ae37c251b6d4e6e033e836a52770e8e71dff6e27122947",
+      "bytes": 209068,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_polite.webp",
+      "sha256": "e74768b96aa93be4a3ac58610cb48cee9c09acdc2de3aa74693ffd4cf47c05d7",
+      "bytes": 215182,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_promise.webp",
+      "sha256": "2d15c9d51e289e6a8b3648c4f753c039fa6e0f11f60cb5b4412fb7abc1a8ad6a",
+      "bytes": 208796,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_protective.webp",
+      "sha256": "6cfaa19740ec8e1e2c75bd66b26bd64cd2d133adf655e289ee39ef1e960723aa",
+      "bytes": 215018,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_protective_resolve.webp",
+      "sha256": "38abce0df40dd8a23cd37a7dca70adebcd4a3defe80a596368a87a664aa76b5a",
+      "bytes": 249598,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_questioning.webp",
+      "sha256": "94ef8dc56a9554941b1494ccb4f2dd8f4fe091ebb32ae21fc2c56c4ecb70bbc2",
+      "bytes": 211834,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_quiet.webp",
+      "sha256": "9c9c74c42c15eb4af60f9a20c5739c1ba95b3dd15c2d08619a95f7818f3cfab7",
+      "bytes": 213300,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_raw.webp",
+      "sha256": "166f2587d71b780de7c9a4842b098049ef7fb6ff48a611d94845f3de84852080",
+      "bytes": 214260,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_remorseful.webp",
+      "sha256": "78f3531b904ae41df2f4fd79049ec8b9d7991603626c7188c675d29e4fcd8ed4",
+      "bytes": 210410,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_resolved.webp",
+      "sha256": "119de1df7677f7c6cd087b5e3492f6fe8834befb9bf12c7a682e76fdc9d01082",
+      "bytes": 215406,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_respectful.webp",
+      "sha256": "3d7d5bb5d85f67a48a182d7bdc4f6f9d83541f5a5b1f529ce8f9a0ce36c88e3d",
+      "bytes": 215994,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_searching.webp",
+      "sha256": "d2ab0aa5fad561188c1971007506b47b0aa116f5b7839e8bd27f0ef06e30890e",
+      "bytes": 211330,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_shaken.webp",
+      "sha256": "1a20b9e97cb5201f2a59b196f88ebea1079f3d1b0c7db812e97f13ead60b5182",
+      "bytes": 215510,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_skeptical.webp",
+      "sha256": "9e2134f93a41063ffe896180ee61fe23fd62987f80d782811b0e57e6504b5913",
+      "bytes": 216988,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_steady.webp",
+      "sha256": "cc4b9f1b960d94cf42bd8a9538e03d4c905e46bbd2d4b3d95e268e1737b120b7",
+      "bytes": 215758,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_strained.webp",
+      "sha256": "df165af0bf0a73040b8ba7a1122bea17515c822edd61449239eeff2067cb9585",
+      "bytes": 212988,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_stunned.webp",
+      "sha256": "3ebd8b64cf2e2077c5bbe7bb4503a74d1e18caa209bfeadae85186ed38813ac6",
+      "bytes": 226628,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_surprised.webp",
+      "sha256": "de6008787a3bed041f64a1837eadb2d7c9f2abac9f09b473616ece2ad7278572",
+      "bytes": 213422,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_tender.webp",
+      "sha256": "753d1e977bc2f7eafd1756c72f2791c44147a39974bf8d8c48f7fba1653799cb",
+      "bytes": 212490,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_tense.webp",
+      "sha256": "a7fd23e387ff93cea8c96618b1e66f4392d8602bd0c2e1dc04f613fc74a6354f",
+      "bytes": 211342,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_thoughtful.webp",
+      "sha256": "fc211cfd00dfb22f0d6f353bedb80539a6a60130ea46cdee98e88fa322a7be04",
+      "bytes": 214862,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_tight.webp",
+      "sha256": "a83c564fa9f49500fa928ee967e386fe202ae4a4e894d3bc6a3db80211a3fbc4",
+      "bytes": 216956,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_tired.webp",
+      "sha256": "63efee20c3960c3ec26def51166796d1bb8dd8bb1c3aac2f7efcf344de42d9de",
+      "bytes": 215052,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_too_quick.webp",
+      "sha256": "a40370779f23ff01084ab33924d9a0d0678a023ac80534a3ad82784fe49f1ffb",
+      "bytes": 219342,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_troubled.webp",
+      "sha256": "8840c8f1713b78beb9f1d68d2a733df5be0e0b5268977c257027ea72350aaedb",
+      "bytes": 209372,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_urgent.webp",
+      "sha256": "23b086c8544a8fb74c9f4de1d1f7a36394de235b08f3ad5aecc28db104ab884c",
+      "bytes": 212138,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_warm.webp",
+      "sha256": "0d8207d5e1ce67c071c51527ba9f004c586b1747b6942ebc2411e27dd30b99c6",
+      "bytes": 212892,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_warning.webp",
+      "sha256": "c9d9f39cf58dff95b0125b7af2a88fcad68798a2164977417048ee9c1f670d4f",
+      "bytes": 211500,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_wary.webp",
+      "sha256": "78b14ef3f44a0f0400f98161401d74a252b054de50d864031156bf1e13fdb39c",
+      "bytes": 212496,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_watchful.webp",
+      "sha256": "b8e5784db9a9f75147f5e0ef4af5c138ea4f74654d7cb04fc539f90987202946",
+      "bytes": 250050,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/portrait_mahmut_sol_wry.webp",
+      "sha256": "c7006ddf04dd437ab7363c423498cabd75f9665c59852eea69157834eb6ff805",
+      "bytes": 215012,
+      "media_type": "image/webp",
+      "kind": "portrait"
+    },
+    {
+      "path": "art/still_sol_prologue_beginning.webp",
+      "sha256": "52284379e9b393aaf882baaceb8f59b3dc31725ebb9e3ca7065d8b6f9272482e",
+      "bytes": 521658,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/still_sol_prologue_crownfall.webp",
+      "sha256": "eddcb1dc73776f391c4fd65b74e434a19a3c5fd8eba152f16d63d28b5f38d252",
+      "bytes": 531542,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/still_sol_prologue_hours.webp",
+      "sha256": "86b9fabcdf65f36b40aa1a819114b525e927c97fa071dac720b5fad9b12ac30b",
+      "bytes": 487788,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/still_sol_prologue_names.webp",
+      "sha256": "44ad877f42bcd442f5cade2cc898fe07bcb0e7d3535e4448877037e6b378c521",
+      "bytes": 307110,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/still_sol_prologue_ordinary_days.webp",
+      "sha256": "b035d934c333f0b1e493c599768b0d0871aaf0e9c8b9f4779db8829dd38d439b",
+      "bytes": 513060,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/still_sol_prologue_reunion.webp",
+      "sha256": "11faffa0b46a16acf9e510c6b8a519f819d462f0a16880326c32bc9d535c3a8a",
+      "bytes": 441374,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/still_sol_prologue_roads.webp",
+      "sha256": "edafb0db408ee215516baa5fa701cd711c2f6048cfcfeef6e44ab0a68f31dca7",
+      "bytes": 526978,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/still_sol_prologue_search.webp",
+      "sha256": "48af602197968f05193f601ca4571b0ac5a33bea4cfa64d5ddf978c188cc8660",
+      "bytes": 359604,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/still_sol_prologue_throne_wars.webp",
+      "sha256": "6455d761e4b3fedbfb9058729c031574a78d8c971f7f84102494b052d254a870",
+      "bytes": 530012,
+      "media_type": "image/webp",
+      "kind": "background"
+    },
+    {
+      "path": "art/ui_logo.webp",
+      "sha256": "b84ad0324a510ab5604764cc64ef63e468cad8088d29c341c24949530f18efb8",
+      "bytes": 169904,
+      "media_type": "image/webp",
+      "kind": "other_data"
+    },
+    {
+      "path": "art/ui_sol_studio_mark.webp",
+      "sha256": "e60b0b7325a4be339f7ff1c9716d87cbf3103c2293043c3d107f6bbbafdd3423",
+      "bytes": 357174,
+      "media_type": "image/webp",
+      "kind": "other_data"
+    },
+    {
+      "path": "art/ui_sol_title_bg.webp",
+      "sha256": "8b0a7ef9f8a82f2e43e3c2b99844edd7da57f861b4be20a581eabcbea41e06e0",
+      "bytes": 355570,
+      "media_type": "image/webp",
+      "kind": "other_data"
+    },
+    {
+      "path": "audio/bgm_battle_field.ogg",
+      "sha256": "548830e74e7d40f0515653b11b9b20314177dc7c1ee55ae10017453a0adb26f7",
+      "bytes": 1719905,
+      "media_type": "audio/ogg",
+      "kind": "audio"
+    },
+    {
+      "path": "audio/bgm_ch1_ash_forest_calm.ogg",
+      "sha256": "2c92582719d99f3b95d2159d45c3891530de9976a675686ab801179c000be582",
+      "bytes": 2222818,
+      "media_type": "audio/ogg",
+      "kind": "audio"
+    },
+    {
+      "path": "audio/bgm_ch1_ash_forest_chaotic.ogg",
+      "sha256": "d35e1ab6d3f284e9d31b570a7ba379dd11aac1f5c8e3d86173acd3dc6e2a68e5",
+      "bytes": 2146003,
+      "media_type": "audio/ogg",
+      "kind": "audio"
+    },
+    {
+      "path": "audio/bgm_ch1_ash_forest_uneasy.ogg",
+      "sha256": "7f3e7124121ec4eeb7fa419d6284320feb6b7b31a5ec2f7cba4141dd3be12b45",
+      "bytes": 2010959,
+      "media_type": "audio/ogg",
+      "kind": "audio"
+    },
+    {
+      "path": "audio/bgm_fadyme_theme.ogg",
+      "sha256": "bc2c230cf1cd67a8f1b4a7c9669f192f8388f3e1a363b772ce349b3ba6712e79",
+      "bytes": 1628819,
+      "media_type": "audio/ogg",
+      "kind": "audio"
+    },
+    {
+      "path": "audio/bgm_main_theme.ogg",
+      "sha256": "52b6943f7d111396773892c03459b0bdf43739ae02529943f582111ca3a1313b",
+      "bytes": 3506515,
+      "media_type": "audio/ogg",
+      "kind": "audio"
+    },
+    {
+      "path": "audio/bgm_prologue_before_the_road.ogg",
+      "sha256": "cc6c66994ce18ef5f396727fdff0b7ad76188c5b4a93e3e41afb486f76afc8e4",
+      "bytes": 1669440,
+      "media_type": "audio/ogg",
+      "kind": "audio"
+    },
+    {
+      "path": "chapters/chapter_index.json",
+      "sha256": "f3ae15d0206edea16f02682ebc513dabf27ca72261e3aff7a3afe6a90662daff",
+      "bytes": 721,
+      "media_type": "application/json",
+      "kind": "chapter_index"
+    },
+    {
+      "path": "encounters/tutorial_t1.json",
+      "sha256": "0e0a3e2b80d71f106bb2d6412c4aaa7e31c549289cfee6e01bfab8a8bcd6d7bb",
+      "bytes": 963,
+      "media_type": "application/json",
+      "kind": "encounter"
+    },
+    {
+      "path": "encounters/tutorial_t2.json",
+      "sha256": "4c9d3f3f7d39860278ad21fa32eb488d4552c16b2cb6936b304162c07a4f88cf",
+      "bytes": 1070,
+      "media_type": "application/json",
+      "kind": "encounter"
+    },
+    {
+      "path": "encounters/tutorial_t3.json",
+      "sha256": "a6b88584304b486566780a9e2bf8504caf9d4f0987f8a88d1e664b1b1b0586c2",
+      "bytes": 1072,
+      "media_type": "application/json",
+      "kind": "encounter"
+    },
+    {
+      "path": "entry/entry_index.json",
+      "sha256": "80cb86df97de1018b2eb8a23926c391231b0b4d6658b2f220540db27dd9a6ab1",
+      "bytes": 341,
+      "media_type": "application/json",
+      "kind": "other_data"
+    },
+    {
+      "path": "entry/prologue.json",
+      "sha256": "52f1479440e155f8a0bb4c1d11db7f3e5271953b034c8f9119d2f34349f0413d",
+      "bytes": 5142,
+      "media_type": "application/json",
+      "kind": "other_data"
+    },
+    {
+      "path": "presentation/presentation.json",
+      "sha256": "fab8547a5fd9e79fe53b4dc07d9b179370ea7ddd2e17b54387b4f5cf08a9363b",
+      "bytes": 33524,
+      "media_type": "application/json",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_bell_sanctuary.ogg",
+      "sha256": "c486aecb5100c4cfec77b323432a172211613fd70d9741f5a9b1e4d38ee681ab",
+      "bytes": 14502,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_bell_silver.ogg",
+      "sha256": "997b8603c30cc6bc30164b2c43de3c4ce32639b058d3f7b13104b1c88d0dc60a",
+      "bytes": 11870,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_blade_heavy.ogg",
+      "sha256": "87ea9980a0258660916ed8b611ed7dae7eead3f6844975ed38837c6a15dab860",
+      "bytes": 5933,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_blade_slash.ogg",
+      "sha256": "ffcec02c8c9235779047be883c38cd583b2cdf0f188925b1363350b19330170a",
+      "bytes": 9003,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_footstep_ash.ogg",
+      "sha256": "55d858dc1bc29086037474ba9730310d56daeaf31a561b8ffda3fbae1fb00f7c",
+      "bytes": 6572,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_footstep_march.ogg",
+      "sha256": "d7c9e7b774977529ffb6c6e148714a82d45c363d13e5e8b19424f30dbf7e13f5",
+      "bytes": 4535,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_hit_dawn.ogg",
+      "sha256": "cb1fe1f0a0014952fc26b4ed945a43aa96c4d96067665e50978ccfb1b4189fc2",
+      "bytes": 10280,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_hit_ember.ogg",
+      "sha256": "6ada5c87e8b8683645752469cc38cbd5ec54bae9d42f8a6c1bb9047f2f0cd6d9",
+      "bytes": 10447,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_hit_gale.ogg",
+      "sha256": "1f1c3cf826b79edf1f04045dd0d9f032b3d4bf89290adf71778619f9b7e84062",
+      "bytes": 10229,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_hit_stone.ogg",
+      "sha256": "b64e8805d83c4c3e57ad9dccee308ba04b375c5574d5dd0266c3c7d84f208372",
+      "bytes": 7047,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_hit_tide.ogg",
+      "sha256": "43c60719a3744055083dd4cf3dd4db151fe6bc9f0a9683ad768a9231345d3351",
+      "bytes": 13188,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_hit_veil.ogg",
+      "sha256": "bacac745388b756ada38138e91163f125f525f3f36cde5ffb28c6fa75b7a2cf0",
+      "bytes": 14544,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_shield_bash.ogg",
+      "sha256": "49df04cd3580e64f3b4d0861a619db2e3c37d370da9aa3ca2bc52305df38e2d3",
+      "bytes": 6578,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_shield_guard.ogg",
+      "sha256": "28efe1ca0154b0f56872ca526355c0f2bdd612a1473a122587318413e4c54e4e",
+      "bytes": 5642,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_status_buff.ogg",
+      "sha256": "5021150484ca92b6a65b215a923311a65cc35a99ac925dd7073c7f4c87a8b274",
+      "bytes": 15296,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_status_debuff.ogg",
+      "sha256": "4884a19ad86ebac10bb4d93b2ea0004f720a1ce7f10f685bb5846b3fe5cf936c",
+      "bytes": 13318,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_summon_burst.ogg",
+      "sha256": "52d4a8dd4bbf4dce6ce9bcefb27b1ee60337714baa70e9a6093c634d1ac95bb1",
+      "bytes": 20181,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_ui_confirm.ogg",
+      "sha256": "57226c40c870201676f263ff0da6a88357f4200441dd8da42154fde88fd07d7c",
+      "bytes": 5669,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_ui_tap.ogg",
+      "sha256": "af2a0a28434888ad34c6d6838a32c61171d994e49116deba8f339c97501cf5ac",
+      "bytes": 4499,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_ui_wax_seal.ogg",
+      "sha256": "6efe9c1dad606214ab04028be7ba2290bc81ede567e382d3c3a88321bd5f0db7",
+      "bytes": 6578,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_ultimate_cast.ogg",
+      "sha256": "4198ceafbacb97a96c3e3f8bbc601a508cf1a0d4c7324aa6a79366a92ce71b70",
+      "bytes": 12355,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_ultimate_cutin.ogg",
+      "sha256": "6040376f6ee7695038d2f6203a0c6bc7a9d6fe7fb92c8a29ed6f690531696ad8",
+      "bytes": 11869,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "sfx/sfx_ultimate_release.ogg",
+      "sha256": "36a56a1caa1e91f3c331d8d4437bb715fca6b4df9f107b74029bce6ca5d91636",
+      "bytes": 14311,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "story/tutorial_t1_after.json",
+      "sha256": "5c332ce4b0e23534572c681b3f92032fb209232f06bdb4e25f071aeb516da0d4",
+      "bytes": 4295,
+      "media_type": "application/json",
+      "kind": "story_scene"
+    },
+    {
+      "path": "story/tutorial_t1_before.json",
+      "sha256": "08831080a11732f51b1f2333388b7747582d412fd7f9283d93eb7e8e7978ad3d",
+      "bytes": 4437,
+      "media_type": "application/json",
+      "kind": "story_scene"
+    },
+    {
+      "path": "story/tutorial_t2_after.json",
+      "sha256": "8e2b8d9cda1d68254900b6a3194750cc868f3580aa5a46e869b93dae8ca9f232",
+      "bytes": 5294,
+      "media_type": "application/json",
+      "kind": "story_scene"
+    },
+    {
+      "path": "story/tutorial_t2_before.json",
+      "sha256": "abe241417b6252053fb9dc1945db8ff8b91aca552c2d09a4cc688c4caae05e9f",
+      "bytes": 4080,
+      "media_type": "application/json",
+      "kind": "story_scene"
+    },
+    {
+      "path": "story/tutorial_t3_after.json",
+      "sha256": "a848b9db0d05914b98436946eb76aaa38175acad88a4375549793ef0280607d1",
+      "bytes": 9003,
+      "media_type": "application/json",
+      "kind": "story_scene"
+    },
+    {
+      "path": "story/tutorial_t3_before.json",
+      "sha256": "c2c938ab984987f847795c5a344fc7df1c16ff902b8171bba93c3e42597f8189",
+      "bytes": 4425,
+      "media_type": "application/json",
+      "kind": "story_scene"
+    },
+    {
+      "path": "units/unit_pack.json",
+      "sha256": "05717eaaef8ee98e847be864cfa47c1df78d1bed72e951391dba3413043f60b9",
+      "bytes": 21907,
+      "media_type": "application/json",
+      "kind": "unit_pack"
+    },
+    {
+      "path": "vfx/vfx_presets.json",
+      "sha256": "f9733746d9558e37ccc450f5de05b3a7ba5aec918951556fbd8e61213279e364",
+      "bytes": 376009,
+      "media_type": "application/json",
+      "kind": "other_data"
+    },
+    {
+      "path": "video/prologue_before_the_road.webm",
+      "sha256": "0f3a37b81bbb4d98dfdb137589c8718012decf943e97e82f2a6fb242a6e74983",
+      "bytes": 19092723,
+      "media_type": "video/webm",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_001.ogg",
+      "sha256": "133d6a05e8eadb4964d44cee68c856d5219d5156cd126bbf1c98e1fed1cde673",
+      "bytes": 94803,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_002.ogg",
+      "sha256": "94c5fd25c857e1faffbaa03f77ea6bbc06500939edcd772f7f2868a9c652e32f",
+      "bytes": 106449,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_003.ogg",
+      "sha256": "80311747610489d877d00e9d79dc617e381e26004742a42379904f2866736cb4",
+      "bytes": 89119,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_004.ogg",
+      "sha256": "8e9d7261660ea46d69ef66cad5a40e9cdb57beab218a0854c1d32934deead89e",
+      "bytes": 91217,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_005.ogg",
+      "sha256": "5fc1e2367605c1a3485d5aa07da8ded2b814fc0580f27aba68274b534ddc2aba",
+      "bytes": 91081,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_006.ogg",
+      "sha256": "dd8e250232e2a5f0e2aac13b2582118ee7cd952006c9c6b61fffbb6c273d9904",
+      "bytes": 93868,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_007.ogg",
+      "sha256": "a3e55ba9c1a69aa832509ac4fa6750505963fa943dbee71d9859d43531e0a250",
+      "bytes": 90198,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_008.ogg",
+      "sha256": "b94b25c3d542ff8d7f6863638d3a4f8fbdad99c44ab76db3dc8e73548eead0dd",
+      "bytes": 86567,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/entry_past_009.ogg",
+      "sha256": "2a99e2e40d70bf07a87804eebb3c54f3cb0a9e7b7a6a44c5eb33bc83e6974355",
+      "bytes": 83173,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_001.ogg",
+      "sha256": "290c248224d94b076f85d61d11ae308ad5e6bc5507c10efb6b5d68da034bd18a",
+      "bytes": 91836,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_002.ogg",
+      "sha256": "91df7d5a8a80e5ca2621ad4f46b01966c9fac4426bbf3c3c3cab2ae9bde8d465",
+      "bytes": 12989,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_003.ogg",
+      "sha256": "625d31be012dd19f0375d415372e117b45ecbc8f19a7fab7f0c200dfd2882ee1",
+      "bytes": 32945,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_004.ogg",
+      "sha256": "0703700e212c924d896ed4de3767671dae5da94c8d85a19d8111bcbf2b6a9a7f",
+      "bytes": 11698,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_005.ogg",
+      "sha256": "be7138d0b61d8876947a0e50884a90a38e1e6d7eebe976dc15933044b1b2e48b",
+      "bytes": 37249,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_006.ogg",
+      "sha256": "4c75ada49387ae956cc1127c11959d9cd327703985798b84bc1c2d7791cda08f",
+      "bytes": 69420,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_007.ogg",
+      "sha256": "57a1c56e348b89337e8ea9d541c7b4848c298b6d44412cee3aea8e6a4b28d5d8",
+      "bytes": 19917,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_008.ogg",
+      "sha256": "8a057aa0a38306f2aa0d952df7b2da3696dca43a7bbec24f3504ebcc31db7077",
+      "bytes": 62190,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_009.ogg",
+      "sha256": "03e8744c9b980488ebf0f197ca7db59cc751a2c04041b96d474b0a56606d4818",
+      "bytes": 28275,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_010.ogg",
+      "sha256": "6875b6b562c3bcc7a43cd9ae355e3d0765f1fbc48d93d150375b8ceb8455eac2",
+      "bytes": 41246,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_011.ogg",
+      "sha256": "877a7dd35d78d169eb25ab6adfb04449bf78c6bfee1f29afa6fd655b524a92bc",
+      "bytes": 72943,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_012.ogg",
+      "sha256": "a15f3045dfd09ac9813b2ff12a2a1df4eecd0f169f203620fbe178a5a2699626",
+      "bytes": 37900,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_013.ogg",
+      "sha256": "e279eda94fb369d27925354506669f993db5a4a65e85df42aeed5da62d5f3a70",
+      "bytes": 20825,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_after_014.ogg",
+      "sha256": "1e8e55ad8d656009ff07dd029f268563098f5e65ec79d1fd49956420e5e31dae",
+      "bytes": 60058,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_001.ogg",
+      "sha256": "6e72f9ac67d146618bde94cc09cca8208229506859dcb98e483dcb566f046a7d",
+      "bytes": 100032,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_002.ogg",
+      "sha256": "32129ef84312ef2b942b7293f56fa494a2b803c1df1ae27c09ece04156e8388f",
+      "bytes": 42592,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_003.ogg",
+      "sha256": "514a87fda76bd53c8506f1e26cfd43f3857513f12a5946042a01561971a4d324",
+      "bytes": 46780,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_004.ogg",
+      "sha256": "6d1b1e4555a65334bad23416a3aa9e130ae6b00c5bdd26bb647441646d61e71d",
+      "bytes": 41897,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_005.ogg",
+      "sha256": "0fb55638ee073fb7ce84f03f6ef611b88bca051fa161a191473ca909457edd99",
+      "bytes": 55741,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_006.ogg",
+      "sha256": "a42136f280f9094b14375fdcbc8a87fb4f7cea73dfc39e1689d4364f6339b5b4",
+      "bytes": 27361,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_007.ogg",
+      "sha256": "0e94a7758cce79f7359a81a4d5c15806e7e05001525980bac9d9844521fa1ed7",
+      "bytes": 52309,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_008.ogg",
+      "sha256": "2414ba898e7463cc96b3b6e9ee30dec70d5b8c70d901bca05e5ae77545def324",
+      "bytes": 24997,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_009.ogg",
+      "sha256": "c8e7ea262275f4504db7eafd181e53515c84e79352caea4b0b09a61bf5dd5c6c",
+      "bytes": 92851,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_010.ogg",
+      "sha256": "c9d48527f77035b1e3b3382da25f5887871ab3747155dd20f7bfa52cf087302e",
+      "bytes": 62728,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_011.ogg",
+      "sha256": "3156b59f21d2f17ed88ee1dfd167fd827ad12e839b99e9f47a28d1c3c9660e21",
+      "bytes": 25521,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_012.ogg",
+      "sha256": "245b0f3b39b119bfbedb89509880b198505de6660da7a40ca57e4099a1a7734d",
+      "bytes": 62172,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_013.ogg",
+      "sha256": "68dbd425f853a6f14253e8cce6c6bcc11b5a2529a5ae9cf72f5210cd9552a01f",
+      "bytes": 25475,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t1_before_014.ogg",
+      "sha256": "d11c044ace09f4bbf08a7e377abc768faae814fb470721072bdd65ebe36bb15e",
+      "bytes": 51239,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_001.ogg",
+      "sha256": "c8bf567a43a517b854e8dee6215ea2d77a8acc9d353173ed9a9d9aac07131b3f",
+      "bytes": 89722,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_002.ogg",
+      "sha256": "b48448f1001fd77c2c0689cc28b2989e81a43c28b52657df6eba7b9ab8298fcb",
+      "bytes": 61738,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_003.ogg",
+      "sha256": "34d74e6f80edce72186fac337b7214d3c7a1d2530520974474057e8e2789440b",
+      "bytes": 24303,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_004.ogg",
+      "sha256": "76dbb662f4a67e52c5711f2beb5be623b65aa21c2c733df44729e50f06ca4b7e",
+      "bytes": 50419,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_005.ogg",
+      "sha256": "8ebf7fc4bdfed8265804010add8244e41f9b926d05612d8d71c19c73f3ec1ee9",
+      "bytes": 50634,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_006.ogg",
+      "sha256": "c43f0cd3ace15e125602355b8c23fc56ba13c295e04ab81b59b69bc806f16118",
+      "bytes": 19025,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_007.ogg",
+      "sha256": "24afaa87fbc79959078dad7397a70a831a1b1ee5d18e32a933d3083056a16991",
+      "bytes": 40863,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_008.ogg",
+      "sha256": "93d2d06abd94a4dd97dc07b7314edc17ee27c96028cfa67e0ec8bc7f2063e238",
+      "bytes": 106463,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_009.ogg",
+      "sha256": "dc0ef55b59d600c5621b674be0e0ec62c59d476b93a5ba958356a0015807197f",
+      "bytes": 15336,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_010.ogg",
+      "sha256": "58cd858d02e088e87ab4e775b873b3ba1cf59c81c9662f85f0a1395144080b7a",
+      "bytes": 40775,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_011.ogg",
+      "sha256": "33e2e1dab911ac3f02061293c0e471dbed195419a3a440cf545545c5564cd6fd",
+      "bytes": 10307,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_012.ogg",
+      "sha256": "3afc6286d520bcea5a0d586f987fb26d753760b1c0d9907cde3d8050f2c32eb8",
+      "bytes": 26053,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_013.ogg",
+      "sha256": "54181bee85cdce75285b5c2e8c82dc9957a5d121df0e3568db77c4cbed84f036",
+      "bytes": 30301,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_014.ogg",
+      "sha256": "94d493913c8c0ecadeb0f0c5a39424deabd201de8cfd6315bbd5bc158be51e66",
+      "bytes": 60984,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_015.ogg",
+      "sha256": "632d30d48dd6d53262d6f6a068a4eba2d6faf604eb09ab263a6d7fec58886b58",
+      "bytes": 12715,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_016.ogg",
+      "sha256": "4e23edb156332206af43b03618661e7388fce12e10f7a4a7fc85df12380d9109",
+      "bytes": 92608,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_017.ogg",
+      "sha256": "c8c8660b082d541cd770aae3599e5c71ec1a192d0a6562292d90112d5a1def80",
+      "bytes": 34678,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_after_018.ogg",
+      "sha256": "9badbed649399df96fcab8be12ac2681adcff83760ccb172770d008b3aea6af2",
+      "bytes": 33330,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_001.ogg",
+      "sha256": "56ed35cfbb6e2fe9e9ff397082c235d08422efe87dc3815d7b1a1481f4d7ebc6",
+      "bytes": 92578,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_002.ogg",
+      "sha256": "3130fbdcaf9b819a1e71da8faa2228530c4fad160a74e0650f62763631872a6b",
+      "bytes": 34746,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_003.ogg",
+      "sha256": "75c20c5a33a6e6c816b93cca8bc205f4cc839e5c6fc941cc4416ec3c9d3abd33",
+      "bytes": 40866,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_004.ogg",
+      "sha256": "39e7f5e09982771553d12c3845104b6eec1d55c0e1c3f49b0804e019b5bb331d",
+      "bytes": 25672,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_005.ogg",
+      "sha256": "934123a35119d8ca14827a6a63ffbead4e0a6dd7c5a0030f2f9a065f9eefd33c",
+      "bytes": 30569,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_006.ogg",
+      "sha256": "286b0b3d8df194ca4ad3f6822dbeac6434010cb17827860c94ea93e73c9338ec",
+      "bytes": 82111,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_007.ogg",
+      "sha256": "b5828d46be525e39ed3f7de8245a1d337865e6bb28e65ae71fc173b82bb92d0f",
+      "bytes": 77247,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_008.ogg",
+      "sha256": "be133f20867887691e6f34a5c8c78b4fc01ef40b95f10b086485bb54ca291da9",
+      "bytes": 11586,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_009.ogg",
+      "sha256": "f3f3c250efe7fa20ea3102e91c5f732ee41fd70cf6e6e719086504968d168fd6",
+      "bytes": 69696,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_010.ogg",
+      "sha256": "2ce4c54aadb627226307c6421af8d95ab98bb3683d70990f5385fae707ea27f7",
+      "bytes": 20784,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_011.ogg",
+      "sha256": "0462a5c95104346b44845dd882ec39addf7e03cd8b358c476d6f7cb96c9c0be3",
+      "bytes": 50019,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_012.ogg",
+      "sha256": "e6355569c84d5646400d803c4ba9c6b5e6a1bcf85d236cef526bf3e15a970bc0",
+      "bytes": 27996,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t2_before_013.ogg",
+      "sha256": "2dbe58500770355c9c65d0df401d33a8ab631170e37d2b3f6117f1ae91f4f514",
+      "bytes": 28695,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_001.ogg",
+      "sha256": "27841d55832549ca5edf6306c5b997364ab0f3f7644995f4e30bfcbd24cc2a90",
+      "bytes": 87654,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_002.ogg",
+      "sha256": "a9ab925781f6d7b183b21d92794fae1369a9d54cb7592f62d9f82079d5a89064",
+      "bytes": 38291,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_003.ogg",
+      "sha256": "e7095b75f37627c448e7674b5fdf5060af28746b73e2622135fc1e5e8495daf6",
+      "bytes": 38632,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_004.ogg",
+      "sha256": "61bc051b260c2bfd99778320950c73bc42aa9d1e092e26626dc7fd92d0386230",
+      "bytes": 31002,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_005.ogg",
+      "sha256": "c6854f34975c8f7de8325c03405100a49a46eef71614cf37fdb2378a936a01d4",
+      "bytes": 102215,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_006.ogg",
+      "sha256": "21484a94bd72ece76fd0f296a8488beaf19a2573a4ae697c0846912082022ab9",
+      "bytes": 28176,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_007.ogg",
+      "sha256": "9020029eb5976b67fb5e9c408eab138307f48370db24cccdba731cd56b47e4e0",
+      "bytes": 19772,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_008.ogg",
+      "sha256": "bcf7cfa828cca0469520a10b69c533741bdfb258e062c4558aa428089caac591",
+      "bytes": 30336,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_009.ogg",
+      "sha256": "1919fc49bb04744f637731af9f2177d9b3126c2090b7fda1ea5d4c76c047c574",
+      "bytes": 19993,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_010.ogg",
+      "sha256": "f55128adde87123ef608a2f82e3e45968c70fef62fbf47ab8354a23a1f65232a",
+      "bytes": 59941,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_011.ogg",
+      "sha256": "c643ce610d5bba016288e7e651a2e9191990abac0cbafc6b501d9af960bf5c59",
+      "bytes": 88500,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_012.ogg",
+      "sha256": "fc73502f0936584daedfd19f81167aba15b94e8eb69b94f3594fd457865eca97",
+      "bytes": 22226,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_013.ogg",
+      "sha256": "faf0a5ea0f59a74919beb9982fe9c149ce5ccbe1199c73db9632fa9a4e6b3a74",
+      "bytes": 46738,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_014.ogg",
+      "sha256": "4c694e688734d7ab852add32841fe95a639f431329ff5f6b4149737171477316",
+      "bytes": 19752,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_015.ogg",
+      "sha256": "c45fdb8f2322b42bb40df7498370e60b3a472ef9621de0a208186f6dcdeb74b7",
+      "bytes": 45726,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_016.ogg",
+      "sha256": "3f4a2f1c0a1734b436f568bbf8b76fdac17cc49bab7bc1a6e6555282057533b5",
+      "bytes": 80031,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_017.ogg",
+      "sha256": "1cf18f9a44bf1ab2b5eac971c0932c7976e8d67dbd7c14d2938f5f63be46bbe0",
+      "bytes": 20982,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_018.ogg",
+      "sha256": "12a6cde2e41e747c9750b9b16d518a2a2e37f539b96ff58f15535b829e75cb93",
+      "bytes": 52599,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_019.ogg",
+      "sha256": "c477914bf6b0a0e9b7e44e4c4ef67e69e499ec21b038e06a8dd967cfb7a0d314",
+      "bytes": 34157,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_020.ogg",
+      "sha256": "57b24bdbef3a34e24063cfa900e80cc1edd34f2dd9f4507259d2fc5fcca1c068",
+      "bytes": 64856,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_021.ogg",
+      "sha256": "e25d26506a388121854b647c4cca9e3d14520cf886aa1e4006adab1797f08689",
+      "bytes": 26938,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_022.ogg",
+      "sha256": "68b7213a1ef82dfe81c8d34fda20d507482239378ea768a2f9a0d73a092854a9",
+      "bytes": 10377,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_023.ogg",
+      "sha256": "b94b9899c158d88e7f297c4bfc2d5c3fc36f9a4d0d70f30e17445223a8cb3965",
+      "bytes": 30100,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_024.ogg",
+      "sha256": "37ac5a5a97651a5cd7ada417e6827a932e63c1c09f7fe3482a4a2b3d7b434242",
+      "bytes": 38632,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_025.ogg",
+      "sha256": "78cce37478c5db53644026ab20791c8e50bfb9b0f4250cac9e4ebdc155e5b213",
+      "bytes": 73254,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_026.ogg",
+      "sha256": "06ef37b457ee0ae5dc7c3eecf6be0cedd965e78c21804b91d0f7ff1499bfbfcf",
+      "bytes": 40249,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_027.ogg",
+      "sha256": "2fa7e15f8717140617cc899f49f19ba845a9c75b525f97831e3cb2ac288e65d7",
+      "bytes": 13854,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_028.ogg",
+      "sha256": "d2bdce9002e25b0905733e09696d2f738b11d3c3820f0d1a0040bd72552d9dd6",
+      "bytes": 34734,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_029.ogg",
+      "sha256": "7c935e9edc9cd62e0992a480c0f6217fc813b44e71fc4fc52fb16a223def7156",
+      "bytes": 100125,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_030.ogg",
+      "sha256": "b5120feb7f6faafe0d1f24f773427b2dcab5a749d1da0cb6917eabd30f9877b7",
+      "bytes": 36365,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_031.ogg",
+      "sha256": "331b4a1ab1ea7844f7f14199e5674db74c96bed89aa564d7d4d1bca0b6b1de15",
+      "bytes": 23144,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_032.ogg",
+      "sha256": "bd30dedc3775fc19561d107abe3084815946b8587d1215ae4f0dd0c535f13e99",
+      "bytes": 22274,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_033.ogg",
+      "sha256": "0f80ff2afbbaf2b5556807147c1bee84373f1c8f7e6e8bf881620c6e5aa6bd28",
+      "bytes": 17545,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_after_034.ogg",
+      "sha256": "d88bddbe0d68153535d27b007e5825d608f5422b6c0dac78f6be0a04fee9157f",
+      "bytes": 82860,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_001.ogg",
+      "sha256": "aeb9215322dab209caa61636b6f6a6167616c6f236a4a6113dd43948a270eb6b",
+      "bytes": 82910,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_002.ogg",
+      "sha256": "ce003f4288d9cec0cbd1830b149b14b18ddf88b0aaab2e4719edf94395685e47",
+      "bytes": 31025,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_003.ogg",
+      "sha256": "841da567c974341aa1b6ac512d68f04b925e2f04e88f57f8fcfe9c4cb329b2b9",
+      "bytes": 43396,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_004.ogg",
+      "sha256": "79ab93889745cd22ff786ac80f90a5f9ce142a48efd5952533c747465fd640e5",
+      "bytes": 44896,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_005.ogg",
+      "sha256": "e29285c8ae27c17cf69db6e8c569f247f27833f57bf8d1090d108c0df258b37d",
+      "bytes": 45469,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_006.ogg",
+      "sha256": "8499c27b065116a7d7be68ee6d4a7eb667ca3c591bd0ae09a19dc45bc15ddec5",
+      "bytes": 49130,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_007.ogg",
+      "sha256": "40f08eac1187812a8078c59e8545442f3cca2e0c86f9a218dde435a0d928940e",
+      "bytes": 62390,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_008.ogg",
+      "sha256": "517fa5e29b4abd8e9fa65cf381b82813f57c8f406a0dd1d037bd17e96bebed48",
+      "bytes": 28376,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_009.ogg",
+      "sha256": "b6f0c21fc2df1a7a49f6066b7896c4accbd79332e3ca9247889bc866be00ce0d",
+      "bytes": 34675,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_010.ogg",
+      "sha256": "42cedaa3df57dcf8819731716c31c87cd2b0f0ec437a031a063b9a37e056af33",
+      "bytes": 40271,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_011.ogg",
+      "sha256": "4b38185632305dbdd5e658b977f7d2c1b150ba507098ebe84d96d2aafd9d14b4",
+      "bytes": 39912,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_012.ogg",
+      "sha256": "51db577cb6273a3a8d3866b7f7be7c925a04bb220bdba4a09052443ed6c24d2e",
+      "bytes": 29741,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_013.ogg",
+      "sha256": "9742fd29edb185c23d133b4dd8b5e6bb5918ab30e498bc14107ea9434f682505",
+      "bytes": 56941,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/tutorial_t3_before_014.ogg",
+      "sha256": "9dfe36308aae90169283a1172d455bbd4ad4131556d7a105fbffeb62e3c63d01",
+      "bytes": 31665,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_enemy_hollow_attack.ogg",
+      "sha256": "39429fb7fb1b00972be29e1db14322bf23c16a87700a50c9f6c1a7311c79b179",
+      "bytes": 9992,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_enemy_hollow_defeat.ogg",
+      "sha256": "4b46326cb79ad1028e4534dcd491b547876979db5070f696f092307f2abb3a96",
+      "bytes": 8261,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_enemy_hollow_hit.ogg",
+      "sha256": "08ed6fdc9e373198510080fb20dca211d3684d970bd5bf36527dae92c855e269",
+      "bytes": 7169,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_fadyme_active_skill.ogg",
+      "sha256": "a086924ce76ba8521812c2c56a7f45f5b06e425aa903ef37128f5f27a4874f83",
+      "bytes": 21586,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_fadyme_basic_attack.ogg",
+      "sha256": "587b50fa3c7146f8c1dc4a799b229baf9d2305cac55afdb29a0dc923a2c0326b",
+      "bytes": 8133,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_fadyme_defeat.ogg",
+      "sha256": "d169d20d3b9b0e760819338da5732f331b3911b04856a0ed3593d012a26ecb47",
+      "bytes": 19056,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_fadyme_low_hp.ogg",
+      "sha256": "c598ec221a51d20276671dff32d9a2305831b9233d0a3cc71651e9b0a3982889",
+      "bytes": 18367,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_fadyme_ultimate.ogg",
+      "sha256": "648ad38680ddcccebfee9887df100e9a4172ebc2cf74998c1b9603587e7eee19",
+      "bytes": 26669,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_fadyme_victory.ogg",
+      "sha256": "d105edb09531fa371d0955433fec2f635fbc1993ad19043c5032417f72d4af5e",
+      "bytes": 36296,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_mahmut_active_skill.ogg",
+      "sha256": "b61ff69d31228a00bd8da049affeaebec6441e81173b78156438177af01dd702",
+      "bytes": 11921,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_mahmut_basic_attack.ogg",
+      "sha256": "4dd23d75884f47d08376ae44ce45813831b939e70214e0f95517b0f93de733fe",
+      "bytes": 12290,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_mahmut_defeat.ogg",
+      "sha256": "b423d325915703124ec15f79a7aaa25df4aa8e8219b745aafaf816e0819f1d57",
+      "bytes": 22565,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_mahmut_low_hp.ogg",
+      "sha256": "09de2c7085d682fd3b2f64e328c42f65297267b1294e274cd0114367c97c4d00",
+      "bytes": 37001,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_mahmut_ultimate.ogg",
+      "sha256": "ff71ac067e8616d35374de8b5ee4cd385ff485ed700b2ead7f63e7f5c7b69e45",
+      "bytes": 23536,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    },
+    {
+      "path": "voices/vo_mahmut_victory.ogg",
+      "sha256": "3391338db09478d13b1ac91040b4ca579b81c2c317b602a4db3dd751d3a76f8c",
+      "bytes": 28806,
+      "media_type": "audio/ogg",
+      "kind": "other_data"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "encounter_id": "tl_enc_coast_turn",
+  "stage_id": "TL-2C71",
+  "title_en": "The Blind Turn",
+  "location_id": "tl_coast_path",
+  "seed": 745607444,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "bellbound_dead",
+      "level": 12,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 3,
+      "row": "rear"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 4,
+      "row": "rear"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/two_labels/authoring/encounters.json#tl_enc_coast_turn"
+  }
+}

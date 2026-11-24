@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "encounter_id": "pilgrim_8",
+  "stage_id": "PT-8",
+  "title_en": "Pilgrim's Trial 8: Bossguard",
+  "location_id": "bridge_forsaken",
+  "seed": 598330775,
+  "music_cue": "bgm_boss_human",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "boss_marshal_oren",
+      "level": 20,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "corrupted_crown_guard",
+      "level": 20,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "corrupted_crown_guard",
+      "level": 20,
+      "slot": 2,
+      "row": "rear"
+    }
+  ],
+  "enemy_stat_multiplier": {
+    "value": 1.15,
+    "applies_to": [
+      "atk"
+    ]
+  },
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (Pilgrim's Trial; line-ups of stage_5_5)"
+  }
+}

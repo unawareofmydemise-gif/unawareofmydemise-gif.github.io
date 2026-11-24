@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "scene_id": "aw_a4_end",
+  "title_en": "Close the Book, Keep the Question",
+  "location_id": "undercity_antidote_archive",
+  "commands": [
+    {
+      "op": "background",
+      "location_id": "undercity_antidote_archive"
+    },
+    {
+      "op": "music",
+      "cue_id": "aw_work"
+    },
+    {
+      "op": "fade",
+      "direction": "in",
+      "seconds": 0.35
+    },
+    {
+      "op": "show",
+      "character": "kera_voss",
+      "side": "right"
+    },
+    {
+      "op": "say",
+      "line_id": "aw_a4_end_001",
+      "speaker": "kera_voss",
+      "speaker_display": "Kera",
+      "text": "You can close the book. Another profile will still be here.",
+      "emotion": "focused"
+    },
+    {
+      "op": "show",
+      "character": "tilda_fen",
+      "side": "left"
+    },
+    {
+      "op": "say",
+      "line_id": "aw_a4_end_002",
+      "speaker": "tilda_fen",
+      "speaker_display": "Tilda",
+      "text": "And the clinic will still need its table.",
+      "emotion": "dry"
+    },
+    {
+      "op": "hide",
+      "character": "tilda_fen"
+    },
+    {
+      "op": "show",
+      "character": "iona_mist",
+      "side": "left"
+    },
+    {
+      "op": "say",
+      "line_id": "aw_a4_end_003",
+      "speaker": "iona_mist",
+      "speaker_display": "Iona",
+      "text": "Try another case when you want another answer. Not because a bell tells you to hurry back.",
+      "emotion": "gentle"
+    },
+    {
+      "op": "hide",
+      "character": "kera_voss"
+    },
+    {
+      "op": "show",
+      "character": "odelia_pike",
+      "side": "right"
+    },
+    {
+      "op": "say",
+      "line_id": "aw_a4_end_004",
+      "speaker": "odelia_pike",
+      "speaker_display": "Odelia",
+      "text": "A useful exercise. No one had to make the road dangerous again.",
+      "emotion": "calm"
+    },
+    {
+      "op": "narrate",
+      "line_id": "aw_a4_end_005",
+      "text": "Kera closes the diagrams. Outside the exercise, the archive remains an archive."
+    },
+    {
+      "op": "checkpoint",
+      "checkpoint_id": "aw_a4_end_done"
+    },
+    {
+      "op": "end"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/archive_watch/story_json/aw_a4_end.json",
+    "note": "New authored narrative expansion; not deployed.",
+    "source_sha256": "c44475034c3fb725131bbe6bf9598a1e5a0c6a21928c2d600a0a0797b17e723d"
+  }
+}

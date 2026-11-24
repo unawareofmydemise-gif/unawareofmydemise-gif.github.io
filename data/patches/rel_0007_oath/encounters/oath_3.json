@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "encounter_id": "oath_3",
+  "stage_id": "OH-3",
+  "title_en": "Oath Hunt: The Mercenary Captain",
+  "location_id": "village_oakhaven",
+  "seed": 2461645475,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "boss_captain_rusk",
+      "level": 12,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "corrupted_mercenary",
+      "level": 12,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "corrupted_mercenary",
+      "level": 12,
+      "slot": 2,
+      "row": "rear"
+    }
+  ],
+  "enemy_stat_multiplier": {
+    "value": 1.3,
+    "applies_to": [
+      "hp"
+    ]
+  },
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (Oath Hunt over stage_3_5)"
+  }
+}

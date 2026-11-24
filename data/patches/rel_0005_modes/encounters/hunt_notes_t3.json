@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "encounter_id": "hunt_notes_t3",
+  "stage_id": "H-HUNT3",
+  "title_en": "Notes Hunt III",
+  "location_id": "village_oakhaven",
+  "seed": 1130509609,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "orchard_ghoul",
+      "level": 9,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "orchard_ghoul",
+      "level": 9,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "corrupted_mercenary",
+      "level": 9,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "corrupted_mercenary",
+      "level": 9,
+      "slot": 3,
+      "row": "rear"
+    }
+  ],
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (line-up of stage_3_4)"
+  }
+}

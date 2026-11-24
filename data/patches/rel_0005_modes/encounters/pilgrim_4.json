@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "encounter_id": "pilgrim_4",
+  "stage_id": "PT-4",
+  "title_en": "Pilgrim's Trial 4: Iron Shells",
+  "location_id": "bridge_forsaken",
+  "seed": 1961957400,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "lost_vow_knight",
+      "level": 20,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "lost_vow_knight",
+      "level": 20,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "bridge_revenant",
+      "level": 20,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "bridge_revenant",
+      "level": 20,
+      "slot": 3,
+      "row": "rear"
+    }
+  ],
+  "enemy_stat_multiplier": {
+    "value": 1.4,
+    "applies_to": [
+      "hp",
+      "def"
+    ]
+  },
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (Pilgrim's Trial; line-ups of stage_5_3)"
+  }
+}

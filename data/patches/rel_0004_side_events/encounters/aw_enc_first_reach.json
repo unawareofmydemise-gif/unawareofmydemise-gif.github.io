@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "encounter_id": "aw_enc_first_reach",
+  "stage_id": "AW-7DA1",
+  "title_en": "Archive Case Reconstruction",
+  "location_id": "aw_case_board",
+  "seed": 2107751898,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "ash_wolf",
+      "level": 12,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "hollow_pilgrim",
+      "level": 12,
+      "slot": 2,
+      "row": "rear"
+    },
+    {
+      "unit_id": "bellbound_dead",
+      "level": 12,
+      "slot": 3,
+      "row": "rear"
+    },
+    {
+      "unit_id": "ash_wolf",
+      "level": 12,
+      "slot": 4,
+      "row": "rear"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/archive_watch/authoring/encounters.json#aw_enc_first_reach"
+  }
+}

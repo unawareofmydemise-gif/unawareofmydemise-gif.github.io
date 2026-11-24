@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "scene_id": "or_a2_supply_2",
+  "title_en": "An Order Someone Else Can Use",
+  "location_id": "or_supply_board",
+  "commands": [
+    {
+      "op": "background",
+      "location_id": "or_supply_board"
+    },
+    {
+      "op": "music",
+      "cue_id": "or_work"
+    },
+    {
+      "op": "fade",
+      "direction": "in",
+      "seconds": 0.35
+    },
+    {
+      "op": "show",
+      "character": "marek_vane",
+      "side": "right"
+    },
+    {
+      "op": "say",
+      "line_id": "or_a2_supply_2_001",
+      "speaker": "marek_vane",
+      "speaker_display": "Marek",
+      "text": "Now pretend I am sitting at the bench. What do you need from me?",
+      "emotion": "focused"
+    },
+    {
+      "op": "say",
+      "line_id": "or_a2_supply_2_002",
+      "speaker": "or_volunteer",
+      "speaker_display": "Volunteer",
+      "text": "Leave the opening clear. Put the used cloth here, so the clean stack stays clean.",
+      "emotion": "calm"
+    },
+    {
+      "op": "show",
+      "character": "nara_vell",
+      "side": "left"
+    },
+    {
+      "op": "say",
+      "line_id": "or_a2_supply_2_003",
+      "speaker": "nara_vell",
+      "speaker_display": "Nara",
+      "text": "That is an instruction people can follow.",
+      "emotion": "measured"
+    },
+    {
+      "op": "say",
+      "line_id": "or_a2_supply_2_004",
+      "speaker": "marek_vane",
+      "speaker_display": "Marek",
+      "text": "And one I can follow while sitting down. A rare luxury.",
+      "emotion": "wry"
+    },
+    {
+      "op": "narrate",
+      "line_id": "or_a2_supply_2_005",
+      "text": "The exit remains open. The board holds enough room for another pair of hands."
+    },
+    {
+      "op": "checkpoint",
+      "checkpoint_id": "or_a2_supply_2_done"
+    },
+    {
+      "op": "end"
+    }
+  ],
+  "provenance": {
+    "source": "narrative/04_Events/Planned_Content/open_road/story_json/or_a2_supply_2.json",
+    "note": "New authored narrative expansion; not deployed.",
+    "source_sha256": "70a4aca6215653a7291081630ba6e25be9a41a4ffc936cb47b5b59c1470152ae"
+  }
+}

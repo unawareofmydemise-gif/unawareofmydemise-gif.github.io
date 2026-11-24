@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "encounter_id": "oath_5",
+  "stage_id": "OH-5",
+  "title_en": "Oath Hunt: The Commander Who Remained",
+  "location_id": "bridge_forsaken",
+  "seed": 3000311371,
+  "music_cue": "bgm_battle_field",
+  "party_mode": "owned",
+  "party": [],
+  "enemies": [
+    {
+      "unit_id": "boss_marshal_oren",
+      "level": 18,
+      "slot": 0,
+      "row": "front"
+    },
+    {
+      "unit_id": "corrupted_crown_guard",
+      "level": 18,
+      "slot": 1,
+      "row": "front"
+    },
+    {
+      "unit_id": "corrupted_crown_guard",
+      "level": 18,
+      "slot": 2,
+      "row": "rear"
+    }
+  ],
+  "enemy_stat_multiplier": {
+    "value": 1.3,
+    "applies_to": [
+      "hp"
+    ]
+  },
+  "provenance": {
+    "source": "games/uomd/build_mode_content.py (Oath Hunt over stage_5_5)"
+  }
+}
