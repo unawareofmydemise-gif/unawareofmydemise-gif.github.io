@@ -38,7 +38,7 @@ tools/godot.sh --path game ...   # Godot sanal ekranla; ekran görüntüsü alı
 godot --headless --path game --import         # yalnız içe aktarma / betik (render yok)
 python3 tools/qa/sheet.py out/sheet.png <referans> <render>...   # karşılaştırma sayfası
 tools/test.sh                    # Godot birim testleri (GUT), ekransız; başarısızsa çıkış kodu 1
-gdlint game && gdformat --check game   # GDScript kalite kontrolü (ayarlar: gdlintrc)
+tools/lint.sh                    # GDScript kalite kontrolü: gdlint + gdformat --check (game/addons hariç; ayarlar: gdlintrc)
 tools/graph.sh                   # kod bilgi grafiği (Graphify + GDScript çıkarıcı) → graphify-out/graph.json
 graphify query "<soru>"          # grafikte soru sor (kodu tanımadan önce bunu dene)
 tools/fetch_refs.sh [ad]         # referans alt modüllerini vendor/ altına indir (godot-open-rpg, mpfb2, godot-demo-projects, godot-mcp-runtime)
