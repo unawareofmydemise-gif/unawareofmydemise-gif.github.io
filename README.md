@@ -51,6 +51,5 @@ inkbound_dead, lost_vow_knight, noble_retainer, orchard_ghoul, red_vial_alchemis
 ## Sonraki adımlar
 
 1. ~~Hikâyenin tam okunması~~ → [`design/OYUN_BILGI_DOKUMANI.md`](design/OYUN_BILGI_DOKUMANI.md) ✅
-2. Yeni oyunun türü ve çekirdek oynanışının belirlenmesi.
-3. Oyun motoru seçimi (Unity / Godot / Unreal).
-4. 3D üretim hattı: turnaround üretimi → görselden 3D model → rig → animasyon.
+2. Tür, savaş, motor (Godot 4), UI/UX ve üretim hattı → [`design/OYUN_TASARIM_PLANI.md`](design/OYUN_TASARIM_PLANI.md) (taslak)
+3. Dikey kesit testi: Fadyme ve Mahmut'u üretim hattından geçirmek.
