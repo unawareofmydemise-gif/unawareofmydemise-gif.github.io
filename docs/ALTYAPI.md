@@ -11,7 +11,7 @@
 | Makine | Ubuntu 24.04, 4 çekirdek, 15 GB RAM, **GPU yok** |
 | Render | Yazılımsal GPU: Vulkan → lavapipe (`/opt/lavapipe`), OpenGL → llvmpipe |
 | Kurulum | `tools/bootstrap.sh` (ortamın kurulum betiği bunu çalıştırır) |
-| Gerekli ağ adresleri | `download.blender.org`, `downloads.godotengine.org`, `github.com`, `release-assets.githubusercontent.com` (Godot indirmesi buraya yönlenir), `generativelanguage.googleapis.com` (Gemini) + paket depoları |
+| Gerekli ağ adresleri | `download.blender.org`, `downloads.godotengine.org`, `godot-releases.nbg1.your-objectstorage.com` (Godot indirmesi buraya yönleniyor), `github.com`, `release-assets.githubusercontent.com`, `generativelanguage.googleapis.com` (Gemini) + paket depoları |
 
 ### 1.1 Ortam ayarları (Settings → Environments → "Unaware of My Demise")
 
@@ -20,6 +20,7 @@
 ```
 download.blender.org
 downloads.godotengine.org
+godot-releases.nbg1.your-objectstorage.com
 github.com
 release-assets.githubusercontent.com
 ```
@@ -30,8 +31,25 @@ release-assets.githubusercontent.com
 if [ -d unawareofmydemise-gif.github.io ]; then bash unawareofmydemise-gif.github.io/tools/bootstrap.sh; fi
 ```
 
-Bu ayarlar henüz uygulanmadıysa, ortamda açılan ilk oturum Claude'dan bunları `update_environment` ile önermesini ister.
-Gemini anahtarı da o ortamda ilk ihtiyaçta istenir (`request_credential`, host: `generativelanguage.googleapis.com`).
+**Durum (2026-11-24): uygulandı.** Sahip iki `update_environment` kartını onayladı; ortamda yukarıdaki 5 adres + Gemini adresi
+ve kurulum betiği kayıtlı. Betik satırı bu oturumda `/home/user` dizininden aynen çalıştırıldı (75 sn, çıkış 0) ve
+`tools/doctor.sh` 12/12 ✅ verdi. **Taze bir kapsülde (yeni oturum açılırken, Claude başlamadan) çalışması henüz denenmedi:**
+ilk yeni oturumda `tools/doctor.sh` ile doğrulanır. Betik düşerse oturum hiç başlamayabilir; betiği değiştirmeden önce
+`tools/bootstrap.sh`'ı elle çalıştırıp sına. Betik `$HOME`'a bağlıdır (MPFB `~/.config/blender`, Graphify yeteneği `~/.claude`):
+kurulum betiği başka bir HOME ile çalışırsa MPFB/Graphify yeni oturumda görünmeyebilir; doctor bunu yakalar.
+Gemini anahtarı o ortamda ilk ihtiyaçta (A7) istenir (`request_credential`, host: `generativelanguage.googleapis.com`).
+
+**Godot indirme adresi değişebilir.** `downloads.godotengine.org` bir yönlendirme (302) verir. Eski notta hedef
+`release-assets.githubusercontent.com` idi; 2026-11-24'te `godot-releases.nbg1.your-objectstorage.com` oldu ve ağ ilkesi
+403 verdi (`agent proxy: no rule or network setting allows this host`): bootstrap Godot indirmesinde düştü. Aynı belirti
+tekrarlarsa önce zinciri izle, sonra yeni adresi `update_environment` ile ekle:
+
+```bash
+curl -sIL 'https://downloads.godotengine.org/?version=4.7.2&flavor=stable&slug=linux.x86_64.zip&platform=linux.64' | grep -iE '^(HTTP|location)'
+```
+
+`github.com` (git okuması) ve `release-assets.githubusercontent.com` izin listesine eklenmeden önce de erişilebiliyordu
+(platform varsayılanı olabilir); belgelenmiş gereksinim olduğu için yine de listede tutuluyor.
 
 ## 2. Araçlar (sabitlenmiş sürümler)
 
@@ -50,7 +68,7 @@ Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve
 
 | Yetenek | Durum | Not |
 |---|---|---|
-| Blender ekransız EEVEE render (toon + kontur) | ✅ | 512² ~7 sn (başlangıç dahil ~15 sn). `--gpu-backend vulkan` + lavapipe |
+| Blender ekransız EEVEE render (toon + kontur) | ✅ | 512² ~16 sn, başlangıç dahil ~17 sn (2026-11-24, yeni ortam; ilk soğuk koşu 28 sn). Önceki ortamda ~7 sn ölçülmüştü: bu ortam ~2× yavaş, QA döngüsü bütçesinde hesaba kat. `--gpu-backend vulkan` + lavapipe |
 | Blender Cycles (CPU) | ✅ | Gerektiğinde; toon için EEVEE kullanılır |
 | Blender → glTF (.glb) | ✅ | |
 | Godot ekransız içe aktarma | ✅ | `godot --headless --import` |
@@ -61,8 +79,11 @@ Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve
 | MPFB2 insan gövdesi + 53 kemikli oyun iskeleti → Godot | ✅ | 0,5 sn; deri bağları korunuyor |
 | Godot birim testleri (GUT) ekransız | ✅ | `tools/test.sh` |
 | Kod bilgi grafiği (Graphify + GDScript) | ✅ | `tools/graph.sh`, `graphify query` |
-| GDScript lint/format | ✅ | `gdlint`, `gdformat` |
-| Sıfırdan kurulum süresi | ✅ | ~71 sn (`tools/bootstrap.sh`) |
+| GDScript lint/format | ✅ | `tools/lint.sh` = gdlint + `gdformat --check`; `game/addons/` hariç (gdformat'ın dışlama seçeneği yok; `gdformat --check game` eklentilerde 204 dosyada düşer) |
+| Sıfırdan kurulum süresi | ✅ | ~82 sn (`tools/bootstrap.sh`; 2026-11-24 yeni kapsül: apt ~7 sn + indirme/pip/npm ~75 sn). `tools/doctor.sh` ~80 sn |
+
+Yeni bulut ortamındaki doğrulama (2026-11-24): `tools/doctor.sh` **12/12 ✅**; `tools/test.sh` 3/3; `tools/graph.sh` 470 düğüm /
+501 kenar (4 sn), `graphify query` yanıt verdi; `tools/lint.sh` temiz.
 
 ## 3.1 İzleme: Claude Godot ve Blender'da ne olduğunu nasıl görür
 
@@ -77,6 +98,11 @@ Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve
 Sanal ekran: `:99` (Xvfb, 1920×1080), gerektiğinde `tools/xdisplay.sh` başlatır. MCP sunucuları oturum başında
 `.mcp.json`'dan yüklenir; Claude Code ilk seferde sunucular için onay ister. Godot sunucusu oyunu her başlatmadan önce
 onay isteyebilir (elicitation); `.mcp.json`'da `GODOT_MCP_DISABLE_ELICITATION` **bilerek açık bırakılmadı**.
+
+MCP sunucuları yalnız **oturum başında** yüklenir. İkili dosyalar oturum açıldıktan sonra kurulduysa (yeni kapsülün ilk
+oturumu) sunucular o oturumda yüklenmez ve yeni oturum gerekir; Claude'un araç listesinde `godot` / `uomd-blender` araçları
+yoksa nedeni budur. 2026-11-24'te sunucular elle sınandı: `godot` 43 araç, `uomd-blender` 7 araç (MCP el sıkışması +
+`tools/doctor.sh` içindeki 8 kontrol); yani yeni oturumda yüklenmemeleri için bir engel yok.
 
 ## 4. Üretim hattı ve kalite kontrol döngüsü
 
@@ -133,7 +159,7 @@ Risk: yüz ve saç estetiği en zor kısım. Bu yüzden gövde tabanından sonra
 | A1 | Bulut ortamı, Blender + Godot kurulumu, sağlık kontrolü | ✅ |
 | A2 | Repo yapısı, `CLAUDE.md`, Godot proje iskeleti | ✅ |
 | A3 | QA render modülü ve karşılaştırma sayfası | ✅ |
-| A4 | Ortamın kurulum betiği ve ağ adresleri (yeni oturumlar otomatik kurulsun) | ⏳ sahibin onayıyla |
+| A4 | Ortamın kurulum betiği ve ağ adresleri (yeni oturumlar otomatik kurulsun) | ✅ uygulandı 2026-11-24; taze kapsülde ilk yeni oturumla doğrulanacak (§1.1) |
 | A4b | Eklentiler, Graphify, lint, test çatısı, MPFB2, referans repolar (`docs/KAYNAKLAR.md`) | ✅ |
 | A4c | MCP izleme: Godot (godot-mcp-runtime) + Blender (kendi köprümüz), referanslar git alt modülü | ✅ |
 | A5 | Godot toon shader + kontur (karakterler için temel malzeme) | ⏳ |
