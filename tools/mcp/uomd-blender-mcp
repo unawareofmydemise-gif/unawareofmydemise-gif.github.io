@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# MCP istemcisinin başlattığı giriş noktası (bootstrap /usr/local/bin'e bağlar).
+REPO="$(cd "$(dirname "$(readlink -f "$0")")/../.." && pwd)"
+export UOMD_ROOT="$REPO"
+exec /opt/uomd-tools/venv/bin/python "$REPO/tools/mcp/blender_mcp.py" "$@"

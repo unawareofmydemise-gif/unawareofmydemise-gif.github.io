@@ -41,7 +41,7 @@ tools/test.sh                    # Godot birim testleri (GUT), ekransız; başar
 gdlint game && gdformat --check game   # GDScript kalite kontrolü (ayarlar: gdlintrc)
 tools/graph.sh                   # kod bilgi grafiği (Graphify + GDScript çıkarıcı) → graphify-out/graph.json
 graphify query "<soru>"          # grafikte soru sor (kodu tanımadan önce bunu dene)
-tools/fetch_refs.sh [ad]         # salt okunur referans repoları vendor/ altına indir
+tools/fetch_refs.sh [ad]         # referans alt modüllerini vendor/ altına indir (godot-open-rpg, mpfb2, godot-demo-projects, godot-mcp-runtime)
 ```
 
 ## 3D üretim kuralları
@@ -54,6 +54,13 @@ tools/fetch_refs.sh [ad]         # salt okunur referans repoları vendor/ altın
    +Z olur. Godot'ta model önü +Z'dir (`look_at(..., true)` ile `use_model_front`).
 5. Ortak kod `art_src/lib/` altında. Karakterler ortak bir anime gövde tabanını paylaşır (aynı iskelet = paylaşılan
    animasyonlar).
+
+## İzleme (MCP) — yaptığını gör
+- Godot: `godot` MCP sunucusu (`run_project` → `take_screenshot` / `get_ui_elements` / `get_debug_output` → `stop_project`).
+- Blender: `uomd-blender` MCP sunucusu (`blender_execute` / `blender_run_script` → `blender_screenshot` → `blender_journal`).
+- **Her görsel değişiklikten sonra ekran görüntüsü al ve bak.** Hızlı önizleme varsayılan; son görünüm için `toon=True`.
+- MCP yoksa (örn. sunucu onaylanmadıysa) aynı işi `tools/blender.sh`, `tools/godot.sh` ve `tools/qa/sheet.py` ile yap.
+- Bitince oyunu `stop_project` ile kapat; arkada çalışan süreç bırakma.
 
 ## Eklentiler ve araçlar
 - Godot eklentileri `game/addons/` altında, sürüm sabit: GUT, Phantom Camera, Dialogue Manager, Godot State Charts.

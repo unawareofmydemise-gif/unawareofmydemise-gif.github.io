@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "godot": {
+      "command": "node",
+      "args": ["/opt/uomd-tools/mcp/node_modules/godot-mcp-runtime/dist/index.js"],
+      "env": {
+        "GODOT_PATH": "/usr/local/bin/uomd-godot-display",
+        "DISPLAY": ":99",
+        "VK_ICD_FILENAMES": "/opt/lavapipe/lvp_icd.json"
+      }
+    },
+    "uomd-blender": {
+      "command": "/usr/local/bin/uomd-blender-mcp",
+      "args": []
+    }
+  }
+}

@@ -64,6 +64,20 @@ Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve
 | GDScript lint/format | ✅ | `gdlint`, `gdformat` |
 | Sıfırdan kurulum süresi | ✅ | ~71 sn (`tools/bootstrap.sh`) |
 
+## 3.1 İzleme: Claude Godot ve Blender'da ne olduğunu nasıl görür
+
+| | Godot (`godot` MCP) | Blender (`uomd-blender` MCP) |
+|---|---|---|
+| Görüntü | `take_screenshot` (çalışan oyun), `render_movie` (kare dizisi, hareket var mı) | `blender_screenshot` (4 açı + referans sayfası; `toon=True` ile EEVEE) |
+| Durum | `get_ui_elements`, `get_scene_tree`, `get_node_properties`, `run_script` (canlı GDScript) | `blender_scene_info` |
+| Kayıt | `get_debug_output` (print + hatalar, çöküşten sonra da) | `blender_journal` + `out/blender/journal/journal.md` (her adım, kodu ve görüntüsüyle) |
+| Etkileşim | `simulate_input` (tıklama, tuş, eylem) | `blender_execute`, `blender_run_script` |
+| Performans | `profile_project` (FPS, pahalı fonksiyonlar, çizim çağrıları) | — |
+
+Sanal ekran: `:99` (Xvfb, 1920×1080), gerektiğinde `tools/xdisplay.sh` başlatır. MCP sunucuları oturum başında
+`.mcp.json`'dan yüklenir; Claude Code ilk seferde sunucular için onay ister. Godot sunucusu oyunu her başlatmadan önce
+onay isteyebilir (elicitation); `.mcp.json`'da `GODOT_MCP_DISABLE_ELICITATION` **bilerek açık bırakılmadı**.
+
 ## 4. Üretim hattı ve kalite kontrol döngüsü
 
 ```
@@ -121,6 +135,7 @@ Risk: yüz ve saç estetiği en zor kısım. Bu yüzden gövde tabanından sonra
 | A3 | QA render modülü ve karşılaştırma sayfası | ✅ |
 | A4 | Ortamın kurulum betiği ve ağ adresleri (yeni oturumlar otomatik kurulsun) | ⏳ sahibin onayıyla |
 | A4b | Eklentiler, Graphify, lint, test çatısı, MPFB2, referans repolar (`docs/KAYNAKLAR.md`) | ✅ |
+| A4c | MCP izleme: Godot (godot-mcp-runtime) + Blender (kendi köprümüz), referanslar git alt modülü | ✅ |
 | A5 | Godot toon shader + kontur (karakterler için temel malzeme) | ⏳ |
 | A6 | Anime gövde tabanı v1 + standart iskelet | ⏳ |
 | A7 | Referans paketi: her ana karakter için ön/yan/arka referans (Gemini) | ⏳ |

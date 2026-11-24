@@ -19,9 +19,13 @@ VIEWS = {  # ad: (kameranın modele göre yatay açısı, derece)
 }
 
 
-def _setup_scene(resolution, bg):
+def _setup_scene(resolution, bg, engine="BLENDER_EEVEE"):
     sc = bpy.context.scene
-    sc.render.engine = "BLENDER_EEVEE"
+    sc.render.engine = engine
+    if engine == "BLENDER_WORKBENCH":  # hızlı önizleme: düz gölge + kavite + kontur
+        sh = sc.display.shading
+        sh.light = "STUDIO"; sh.color_type = "MATERIAL"; sh.show_cavity = True; sh.show_object_outline = True
+        sc.display.render_aa = "8"
     sc.render.resolution_x, sc.render.resolution_y = resolution
     sc.render.film_transparent = False
     if sc.world is None:
@@ -43,14 +47,15 @@ def _ensure_light():
 
 
 def render_views(out_dir, height=1.7, center_z=None, views=None,
-                 resolution=(768, 1152), bg=(0.82, 0.80, 0.77), margin=1.1):
+                 resolution=(768, 1152), bg=(0.82, 0.80, 0.77), margin=1.1, engine="BLENDER_EEVEE"):
     """Sahnedeki modeli verilen açılardan render eder; PNG yollarını döndürür.
 
     height:   modelin yaklaşık boyu (metre). Kadraj buna göre ayarlanır.
     center_z: kadraj merkezinin yüksekliği (varsayılan height/2).
+    engine:   "BLENDER_EEVEE" (toon/son görünüm) veya "BLENDER_WORKBENCH" (hızlı önizleme).
     """
     os.makedirs(out_dir, exist_ok=True)
-    sc = _setup_scene(resolution, bg)
+    sc = _setup_scene(resolution, bg, engine)
     _ensure_light()
     center_z = height / 2 if center_z is None else center_z
     cam_data = bpy.data.cameras.new("qa_cam"); cam_data.type = "ORTHO"

@@ -1,0 +1,8 @@
+config_version=5
+
+[application]
+config/name="uomd_live_smoke"
+run/main_scene="res://live.tscn"
+
+[rendering]
+renderer/rendering_method="mobile"

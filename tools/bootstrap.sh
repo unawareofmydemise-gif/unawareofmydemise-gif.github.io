@@ -8,7 +8,8 @@ GODOT_SHA256="cadd3204e728a35d3f13adb7fd0d7902636b79f6b95c40c265eb73b6c35329e4"
 BLENDER_VERSION="5.2.4"
 BLENDER_SHA256="2fd14c50987426897ba60237ee996edf2b4151f4b1a72a460ca20be58c1d2d86"
 MPFB_TAG="v2010-submitted-to-blender"   # makehumancommunity/mpfb2 (MPFB 2.0.10)
-PY_PACKAGES=("graphifyy[mcp]==0.9.118" "gdtoolkit==4.5.0" "fake-bpy-module-5.2==20260730")
+PY_PACKAGES=("graphifyy[mcp]==0.9.118" "mcp==2.3.0" "gdtoolkit==4.5.0" "fake-bpy-module-5.2==20260730")
+GODOT_MCP_VERSION="4.0.1"   # npm: godot-mcp-runtime
 TOOLS_DIR="${UOMD_TOOLS_DIR:-/opt/uomd-tools}"
 
 log() { printf '[bootstrap] %s\n' "$*"; }
@@ -16,7 +17,7 @@ mkdir -p "$TOOLS_DIR"
 
 # 1) Sistem kütüphaneleri: EGL/Vulkan (yazılımsal GPU ile render), X sanal ekranı.
 need_pkgs=()
-for p in libegl1 libegl-mesa0 libvulkan1 libxkbcommon0 libsm6 libxi6 libxxf86vm1 libxfixes3 libxrender1 xvfb unzip zip xz-utils git python3-venv; do
+for p in x11-utils libegl1 libegl-mesa0 libvulkan1 libxkbcommon0 libsm6 libxi6 libxxf86vm1 libxfixes3 libxrender1 xvfb unzip zip xz-utils git python3-venv; do
   dpkg -s "$p" >/dev/null 2>&1 || need_pkgs+=("$p")
 done
 if [ ${#need_pkgs[@]} -gt 0 ]; then
@@ -76,7 +77,18 @@ if [ ! -f "$MPFB_EXT_DIR/blender_manifest.toml" ]; then
   [ -f "$MPFB_EXT_DIR/blender_manifest.toml" ] || { log "MPFB2 kurulamadı"; exit 1; }
 fi
 
-# 6) Arşivleri sil (disk kotası)
+# 6) MCP sunucuları: Godot (godot-mcp-runtime, npm) + UOMD Blender köprüsü (repo içinde)
+REPO_DIR="$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)"
+if [ ! -f "$TOOLS_DIR/mcp/node_modules/godot-mcp-runtime/package.json" ] || \
+   ! grep -q "\"version\": \"$GODOT_MCP_VERSION\"" "$TOOLS_DIR/mcp/node_modules/godot-mcp-runtime/package.json"; then
+  log "npm: godot-mcp-runtime@$GODOT_MCP_VERSION"
+  mkdir -p "$TOOLS_DIR/mcp"
+  npm install --prefix "$TOOLS_DIR/mcp" --silent --no-audit --no-fund "godot-mcp-runtime@$GODOT_MCP_VERSION"
+fi
+ln -sf "$REPO_DIR/tools/godot-display.sh" /usr/local/bin/uomd-godot-display
+ln -sf "$REPO_DIR/tools/mcp/uomd-blender-mcp" /usr/local/bin/uomd-blender-mcp
+
+# 7) Arşivleri sil (disk kotası)
 rm -f "$TOOLS_DIR/godot.zip" "$TOOLS_DIR/blender.tar.xz"
 
 log "godot $(godot --version 2>/dev/null | head -1)"

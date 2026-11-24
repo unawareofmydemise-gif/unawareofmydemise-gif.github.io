@@ -1,0 +1,16 @@
+[submodule "vendor/godot-open-rpg"]
+	path = vendor/godot-open-rpg
+	url = https://github.com/gdquest-demos/godot-open-rpg
+	shallow = true
+[submodule "vendor/mpfb2"]
+	path = vendor/mpfb2
+	url = https://github.com/makehumancommunity/mpfb2
+	shallow = true
+[submodule "vendor/godot-demo-projects"]
+	path = vendor/godot-demo-projects
+	url = https://github.com/godotengine/godot-demo-projects
+	shallow = true
+[submodule "vendor/godot-mcp-runtime"]
+	path = vendor/godot-mcp-runtime
+	url = https://github.com/Erodenn/godot-mcp-runtime
+	shallow = true

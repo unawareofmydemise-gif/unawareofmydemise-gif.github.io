@@ -10,5 +10,4 @@ __pycache__/
 # Gizli bilgiler
 .env
 secrets/
-vendor/
 graphify-out/

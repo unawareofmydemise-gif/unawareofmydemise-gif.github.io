@@ -32,13 +32,23 @@
 GPL notu: MPFB kodu yalnız Blender'da üretim sırasında çalışır; oyuna giden şey ürettiği model (CC0 varlıklardan türetilmiş)
 dir. Oyun kodu MPFB'ye bağlanmaz.
 
-## 2. Salt okunur referans repolar (`tools/fetch_refs.sh` → `vendor/`, git'e girmez)
+## 2. Salt okunur referans repolar (git alt modülleri: `vendor/`, `tools/fetch_refs.sh` indirir)
+
+Repoya yalnız sürüm işaretçisi girer (`.gitmodules`); içerik gerektiğinde indirilir. Kod oyuna kopyalanmaz.
 
 | Repo | Sürüm | Lisans | Neden |
 |---|---|---|---|
 | [GDQuest Open RPG](https://github.com/gdquest-demos/godot-open-rpg) | 0.4.0 | MIT | Godot 4'te sıra tabanlı savaş: aktif sıra kuyruğu, savaşçı animasyonları, sıra çubuğu arayüzü |
 | [godot-demo-projects](https://github.com/godotengine/godot-demo-projects) | 4.7 | MIT | Resmi örnekler: 3D, arayüz, mobil, shader |
 | [MPFB2](https://github.com/makehumancommunity/mpfb2) | 2.0.10 | GPL-3/CC0 | MPFB'yi betikle kullanmak için kaynak kod ve örnekler |
+| [godot-mcp-runtime](https://github.com/Erodenn/godot-mcp-runtime) | 4.0.1 | MIT | Godot MCP sunucusunun kaynağı (araçların tam davranışı `docs/tools.md`'de) |
+
+### MCP sunucuları: Claude'un Godot ve Blender'ı yönetmesi ve **izlemesi** (`.mcp.json`)
+
+| Sunucu | Sürüm | Ne verir | Test |
+|---|---|---|---|
+| [godot-mcp-runtime](https://github.com/Erodenn/godot-mcp-runtime) (npm, `/opt/uomd-tools/mcp`) | 4.0.1 · MIT | Oyunu sanal ekranda (:99) çalıştırma, **ekran görüntüsü** (boş kare tespitiyle), arayüz öğelerini okuma, girdi simülasyonu (tıklama, tuş), **çalışan oyunda canlı GDScript**, hata/çıktı kayıtları, profil (FPS, en pahalı fonksiyonlar), sahne/düğüm düzenleme (43 araç). Projeye eklenti kurmaz. | Düğmeye tıklandı, etiket değişti, ekran görüntüsünde göründü ✅ |
+| **uomd-blender** (bizim, `tools/mcp/blender_mcp.py`) | — | Oturum sahnesinde `bpy` kodu çalıştırma, betik çalıştırma, sahne bilgisi (nesne, nokta, malzeme, şekil anahtarı, kemik), **çok açılı ekran görüntüsü + referansla karşılaştırma sayfası** (hızlı önizleme 4–7 sn; toon ~45 sn/açı), glTF dışa aktarma, **adım günlüğü** (`out/blender/journal/`). Arka planda süreç ya da açık port yok. | MPFB gövdesi oluşturuldu, 4 açı + referans sayfası alındı, bilerek yapılan hata yakalandı ✅ |
 
 ## 3. Değerlendirilip eklenmeyenler
 
@@ -47,8 +57,9 @@ dir. Oyun kodu MPFB'ye bağlanmaz.
 | [Dialogic](https://github.com/dialogic-godot/dialogic) | ❌ | GDQuest RPG içindeki sürümü Godot 4.7'de derlenmedi (ayrıştırma hataları). Dialogue Manager aynı işi görüyor ve 4.7'de çalıştı. |
 | [gdUnit4](https://github.com/MikeSchulze/gdUnit4) | ⏸ | GUT ile aynı işi görüyor; iki test çatısı gereksiz. |
 | [godot-vrm / MToon](https://github.com/V-Sekai/godot-vrm) | ⏸ | VRM biçimini kullanmıyoruz; toon shader'ı kendimiz yazacağız. Gerekirse shader referansı olarak okunur. |
-| Godot MCP sunucuları ([Coding-Solo](https://github.com/Coding-Solo/godot-mcp), [godot-ai](https://github.com/hi-godot/godot-ai) …) | ⏸ | Çoğu açık bir Godot editörü (arayüz) bekliyor. Biz Godot'u doğrudan komut satırından yönetiyoruz (içe aktarma, betik, test, ekran görüntüsü); ek bir katmana gerek yok. |
-| Blender MCP | ⏸ | Aynı neden: arayüzlü Blender bekliyor; biz `bpy` betiklerini doğrudan çalıştırıyoruz. |
+| [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp) | ❌ | Çalışan oyunu göremiyor (yalnız başlatma + hata çıktısı). |
+| [godot-ai](https://github.com/hi-godot/godot-ai), [Beckett](https://github.com/beckettlab/beckett-godot-mcp) | ⏸ | Güçlü ama açık bir Godot **editörü** (eklenti) istiyor; godot-mcp-runtime aynı izlemeyi editörsüz ve eklentisiz veriyor. |
+| [blender-mcp](https://github.com/ahujasid/blender-mcp) | ❌ | Arayüzlü Blender + sürekli açık port gerektiriyor; bu ortamın otomatik izin denetimi arka planda port açan dış eklentiyi reddetti. Ayrıca telemetri, ücretli servis ve çok sayıda dış entegrasyon içeriyor. Yerine kendi küçük köprümüzü yazdık. |
 | MB-Lab | ⏸ | MPFB2 daha güncel, CC0 varlıklı ve betikle kullanımı doğrulandı. |
 | Görselden 3D servisleri (Meshy, Tripo) | ❌ | Sahip kararı: modeller Claude tarafından elle (kodla) yapılacak. |
 
