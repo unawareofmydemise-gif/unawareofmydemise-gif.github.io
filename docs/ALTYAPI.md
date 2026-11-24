@@ -40,6 +40,9 @@ Gemini anahtarı da o ortamda ilk ihtiyaçta istenir (`request_credential`, host
 | Blender | **5.2.4 LTS** | SHA-256 `tools/bootstrap.sh` içinde |
 | Godot | **4.7.2 stable** (standart, .NET'siz) | SHA-256 `tools/bootstrap.sh` içinde |
 | Python + Pillow | sistem | QA sayfaları |
+| Graphify · gdtoolkit · fake-bpy-module | 0.9.118 · 4.5.0 · 5.2 | `/opt/uomd-tools/venv` |
+| MPFB2 (Blender eklentisi) | 2.0.10 | `~/.config/blender/5.2/extensions/user_default/mpfb` |
+| Godot eklentileri | bkz. `docs/KAYNAKLAR.md` | `game/addons/` (repoda) |
 
 Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve SHA-256 birlikte değişir, `tools/doctor.sh` geçmeli.
 
@@ -55,6 +58,11 @@ Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve
 | Standart açı render'ları + karşılaştırma sayfası | ✅ | `art_src/lib/uomd_render.py`, `tools/qa/sheet.py` |
 | Godot dışa aktarma (Windows/Linux/Web/Android) | ⏳ | Export template'leri ve Android SDK henüz kurulmadı (bkz. §7) |
 | Blender toon malzemesinin Godot'a taşınması | ❌ (beklenen) | Toon görünüm Godot shader'ında yapılacak |
+| MPFB2 insan gövdesi + 53 kemikli oyun iskeleti → Godot | ✅ | 0,5 sn; deri bağları korunuyor |
+| Godot birim testleri (GUT) ekransız | ✅ | `tools/test.sh` |
+| Kod bilgi grafiği (Graphify + GDScript) | ✅ | `tools/graph.sh`, `graphify query` |
+| GDScript lint/format | ✅ | `gdlint`, `gdformat` |
+| Sıfırdan kurulum süresi | ✅ | ~71 sn (`tools/bootstrap.sh`) |
 
 ## 4. Üretim hattı ve kalite kontrol döngüsü
 
@@ -112,6 +120,7 @@ Risk: yüz ve saç estetiği en zor kısım. Bu yüzden gövde tabanından sonra
 | A2 | Repo yapısı, `CLAUDE.md`, Godot proje iskeleti | ✅ |
 | A3 | QA render modülü ve karşılaştırma sayfası | ✅ |
 | A4 | Ortamın kurulum betiği ve ağ adresleri (yeni oturumlar otomatik kurulsun) | ⏳ sahibin onayıyla |
+| A4b | Eklentiler, Graphify, lint, test çatısı, MPFB2, referans repolar (`docs/KAYNAKLAR.md`) | ✅ |
 | A5 | Godot toon shader + kontur (karakterler için temel malzeme) | ⏳ |
 | A6 | Anime gövde tabanı v1 + standart iskelet | ⏳ |
 | A7 | Referans paketi: her ana karakter için ön/yan/arka referans (Gemini) | ⏳ |

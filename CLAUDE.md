@@ -10,6 +10,7 @@ Türkçe yaz.** Kod, dosya ve değişken adları İngilizce; yorumlar ve belgele
 | `design/OYUN_BILGI_DOKUMANI.md` | Hikâye, karakter, dünya ile ilgili her işte. **Kanon budur**; çelişen bir şey uydurma. Part II sırlarını çözme. |
 | `design/OYUN_TASARIM_PLANI.md` | Oynanış, savaş, UI/UX kararları. |
 | `docs/ALTYAPI.md` | Araçlar, üretim hattı, kalite kontrol döngüsü. |
+| `docs/KAYNAKLAR.md` | Hangi eklenti/araç neden var, neden yok. Yeni bir şey eklemeden önce oku. |
 | `design/art_bible/` | Karakter ve mekân görsel tarifleri. |
 
 ## Çalışma düzeni
@@ -36,6 +37,11 @@ tools/blender.sh <betik.py> -- <argümanlar>   # Blender ekransız, EEVEE çalı
 tools/godot.sh --path game ...   # Godot sanal ekranla; ekran görüntüsü alınabilir
 godot --headless --path game --import         # yalnız içe aktarma / betik (render yok)
 python3 tools/qa/sheet.py out/sheet.png <referans> <render>...   # karşılaştırma sayfası
+tools/test.sh                    # Godot birim testleri (GUT), ekransız; başarısızsa çıkış kodu 1
+gdlint game && gdformat --check game   # GDScript kalite kontrolü (ayarlar: gdlintrc)
+tools/graph.sh                   # kod bilgi grafiği (Graphify + GDScript çıkarıcı) → graphify-out/graph.json
+graphify query "<soru>"          # grafikte soru sor (kodu tanımadan önce bunu dene)
+tools/fetch_refs.sh [ad]         # salt okunur referans repoları vendor/ altına indir
 ```
 
 ## 3D üretim kuralları
@@ -49,6 +55,14 @@ python3 tools/qa/sheet.py out/sheet.png <referans> <render>...   # karşılaşt�
 5. Ortak kod `art_src/lib/` altında. Karakterler ortak bir anime gövde tabanını paylaşır (aynı iskelet = paylaşılan
    animasyonlar).
 
+## Eklentiler ve araçlar
+- Godot eklentileri `game/addons/` altında, sürüm sabit: GUT, Phantom Camera, Dialogue Manager, Godot State Charts.
+  **Diyalog için Dialogue Manager** kullanılır (Dialogic 4.7'de derlenmiyor). Eklenti dosyalarını değiştirme.
+- Yeni eklenti/araç: önce bu ortamda dene, çalıştığını gör, sonra `docs/KAYNAKLAR.md`'ye gerekçesiyle yaz.
+- Blender API'sinden emin değilsen tahmin etme: `/opt/uomd-tools/venv/lib/python3.13/site-packages/bpy-stubs/` içindeki
+  tip tanımlarını oku.
+- İnsan gövdesi tabanı MPFB2 ile üretilir (`bl_ext.user_default.mpfb`); örnek kullanım `tools/smoke/mpfb_smoke.py`.
+
 ## Godot kuralları
 - Sürüm 4.7.2, **Mobile** render yöntemi (PC ve Android aynı görünür).
 - İçerik **veri odaklı**: karakter, yetenek, banner, diyalog `game/data/` altında; yeni içerik mümkün olduğunca kod
@@ -56,6 +70,7 @@ python3 tools/qa/sheet.py out/sheet.png <referans> <render>...   # karşılaşt�
 - UI hem 16:9 (PC) hem 20:9 (telefon) çözünürlükte, fare + klavye + oyun kolu + dokunmatikle çalışmalı; ikisinde de ekran
   görüntüsüyle doğrula.
 - Kaynak içerik (`art/`, `audio/`) oyuna doğrudan bağlanmaz; gerekenler işlenip `game/assets/` altına kopyalanır.
+- Yeni oyun sistemi = yeni testler (`game/tests/`). Commit'ten önce `tools/test.sh` ve `gdlint` geçmeli.
 
 ## Danışmana (advisor) ne zaman sor
 - Mimari kararlar (yeni sistem, veri şeması, klasör yapısı) ve birden çok dosyayı etkileyen yeniden düzenlemelerden önce.

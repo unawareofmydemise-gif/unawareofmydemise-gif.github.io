@@ -1,0 +1,13 @@
+# Graphify yalnız bizim kodumuzu ve belgelerimizi tarasın.
+# Eski oyundan gelen salt okunur içerik (binlerce JSON/MD) grafiği şişirir:
+art/
+audio/
+story/
+data/
+fonts/
+localization/
+# Üçüncü taraf Godot eklentileri ve üretilen çıktılar:
+game/addons/
+out/
+graphify-out/
+vendor/

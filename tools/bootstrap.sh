@@ -7,6 +7,8 @@ GODOT_VERSION="4.7.2"
 GODOT_SHA256="cadd3204e728a35d3f13adb7fd0d7902636b79f6b95c40c265eb73b6c35329e4"
 BLENDER_VERSION="5.2.4"
 BLENDER_SHA256="2fd14c50987426897ba60237ee996edf2b4151f4b1a72a460ca20be58c1d2d86"
+MPFB_TAG="v2010-submitted-to-blender"   # makehumancommunity/mpfb2 (MPFB 2.0.10)
+PY_PACKAGES=("graphifyy[mcp]==0.9.118" "gdtoolkit==4.5.0" "fake-bpy-module-5.2==20260730")
 TOOLS_DIR="${UOMD_TOOLS_DIR:-/opt/uomd-tools}"
 
 log() { printf '[bootstrap] %s\n' "$*"; }
@@ -14,7 +16,7 @@ mkdir -p "$TOOLS_DIR"
 
 # 1) Sistem kütüphaneleri: EGL/Vulkan (yazılımsal GPU ile render), X sanal ekranı.
 need_pkgs=()
-for p in libegl1 libegl-mesa0 libvulkan1 libxkbcommon0 libsm6 libxi6 libxxf86vm1 libxfixes3 libxrender1 xvfb unzip xz-utils; do
+for p in libegl1 libegl-mesa0 libvulkan1 libxkbcommon0 libsm6 libxi6 libxxf86vm1 libxfixes3 libxrender1 xvfb unzip zip xz-utils git python3-venv; do
   dpkg -s "$p" >/dev/null 2>&1 || need_pkgs+=("$p")
 done
 if [ ${#need_pkgs[@]} -gt 0 ]; then
@@ -50,9 +52,34 @@ if [ ! -x "$BLENDER_DIR/blender" ]; then
 fi
 ln -sf "$BLENDER_DIR/blender" /usr/local/bin/blender
 
-# 4) Arşivleri sil (disk kotası)
+# 4) Python araçları (ayrı sanal ortam): Graphify, gdtoolkit (gdlint/gdformat), Blender API tip tanımları
+VENV="$TOOLS_DIR/venv"
+[ -x "$VENV/bin/python" ] || python3 -m venv "$VENV"
+if ! "$VENV/bin/pip" freeze 2>/dev/null | grep -q "^graphifyy==0.9.118"; then
+  log "pip: ${PY_PACKAGES[*]}"
+  "$VENV/bin/pip" install -q --upgrade pip
+  "$VENV/bin/pip" install -q "${PY_PACKAGES[@]}"
+fi
+for b in graphify gdlint gdformat; do ln -sf "$VENV/bin/$b" "/usr/local/bin/$b"; done
+# Graphify'ın Claude yeteneği (~/.claude/skills/graphify) — her yeni konteynerde
+[ -f "$HOME/.claude/skills/graphify/SKILL.md" ] || "$VENV/bin/graphify" install --platform claude >/dev/null
+
+# 5) MPFB2 (MakeHuman Blender eklentisi): parametrik insan gövdesi + oyun iskeleti. Kod GPL-3, varlıklar CC0.
+MPFB_EXT_DIR="$HOME/.config/blender/${BLENDER_VERSION%.*}/extensions/user_default/mpfb"
+if [ ! -f "$MPFB_EXT_DIR/blender_manifest.toml" ]; then
+  log "MPFB2 $MPFB_TAG kuruluyor"
+  rm -rf "$TOOLS_DIR/src/mpfb2"; mkdir -p "$TOOLS_DIR/src"
+  git -c advice.detachedHead=false clone -q --depth 1 --branch "$MPFB_TAG" https://github.com/makehumancommunity/mpfb2 "$TOOLS_DIR/src/mpfb2"
+  (cd "$TOOLS_DIR/src/mpfb2/src" && rm -f "$TOOLS_DIR/mpfb.zip" && zip -qr "$TOOLS_DIR/mpfb.zip" mpfb -x '*/__pycache__/*')
+  blender -b --factory-startup --command extension install-file -r user_default -e "$TOOLS_DIR/mpfb.zip" >/dev/null 2>&1
+  rm -rf "$TOOLS_DIR/src/mpfb2" "$TOOLS_DIR/mpfb.zip"
+  [ -f "$MPFB_EXT_DIR/blender_manifest.toml" ] || { log "MPFB2 kurulamadı"; exit 1; }
+fi
+
+# 6) Arşivleri sil (disk kotası)
 rm -f "$TOOLS_DIR/godot.zip" "$TOOLS_DIR/blender.tar.xz"
 
 log "godot $(godot --version 2>/dev/null | head -1)"
 log "blender $(blender -b --factory-startup --version 2>/dev/null | head -1)"
+log "graphify $("$VENV/bin/pip" show graphifyy 2>/dev/null | awk '/^Version/{print $2}') · gdtoolkit $("$VENV/bin/pip" show gdtoolkit 2>/dev/null | awk '/^Version/{print $2}') · MPFB $(grep -m1 '^version' "$MPFB_EXT_DIR/blender_manifest.toml" | cut -d'"' -f2)"
 log "tamam"
