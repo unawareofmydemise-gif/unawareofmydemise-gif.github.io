@@ -23,6 +23,13 @@ live="$OUT/godot_live"; cp -r "$UOMD_ROOT/tools/smoke/godot_live" "$live"; godot
 n_ok=$(grep -c SMOKE_MCP_OK "$OUT/mcp.log" || true); n_fail=$(grep -c SMOKE_MCP_FAIL "$OUT/mcp.log" || true)
 [ "$n_fail" = 0 ] && [ "$n_ok" -ge 8 ] && echo "✅ MCP izleme: Godot (çalıştır/ekran/arayüz/GDScript) + Blender (kod/bilgi/ekran) · $n_ok kontrol" || fail "MCP ($n_fail hata; bkz. $OUT/mcp.log)"
 for b in graphify gdlint gdformat; do command -v $b >/dev/null && echo "✅ $b" || fail "$b yok (tools/bootstrap.sh)"; done
+# Godot AI: sunucu paketi ile eklenti sürümü aynı mı, uv yeterince yeni mi (eklenti >= 0.9.25 ister)? Canlı test: tools/smoke/godot_ai_live.sh
+gai_server=$(/opt/uomd-tools/godot-ai-venv/bin/godot-ai --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1 || true)
+gai_plugin=$(grep -m1 '^version=' "$UOMD_ROOT/game/addons/godot_ai/plugin.cfg" 2>/dev/null | cut -d'"' -f2 || true)
+uv_ver=$(uv --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1 || true)
+if [ -n "$gai_server" ] && [ "$gai_server" = "$gai_plugin" ] && [ -n "$uv_ver" ] && [ "$(printf '%s\n0.9.25\n' "$uv_ver" | sort -V | head -1)" = "0.9.25" ]; then
+  echo "✅ Godot AI: sunucu $gai_server = eklenti $gai_plugin · uv $uv_ver"
+else fail "Godot AI (sunucu '$gai_server', eklenti '$gai_plugin', uv '$uv_ver'; tools/bootstrap.sh)"; fi
 (cd "$UOMD_ROOT" && tools/test.sh >"$OUT/gut.log" 2>&1) && echo "✅ Godot birim testleri ($(grep -o 'Passing Tests *[0-9]*' "$OUT/gut.log" | tr -s ' '))" || fail "Godot testleri (bkz. $OUT/gut.log)"
 echo "Çıktılar: $OUT/blender_eevee.png  $OUT/godot_render.png"
 exit $ok

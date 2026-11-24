@@ -82,9 +82,10 @@ Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve
 | Kod bilgi grafiği (Graphify + GDScript) | ✅ | `tools/graph.sh`, `graphify query` |
 | GDScript lint/format | ✅ | `tools/lint.sh` = gdlint + `gdformat --check`; `game/addons/` hariç (gdformat'ın dışlama seçeneği yok; `gdformat --check game` eklentilerde 204 dosyada düşer) |
 | Toon shader + kontur (Mobile), düz / toon karşılaştırma sayfası | ✅ | `tools/qa/toon_stage.sh`; bkz. §4.1. Mum / kül / nötr ışık, doku ve emisyon yolları dahil |
+| Godot AI: editörü MCP ile yönetme (sahne, düğüm, betik, oyun karesi, günlük) | ✅ | `tools/godot-editor.sh`, `tools/mcp-call.sh`, `tools/smoke/godot_ai_live.sh`; bkz. §3.1 ve `docs/KAYNAKLAR.md` |
 | Sıfırdan kurulum süresi | ✅ | ~82 sn (`tools/bootstrap.sh`; 2026-11-24 yeni kapsül: apt ~7 sn + indirme/pip/npm ~75 sn). `tools/doctor.sh` ~80 sn |
 
-Yeni bulut ortamındaki doğrulama (2026-11-24): `tools/doctor.sh` **12/12 ✅**; `tools/test.sh` 3/3; `tools/graph.sh` 470 düğüm /
+Yeni bulut ortamındaki doğrulama (2026-11-24): `tools/doctor.sh` **13/13 ✅** (12 + Godot AI sürüm denetimi); `tools/test.sh` 17/17 (A5 sonrası); `tools/graph.sh` 470 düğüm /
 501 kenar (4 sn), `graphify query` yanıt verdi; `tools/lint.sh` temiz.
 
 ## 3.1 İzleme: Claude Godot ve Blender'da ne olduğunu nasıl görür
@@ -105,6 +106,14 @@ MCP sunucuları yalnız **oturum başında** yüklenir. İkili dosyalar oturum a
 oturumu) sunucular o oturumda yüklenmez ve yeni oturum gerekir; Claude'un araç listesinde `godot` / `uomd-blender` araçları
 yoksa nedeni budur. 2026-11-24'te sunucular elle sınandı: `godot` 43 araç, `uomd-blender` 7 araç (MCP el sıkışması +
 `tools/doctor.sh` içindeki 8 kontrol); yani yeni oturumda yüklenmemeleri için bir engel yok.
+
+**Godot AI** (`godot-ai`, üçüncü Godot köprüsü): **editörü** yönetir. `tools/godot-editor.sh start` editörü sanal ekranda açar
+(eklenti MCP sunucusunu kendisi başlatır), `wait` hazır olana kadar bekler, `stop` kapatır. Araçlar `.mcp.json`'daki `godot-ai`
+girdisiyle ya da (sunucu oturuma yüklü değilse) `tools/mcp-call.sh godot-ai <araç> '<json>'` ile çağrılır; `--list` araçları,
+`--schema <araç>` parametreleri gösterir. Tipik döngü: `scene_open` → `project_run(mode="current", autosave=false)` →
+`editor_screenshot(source="game")` → `logs_read(source="game"|"editor")` → `project_manage(op="stop")`. Karşılaştırma: godot-mcp-runtime
+oyunu editörsüz çalıştırır ve izler; Godot AI editörün kendisini (sahne ağacı, düğüm özellikleri, betik, malzeme, test) yönetir.
+Kurallar ve riskler: `CLAUDE.md` (İzleme) ve `docs/KAYNAKLAR.md` (Godot AI notları).
 
 ## 4. Üretim hattı ve kalite kontrol döngüsü
 
@@ -182,6 +191,7 @@ Risk: yüz ve saç estetiği en zor kısım. Bu yüzden gövde tabanından sonra
 | A4 | Ortamın kurulum betiği ve ağ adresleri (yeni oturumlar otomatik kurulsun) | ✅ uygulandı 2026-11-24; taze kapsülde ilk yeni oturumla doğrulanacak (§1.1) |
 | A4b | Eklentiler, Graphify, lint, test çatısı, MPFB2, referans repolar (`docs/KAYNAKLAR.md`) | ✅ |
 | A4c | MCP izleme: Godot (godot-mcp-runtime) + Blender (kendi köprümüz), referanslar git alt modülü | ✅ |
+| A4d | Godot AI: Godot editörünü MCP ile yönetme (sahibin isteği; kod incelendi, telemetri kapalı, canlı test) | ✅ |
 | A5 | Godot toon shader + kontur (karakterler için temel malzeme) | ✅ teknik olarak (§4.1); "anime görünüyor mu" onayı bekliyor |
 | A6 | Anime gövde tabanı v1 + standart iskelet | ⏳ |
 | A7 | Referans paketi: her ana karakter için ön/yan/arka referans (Gemini) | ⏳ |

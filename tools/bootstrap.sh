@@ -10,6 +10,7 @@ BLENDER_SHA256="2fd14c50987426897ba60237ee996edf2b4151f4b1a72a460ca20be58c1d2d86
 MPFB_TAG="v2010-submitted-to-blender"   # makehumancommunity/mpfb2 (MPFB 2.0.10)
 PY_PACKAGES=("graphifyy[mcp]==0.9.118" "mcp==2.3.0" "gdtoolkit==4.5.0" "fake-bpy-module-5.2==20260730")
 GODOT_MCP_VERSION="4.0.1"   # npm: godot-mcp-runtime
+GODOT_AI_VERSION="4.4.2"    # PyPI: godot-ai (sunucu). Eklenti game/addons/godot_ai/plugin.cfg ile AYNI sürüm olmalı
 TOOLS_DIR="${UOMD_TOOLS_DIR:-/opt/uomd-tools}"
 
 log() { printf '[bootstrap] %s\n' "$*"; }
@@ -88,10 +89,30 @@ fi
 ln -sf "$REPO_DIR/tools/godot-display.sh" /usr/local/bin/uomd-godot-display
 ln -sf "$REPO_DIR/tools/mcp/uomd-blender-mcp" /usr/local/bin/uomd-blender-mcp
 
+# 6b) Godot AI (hi-godot/godot-ai, MIT): Godot editörünü MCP ile yönetir. Eklenti game/addons/godot_ai'de (repoda, sabit);
+#     sunucu paketi ayrı sanal ortamda (kendi sabit bağımlılıkları var). Eklenti sunucuyu uvx ile başlatır.
+GAI_VENV="$TOOLS_DIR/godot-ai-venv"
+[ -x "$GAI_VENV/bin/python" ] || python3 -m venv "$GAI_VENV"
+if ! "$GAI_VENV/bin/pip" freeze 2>/dev/null | grep -q "^godot-ai==$GODOT_AI_VERSION$"; then
+  log "pip: godot-ai==$GODOT_AI_VERSION"
+  "$GAI_VENV/bin/pip" install -q --upgrade pip
+  "$GAI_VENV/bin/pip" install -q "godot-ai==$GODOT_AI_VERSION"
+fi
+if ! command -v uvx >/dev/null; then # taban imajda uv var (0.11); yoksa venv'e kurup PATH'e koy
+  log "pip: uv (yedek)"
+  "$GAI_VENV/bin/pip" install -q uv
+  ln -sf "$GAI_VENV/bin/uv" /usr/local/bin/uv; ln -sf "$GAI_VENV/bin/uvx" /usr/local/bin/uvx
+fi
+grep -q "^version=\"$GODOT_AI_VERSION\"" "$REPO_DIR/game/addons/godot_ai/plugin.cfg" 2>/dev/null || \
+  log "UYARI: game/addons/godot_ai eklenti sürümü $GODOT_AI_VERSION değil; sunucu ve eklenti aynı sürümde olmalı"
+# Sunucuda ses kartı yok: ALSA'yı boş cihaza yönlendir (editörden çalışan oyun "ERR_CANT_OPEN" yazmasın)
+[ -f /etc/asound.conf ] || printf 'pcm.!default { type null }\nctl.!default { type null }\n' >/etc/asound.conf
+
 # 7) Arşivleri sil (disk kotası)
 rm -f "$TOOLS_DIR/godot.zip" "$TOOLS_DIR/blender.tar.xz"
 
 log "godot $(godot --version 2>/dev/null | head -1)"
 log "blender $(blender -b --factory-startup --version 2>/dev/null | head -1)"
 log "graphify $("$VENV/bin/pip" show graphifyy 2>/dev/null | awk '/^Version/{print $2}') · gdtoolkit $("$VENV/bin/pip" show gdtoolkit 2>/dev/null | awk '/^Version/{print $2}') · MPFB $(grep -m1 '^version' "$MPFB_EXT_DIR/blender_manifest.toml" | cut -d'"' -f2)"
+log "godot-ai $("$GAI_VENV/bin/godot-ai" --version 2>/dev/null | head -1) · uv $(uv --version 2>/dev/null | awk '{print $2}')"
 log "tamam"

@@ -12,6 +12,14 @@
     "uomd-blender": {
       "command": "/usr/local/bin/uomd-blender-mcp",
       "args": []
+    },
+    "godot-ai": {
+      "command": "/opt/uomd-tools/godot-ai-venv/bin/godot-ai",
+      "args": ["attach", "--port", "8000", "--ws-port", "9500", "--disable-telemetry"],
+      "env": {
+        "GODOT_AI_DISABLE_TELEMETRY": "true",
+        "DISABLE_TELEMETRY": "true"
+      }
     }
   }
 }

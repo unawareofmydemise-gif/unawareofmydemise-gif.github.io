@@ -42,6 +42,9 @@ tools/lint.sh                    # GDScript kalite kontrolü: gdlint + gdformat 
 tools/graph.sh                   # kod bilgi grafiği (Graphify + GDScript çıkarıcı) → graphify-out/graph.json
 graphify query "<soru>"          # grafikte soru sor (kodu tanımadan önce bunu dene)
 tools/fetch_refs.sh [ad]         # referans alt modüllerini vendor/ altına indir (godot-open-rpg, mpfb2, godot-demo-projects, godot-mcp-runtime)
+tools/qa/toon_stage.sh [klasör]  # toon shader görsel kontrolü: düz | toon sayfaları, Mobile + shader hatası denetimi
+tools/godot-editor.sh start|wait|status|stop|log   # Godot editörü sanal ekranda + Godot AI köprüsü (iş bitince stop)
+tools/mcp-call.sh godot-ai --list | <araç> '<json>'   # MCP araçlarını Bash'ten çağır (sunucu oturuma yüklü değilse)
 ```
 
 ## 3D üretim kuralları
@@ -59,12 +62,21 @@ tools/fetch_refs.sh [ad]         # referans alt modüllerini vendor/ altına ind
 - Godot: `godot` MCP sunucusu (`run_project` → `take_screenshot` / `get_ui_elements` / `get_debug_output` → `stop_project`).
 - Blender: `uomd-blender` MCP sunucusu (`blender_execute` / `blender_run_script` → `blender_screenshot` → `blender_journal`).
 - **Her görsel değişiklikten sonra ekran görüntüsü al ve bak.** Hızlı önizleme varsayılan; son görünüm için `toon=True`.
-- MCP yoksa (örn. sunucu onaylanmadıysa) aynı işi `tools/blender.sh`, `tools/godot.sh` ve `tools/qa/sheet.py` ile yap.
-- Bitince oyunu `stop_project` ile kapat; arkada çalışan süreç bırakma.
+- **Godot AI** (`godot-ai` MCP sunucusu, 46 araç): Godot **editörünü** yönetir: sahne/düğüm/betik/malzeme/animasyon yazma,
+  `project_run` → `editor_screenshot(source="game")` → `logs_read` → `project_manage(op="stop")`, `test_run`. Önce
+  `tools/godot-editor.sh start` + `wait` gerekir (ilk açılış dakikalar sürebilir). Kurallar: `project_run` her zaman
+  `autosave=false`; `client_manage` aracını **kullanma** (istemci yapılandırma dosyalarını yazar; `.mcp.json`'u biz yönetiriz);
+  telemetri kapalı kalır; araçlar diske yazar, iş bitince `git status` bak.
+- MCP yoksa (örn. sunucu onaylanmadıysa ya da oturum başında yüklenmediyse) aynı işi `tools/mcp-call.sh`, `tools/blender.sh`,
+  `tools/godot.sh` ve `tools/qa/sheet.py` ile yap.
+- Bitince oyunu `stop_project` / `project_manage(op="stop")` ile, editörü `tools/godot-editor.sh stop` ile kapat; arkada
+  çalışan süreç bırakma.
 
 ## Eklentiler ve araçlar
-- Godot eklentileri `game/addons/` altında, sürüm sabit: GUT, Phantom Camera, Dialogue Manager, Godot State Charts.
-  **Diyalog için Dialogue Manager** kullanılır (Dialogic 4.7'de derlenmiyor). Eklenti dosyalarını değiştirme.
+- Godot eklentileri `game/addons/` altında, sürüm sabit: GUT, Phantom Camera, Dialogue Manager, Godot State Charts,
+  Godot AI (yalnız editör aracı; dışa aktarmada yardımcısı paketten ayıklanır). **Diyalog için Dialogue Manager**
+  kullanılır (Dialogic 4.7'de derlenmiyor). Eklenti dosyalarını değiştirme; Godot AI'yi editördeki "Update" ile
+  güncelleme (sürüm `tools/bootstrap.sh` + `game/addons/godot_ai` birlikte, bilinçli yükseltilir).
 - Yeni eklenti/araç: önce bu ortamda dene, çalıştığını gör, sonra `docs/KAYNAKLAR.md`'ye gerekçesiyle yaz.
 - Blender API'sinden emin değilsen tahmin etme: `/opt/uomd-tools/venv/lib/python3.13/site-packages/bpy-stubs/` içindeki
   tip tanımlarını oku.
@@ -88,5 +100,6 @@ tools/fetch_refs.sh [ad]         # referans alt modüllerini vendor/ altına ind
 ## Yapma
 - Gizli bilgi (API anahtarı, şifre) commit etme; anahtarlar ortamın ağ gizli bilgilerinden gelir.
 - 50 MB'tan büyük dosya commit etme. Üretilebilen çıktıları (render, ara dosya) commit etme.
-- Godot editörünü veya Blender arayüzünü açmaya çalışma; her şey komut satırından.
+- Blender arayüzünü açmaya çalışma; her şey komut satırından. Godot editörünü yalnız `tools/godot-editor.sh` ile (sanal ekran,
+  arka plan, Godot AI köprüsü için) çalıştır; pencereyle elle uğraşma, işin bitince `stop`.
 - Eski oyunun kodunu (UOMD reposu) bu repoya taşıma.
