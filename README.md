@@ -50,7 +50,7 @@ inkbound_dead, lost_vow_knight, noble_retainer, orchard_ghoul, red_vial_alchemis
 
 ## Sonraki adımlar
 
-1. Hikâyenin ve karakterlerin tam okunması → tek bir "oyun bilgi dokümanı" (dünya, karakterler, ilişkiler, olay örgüsü).
+1. ~~Hikâyenin tam okunması~~ → [`design/OYUN_BILGI_DOKUMANI.md`](design/OYUN_BILGI_DOKUMANI.md) ✅
 2. Yeni oyunun türü ve çekirdek oynanışının belirlenmesi.
 3. Oyun motoru seçimi (Unity / Godot / Unreal).
 4. 3D üretim hattı: turnaround üretimi → görselden 3D model → rig → animasyon.
