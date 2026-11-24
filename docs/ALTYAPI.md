@@ -36,7 +36,8 @@ ve kurulum betiği kayıtlı. Betik satırı bu oturumda `/home/user` dizininden
 `tools/doctor.sh` 12/12 ✅ verdi. **Taze bir kapsülde (yeni oturum açılırken, Claude başlamadan) çalışması henüz denenmedi:**
 ilk yeni oturumda `tools/doctor.sh` ile doğrulanır. Betik düşerse oturum hiç başlamayabilir; betiği değiştirmeden önce
 `tools/bootstrap.sh`'ı elle çalıştırıp sına. Betik `$HOME`'a bağlıdır (MPFB `~/.config/blender`, Graphify yeteneği `~/.claude`):
-kurulum betiği başka bir HOME ile çalışırsa MPFB/Graphify yeni oturumda görünmeyebilir; doctor bunu yakalar.
+kurulum betiği başka bir HOME ile çalışırsa MPFB/Graphify yeni oturumda görünmeyebilir. `tools/doctor.sh` yalnız MPFB'yi sınar;
+Graphify yeteneğinin (`~/.claude/skills/graphify/SKILL.md`) varlığına bakmaz, onu ilk yeni oturumda elle kontrol et.
 Gemini anahtarı o ortamda ilk ihtiyaçta (A7) istenir (`request_credential`, host: `generativelanguage.googleapis.com`).
 
 **Godot indirme adresi değişebilir.** `downloads.godotengine.org` bir yönlendirme (302) verir. Eski notta hedef
