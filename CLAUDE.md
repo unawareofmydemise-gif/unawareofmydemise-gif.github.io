@@ -11,6 +11,7 @@ Türkçe yaz.** Kod, dosya ve değişken adları İngilizce; yorumlar ve belgele
 | `design/OYUN_TASARIM_PLANI.md` | Oynanış, savaş, UI/UX kararları. |
 | `docs/ALTYAPI.md` | Araçlar, üretim hattı, kalite kontrol döngüsü. |
 | `docs/KAYNAKLAR.md` | Hangi eklenti/araç neden var, neden yok. Yeni bir şey eklemeden önce oku. |
+| `AGENTS.md`, `docs/ILERLEME.md`, `docs/YOL_HARITASI.md`, `docs/DEVIR_GEMINI.md` | **Devir (2026-11-24):** sahibin yönergesiyle proje Gemini 4 Carbon Orchestrator'a (Google Antigravity) devrediliyor. Ortak giriş `AGENTS.md`; canlı durum `docs/ILERLEME.md`; görev kuyruğu `docs/YOL_HARITASI.md`. Her çalışma öncesi `git pull --rebase`, aynı anda bir ajan bir görev, ILERLEME'yi güncelle. |
 | `design/art_bible/` | Karakter ve mekân görsel tarifleri. |
 
 ## Çalışma düzeni

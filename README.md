@@ -1,7 +1,10 @@
-# Unaware of My Demise — Asset Arşivi
+# Unaware of My Demise — Godot 4 ile 3D yeniden yapım
 
-Bu repo, oyunu bir oyun motoruyla sıfırdan (3D) yeniden kurmak için **yalnızca içerik** barındırır:
-görseller, sesler, hikâye, tasarım dokümanları ve eski oyunun veri tabloları. Kod yoktur.
+> **Yapay zekâ ajanları: buradan başla → [`AGENTS.md`](AGENTS.md)** (Gemini / Antigravity: [`GEMINI.md`](GEMINI.md) · Claude: [`CLAUDE.md`](CLAUDE.md)).
+> Durum: [`docs/ILERLEME.md`](docs/ILERLEME.md) · görev kuyruğu: [`docs/YOL_HARITASI.md`](docs/YOL_HARITASI.md) · devir notu: [`docs/DEVIR_GEMINI.md`](docs/DEVIR_GEMINI.md).
+
+Bu repo, oyunu Godot 4 ile sıfırdan (3D) yeniden kurmak için hem **kaynak içeriği** (görseller, sesler, hikâye, tasarım dokümanları, eski oyunun veri tabloları;
+salt okunur) hem de yeni oyunun **Godot projesini** (`game/`), 3D üretim betiklerini (`art_src/`) ve araçları (`tools/`) barındırır.
 
 Kaynak: `unawareofmydemise-gif/UOMD` reposu (eski Python motorlu 2D gacha sürümü), 2026-11-24 itibarıyla.
 

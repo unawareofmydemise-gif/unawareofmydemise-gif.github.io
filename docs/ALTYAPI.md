@@ -197,4 +197,6 @@ Risk: yüz ve saç estetiği en zor kısım. Bu yüzden gövde tabanından sonra
 | A7 | Referans paketi: her ana karakter için ön/yan/arka referans (Gemini) | ⏳ |
 | A8 | Godot export template'leri; tarayıcıda oynanabilir önizleme (Web) | ⏳ |
 | A9 | Android SDK + imzalama ile Android derlemesi | ⏳ (PC sürümünden sonra) |
-| A10 | Otomatik testler (GDScript birim testleri, savaş hesapları) | ⏳ |
+| A10 | Otomatik testler (GDScript birim testleri, savaş hesapları) | ⏳ (GUT çatısı ve 17 test var; savaş hesapları yok) |
+
+Görev kuyruğu ve doğrulanabilir kabul ölçütleri: [`YOL_HARITASI.md`](YOL_HARITASI.md) (A5–A10 oradaki T-numaralarına çevrildi). Canlı durum: [`ILERLEME.md`](ILERLEME.md).

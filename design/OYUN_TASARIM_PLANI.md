@@ -2,6 +2,12 @@
 
 > Durum: taslak, sahiple tartışılıyor. Hikâye ve dünya için tek kaynak: [`OYUN_BILGI_DOKUMANI.md`](OYUN_BILGI_DOKUMANI.md).
 
+> **Düzenleme sözleşmesi (2026-11-24):** Üretimi Gemini 4 Carbon Orchestrator devralıyor (`AGENTS.md`). Bu belge **yaşayan** bir tasarım belgesidir: orkestratör
+> oynanış, savaş sayıları, UI, harita ve seviye tasarımı, kamera, VFX, ilerleme eğrisi ve performans bütçeleri konusunda **kendisi karar verip** burayı ve
+> `docs/ILERLEME.md` karar günlüğünü günceller. **Sahibin kilitli kararları** (§0: gacha, sıra tabanlı savaş, Godot 4, anime toon; hikâye kanonu; Part II sırları)
+> sahibe sorulmadan değişmez. Hedef platform: sahibin son yönergesine göre Android öncelikli (önceki "önce PC" kararıyla ilişkisi `docs/ILERLEME.md` açık soru 2).
+> Bu belgede "Claude" ya da "yapay zekâ ekibi" geçen yerler, üretimi yapan ajan(lar) anlamında okunur.
+
 ## 0. Verilen kararlar
 
 | Konu | Karar |
@@ -73,6 +79,10 @@ yetenek adları korunur; çarpanlar yeniden dengelenir.
 
 ## 5. Asset üretim hattı (yapay zekâ ekibi için)
 
+> **GÜNCELLEME (2026-11-24): aşağıdaki 2. ve 3. aşamalar (Meshy / Tripo ile görselden 3D ve otomatik rig) GEÇERSİZDİR.** Sahip kararı: 3D modeller bu servislerle değil,
+> **Blender Python betikleriyle elle (kodla) üretilir**, ortak anime gövde tabanı ve ortak iskelet üzerinden (bkz. `docs/ALTYAPI.md` §4–5, `docs/KAYNAKLAR.md` §3,
+> `docs/YOL_HARITASI.md` T1.1). Aşağıdaki tablo tarihsel taslak olarak bırakıldı; diğer aşamalar (Gemini ile referans, toon shader, görsel kontrol) geçerli.
+
 Claude doğrudan resim veya 3D model çizemez. Bunu yapan araçları çağırır, çıktıyı kontrol eder ve düzeltir. Hat:
 
 | Aşama | Araç | Kim / nasıl |
@@ -137,7 +147,7 @@ telefon çözünürlüğünde ekran görüntüsü alınarak kontrol edilir.
 ## 9. Açık kararlar
 
 1. Karakter oranı: tam boy anime mi, stilize / hafif chibi mi? (Dikey kesit testinden sonra.)
-2. Görselden 3D servisi: Meshy mi, Tripo mu? Hesap ve API anahtarı sahipten gelecek.
+2. ~~Görselden 3D servisi: Meshy mi, Tripo mu?~~ **Kapandı:** modeller elle, kodla üretilecek (sahip kararı; §5 güncelleme notu).
 3. Diyalogda 2D portre + 3D sahne yöntemi onaylanıyor mu?
 4. Çan Sayacı mekaniği.
 5. Kampta hangi yerin hangi ekranı açacağı.
