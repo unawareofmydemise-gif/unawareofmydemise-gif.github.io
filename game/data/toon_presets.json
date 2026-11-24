@@ -1,0 +1,49 @@
+{
+	"default": {
+		"shade_color": [0.66, 0.6, 0.78],
+		"shade2_color": [0.66, 0.6, 0.78],
+		"shade_threshold": 0.12,
+		"shade_softness": 0.03,
+		"rim_strength": 0.22,
+		"outline_width": 2.2
+	},
+	"skin": {
+		"shade_color": [0.88, 0.62, 0.66],
+		"shade2_color": [0.88, 0.62, 0.66],
+		"shade_threshold": 0.1,
+		"shade_softness": 0.04,
+		"rim_color": [1.0, 0.86, 0.8],
+		"rim_strength": 0.3,
+		"outline_color": [0.28, 0.1, 0.1],
+		"outline_albedo_blend": 0.7,
+		"outline_darkness": 0.42
+	},
+	"cloth": {
+		"shade_color": [0.58, 0.52, 0.74],
+		"shade2_color": [0.44, 0.38, 0.62],
+		"shade_threshold": 0.15,
+		"shade2_threshold": -0.35,
+		"rim_strength": 0.18
+	},
+	"hair": {
+		"shade_color": [0.6, 0.58, 0.78],
+		"shade2_color": [0.6, 0.58, 0.78],
+		"shade_threshold": 0.2,
+		"specular_color": [1.0, 0.97, 0.92],
+		"specular_strength": 0.55,
+		"specular_size": 0.03,
+		"specular_softness": 0.003,
+		"rim_strength": 0.35
+	},
+	"metal": {
+		"shade_color": [0.45, 0.48, 0.62],
+		"shade2_color": [0.3, 0.32, 0.46],
+		"shade_threshold": 0.0,
+		"shade2_threshold": -0.3,
+		"specular_strength": 0.9,
+		"specular_size": 0.025,
+		"specular_softness": 0.002,
+		"rim_strength": 0.4,
+		"outline_width": 1.8
+	}
+}

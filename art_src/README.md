@@ -37,3 +37,19 @@ if "--export" in args:
 tools/blender.sh art_src/characters/<id>/build.py -- --render
 python3 tools/qa/sheet.py out/characters/<id>/sheet.png art/portraits/<id>/composed.webp out/characters/<id>/*.png
 ```
+
+## Malzeme adlandırma (Godot toon shader sözleşmesi)
+
+Oyundaki görünümü Godot'taki toon shader verir (`docs/ALTYAPI.md` §4.1); Blender malzemeleri yalnız önizlemedir.
+glTF'e taban renk ve doku gider. Hangi toon presetinin kullanılacağı **malzeme adının ilk parçasından** seçilir:
+
+| Blender malzeme adı | Preset | Örnek |
+|---|---|---|
+| `skin_*` | cilt (sıcak pembe gölge, sıcak kontur) | `skin_face`, `skin_body` |
+| `hair_*` | saç (sert specular vurgusu) | `hair_ash` |
+| `cloth_*` | kumaş (iki bantlı soğuk gölge) | `cloth_plum`, `cloth_scarf` |
+| `metal_*` | metal (güçlü specular) | `metal_silver`, `metal_bell` |
+| başka ad | `default` | `bell_glow` |
+
+Yeni bir görünüm gerekirse `game/data/toon_presets.json`'a preset eklenir (kod değişmez) ve buraya satır yazılır.
+Tek yüzlü ve opak malzeme varsayılır; şeffaf ya da çift yüzlü malzeme henüz desteklenmiyor.

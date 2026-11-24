@@ -81,6 +81,7 @@ Sürüm yükseltmek bilinçli bir karardır: `bootstrap.sh` içindeki sürüm ve
 | Godot birim testleri (GUT) ekransız | ✅ | `tools/test.sh` |
 | Kod bilgi grafiği (Graphify + GDScript) | ✅ | `tools/graph.sh`, `graphify query` |
 | GDScript lint/format | ✅ | `tools/lint.sh` = gdlint + `gdformat --check`; `game/addons/` hariç (gdformat'ın dışlama seçeneği yok; `gdformat --check game` eklentilerde 204 dosyada düşer) |
+| Toon shader + kontur (Mobile), düz / toon karşılaştırma sayfası | ✅ | `tools/qa/toon_stage.sh`; bkz. §4.1. Mum / kül / nötr ışık, doku ve emisyon yolları dahil |
 | Sıfırdan kurulum süresi | ✅ | ~82 sn (`tools/bootstrap.sh`; 2026-11-24 yeni kapsül: apt ~7 sn + indirme/pip/npm ~75 sn). `tools/doctor.sh` ~80 sn |
 
 Yeni bulut ortamındaki doğrulama (2026-11-24): `tools/doctor.sh` **12/12 ✅**; `tools/test.sh` 3/3; `tools/graph.sh` 470 düğüm /
@@ -129,6 +130,24 @@ Kurallar:
 - Render'lar `out/` altında kalır (git'e girmez); onaylanan son görüntüler gerekirse `docs/` veya ilgili klasöre küçük
   boyutta eklenir.
 
+### 4.1 Toon malzeme (A5, 2026-11-24)
+
+Oyundaki son görüntü Godot'ta bu malzemeden gelir (Blender malzemeleri yalnız önizleme).
+
+| Dosya | Ne |
+|---|---|
+| `game/shaders/toon.gdshader` | Yüzey: 2 bantlı cel gölge (+ isteğe bağlı çekirdek gölge), ışık tarafında rim, sert specular, emisyon. Ana yönlü ışık gölge tonunu taşır; nokta/spot ışıklar yalnız ışık ekler. |
+| `game/shaders/toon_outline.gdshader` | Kontur: ters gövde (`next_pass`). Kalınlık 1080p pikselinde sabittir (mesafeden ve çözünürlükten bağımsız); renk = sabit renk ile koyulaştırılmış taban rengin karışımı. |
+| `game/data/toon_presets.json` | Presetler: `default`, `skin`, `cloth`, `hair`, `metal`. `default` hepsinin altına yayılır; anahtarlar shader uniform adlarıdır (`outline_` ile başlayanlar kontura gider). Yeni görünüm = yeni preset, kod değişmez. |
+| `game/scripts/toon_skin.gd` (`ToonSkin`) | `ToonSkin.apply(kök, preset?, parametreler?)` glTF'ten gelen malzemeleri toon'a çevirir; taban renk, doku ve emisyon korunur. Preset malzeme adının ilk parçasından seçilir (`skin_face` → skin, bilinmeyen → default). |
+| `game/scenes/dev/toon_stage.tscn`, `tools/qa/toon_stage.sh` | Test sahnesi: 5 preset küresi + doku + emisyon + MPFB test gövdesi; mum / kül / nötr ışık. Düz ve toon yan yana sayfa üretir; Mobile yöntemini ve shader/betik hatalarını denetler. Gövde git'e girmez (`game/assets/dev/`), betik her seferinde boru hattından üretir. |
+
+- **Blender → Godot sözleşmesi:** Blender'da malzemeleri `skin_*`, `hair_*`, `cloth_*`, `metal_*` diye adlandır (bkz. `art_src/README.md`). Taban renk ve doku glTF'e gider, geri kalanı presetten gelir.
+- **Doğrulama:** ekransız GUT testleri `game/tests/test_toon_skin.gd` (14 test). Shader derlemesi ekransız sürücüde sınanamaz; onu `tools/qa/toon_stage.sh` sınar. Mobile ile Forward+ çıktısı karşılaştırıldı: 518.400 pikselin yalnız 1'i farklı.
+- **Görsel kontrol:** mum, kül ve nötr ışıkta tam sahne; 1080p baş ve el yakın çekimi (kontur çatlağı yok); iskelet pozu altında (üst kollar x:70 ve z:70, `POSE=x:70 FOCUS=body tools/qa/toon_stage.sh`) kontur deforme silüeti doğru izliyor, hayalet kontur yok.
+- **Bilinen sınırlar:** yalnız opak ve tek yüzlü malzeme (şeffaf / çift yüzlü uyarıyla opak çizilir); kontur bölünmüş (sert) normalli yüzeylerde kenarlardan ayrılır; yüz ve saç için özel gölge yok (dikey kesit işi); normal map yok; yalnız statik üst kol pozu denendi, hareketli animasyonda kontur titremesi **denenmedi**; **performans ölçülmedi** (GPU yok; kontur her mesh için çizim çağrısını ikiye katlar).
+- **Onay durumu:** teknik olarak tamam. "Anime görünüyor mu" yargısı henüz danışmana ya da sahibe sorulmadı.
+
 ## 5. Karakterleri "elle" (kodla) modelleme yaklaşımı
 
 Hazır yapay zekâ 3D servisleri kullanılmıyor; her model Claude tarafından Blender Python ile adım adım kurulur. Bunun için
@@ -163,7 +182,7 @@ Risk: yüz ve saç estetiği en zor kısım. Bu yüzden gövde tabanından sonra
 | A4 | Ortamın kurulum betiği ve ağ adresleri (yeni oturumlar otomatik kurulsun) | ✅ uygulandı 2026-11-24; taze kapsülde ilk yeni oturumla doğrulanacak (§1.1) |
 | A4b | Eklentiler, Graphify, lint, test çatısı, MPFB2, referans repolar (`docs/KAYNAKLAR.md`) | ✅ |
 | A4c | MCP izleme: Godot (godot-mcp-runtime) + Blender (kendi köprümüz), referanslar git alt modülü | ✅ |
-| A5 | Godot toon shader + kontur (karakterler için temel malzeme) | ⏳ |
+| A5 | Godot toon shader + kontur (karakterler için temel malzeme) | ✅ teknik olarak (§4.1); "anime görünüyor mu" onayı bekliyor |
 | A6 | Anime gövde tabanı v1 + standart iskelet | ⏳ |
 | A7 | Referans paketi: her ana karakter için ön/yan/arka referans (Gemini) | ⏳ |
 | A8 | Godot export template'leri; tarayıcıda oynanabilir önizleme (Web) | ⏳ |
